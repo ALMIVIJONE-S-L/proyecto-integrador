@@ -1,4 +1,4 @@
-# INDICE PROYECTO INTEGRADOR
+# CONTINGUTS DEL PROJECTE INTEGRADOR
 
 - **NOM DEL GRUP**: ALMIVIJONE S.A
 - **INTEGRANTS**:
@@ -10,4 +10,4 @@
 - **BITACORES**:
   - [MARÇ](bitacores/març.md)
 - **ALTRES**:
-  - [algo](altres/algo.md)
+  - [INVETARI](altres/inventari.md)
