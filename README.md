@@ -2,7 +2,7 @@
 
 - **NOM DEL GRUP**: ALMIVIJONE S.A
 - **INTEGRANTS**:
-  - [nom1](integrants/nom-alumne.md)
+  - [ALBERTO CALATAYUD CASTAÑER](integrants/AlbertoCalatayud.md)
   - [MIGUEL GARCÍA MIRÓ](integrants/miguelgarciamiro.md)
   - [nom3](integrants/nom-alumne.md)
   - [nom4](integrants/nom-alumne.md)
