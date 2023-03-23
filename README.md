@@ -1,5 +1,13 @@
 # INDICE PROYECTO INTEGRADOR
 
-## DIA 0 [21-03-23]
-
-Hoy hemos ido por primera vez al taller para la primera toma de contacto además de desmontar los anteriores proyectos, aunque por falta de tiempo (ya que hemos estado ~15 minutos) no hemos podido desmontar todo al completo.
+- **NOM DEL GRUP**: ALMIVIJONE S.A
+- **INTEGRANTS**:
+  - [nom1](integrants/nom-alumne.md)
+  - [nom2](integrants/nom-alumne.md)
+  - [nom3](integrants/nom-alumne.md)
+  - [nom4](integrants/nom-alumne.md)
+  - [nom5](integrants/nom-alumne.md)
+- **BITACORES**:
+  - [mesBitacora1](bitacores/bitacora-mes.md)
+- **ALTRES**:
+  - [algo](altres/algo.md)
