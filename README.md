@@ -8,6 +8,6 @@
   - [nom4](integrants/nom-alumne.md)
   - [nom5](integrants/nom-alumne.md)
 - **BITACORES**:
-  - [mesBitacora1](bitacores/bitacora-mes.md)
+  - [MARÇ](bitacores/març.md)
 - **ALTRES**:
   - [algo](altres/algo.md)
