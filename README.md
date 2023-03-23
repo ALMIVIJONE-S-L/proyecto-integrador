@@ -10,4 +10,4 @@
 - **BITACORES**:
   - [MARÇ](bitacores/març.md)
 - **ALTRES**:
-  - [INVETARI](altres/inventari.md)
+  - [INVENTARI](altres/inventari.md)
