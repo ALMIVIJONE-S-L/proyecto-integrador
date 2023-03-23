@@ -1,4 +1,4 @@
-# proyecto-integrador
+# INDICE PROYECTO INTEGRADOR
 
 ## DIA 0 [21-03-23]
 
