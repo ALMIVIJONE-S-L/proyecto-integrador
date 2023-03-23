@@ -4,7 +4,7 @@
 - **INTEGRANTS**:
   - [ALBERTO CALATAYUD CASTAÑER](integrants/AlbertoCalatayud.md)
   - [MIGUEL GARCÍA MIRÓ](integrants/miguelgarciamiro.md)
-  - [nom3](integrants/nom-alumne.md)
+  - [JOSE IVAN OLCINA](integrants/JoseIvanOlcina.md)
   - [nom4](integrants/nom-alumne.md)
   - [nom5](integrants/nom-alumne.md)
 - **BITACORES**:
