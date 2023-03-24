@@ -13,12 +13,11 @@
 - EQUIPOS SERVIDORES
   - **3x**:
     - **MARCA**: `DELL`
-    - **MODELO**: `OptiPlex 5070`
+    - **MODELO**: `D115`
     - **CÓDIGO DE CONSELLERÍA**: `ORJ3`
     - **CARACTERÍSTICAS TÉCNICAS**
-      - CPU: Intel Core i5 - 9ªGen 9500 ( 3.0 GHz )
-      - SSD: 512 GB 
-      - RAM: 2x 8GB DDR4 – 1600 MHz 
+      - CPU: 
+      - ... 
 
 ### CLIENTES
 
@@ -51,10 +50,20 @@
 ### EQUIPOS DE RED
 
  - SWITCHES
-  -**MARCA**: Dlink
-    -**MODELO**: DES-3526
-    -**CARACTERÍSTICAS TÉCNICAS**
-      - 
+    - **MARCA**: `DLINK`
+    - **MODELO**: `DES-3526`
+    - **CARACTERÍSTICAS TÉCNICAS**
+      - Puertos Ethernet: 26
+        - 24 puertos 10/100Mbps
+        - 2 puetos Gigabit Ethernet tipo COMBO
+        - Stack virtuales de hasta 32U
+
+    - **MARCA**: `Longshine`
+    - **MODELO**: `LCS-FS9124-B`
+    - **CARACTERÍSTICAS TÉCNICAS**
+      - Puertos Ethernet: 24
+        - 24 puertos 10/100Mbps
+
 ### SAI
 
 ....
