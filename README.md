@@ -5,7 +5,7 @@
   - [ALBERTO CALATAYUD CASTAÑER](integrants/AlbertoCalatayud.md)
   - [MIGUEL GARCÍA MIRÓ](integrants/miguelgarciamiro.md)
   - [JOSE IVAN OLCINA](integrants/JoseIvanOlcina.md)
-  - [nom4](integrants/nom-alumne.md)
+  - [NEUS HERNÁNDEZ PASCUAL](integrants/nom-alumne.md)
   - [nom5](integrants/nom-alumne.md)
 - **BITACORES**:
   - [MARÇ](bitacores/març.md)
