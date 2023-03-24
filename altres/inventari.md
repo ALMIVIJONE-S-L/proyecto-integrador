@@ -1,7 +1,7 @@
 # INVENTARI
 
 1. [HARDWARE](#hardware)
-  1. [SERVIDORES](#servidores)
+  1.1. [SERVIDORES](#servidores)
   2. [CLIENTES](#clientes)
   3. [MONITORES](#monitores)
 2. [CABLEADO](#cableado)
