@@ -121,7 +121,14 @@
     - Cisco Serial -> ethernet    
   - **3x**:
     - HDMI -> VGA
+  - **3x**
+    - VGA
   - **3x**:
     - TP-link UE300  
   - **1x**:
     - Destan 20180904
+
+### REGLETAS
+- **2x**:
+    - MODELO
+    - 5 ENCHUFES 
