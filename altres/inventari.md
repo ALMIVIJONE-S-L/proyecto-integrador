@@ -67,18 +67,19 @@
 
 ### SAI
   -**Sai con estabilizador sps-2200.soho+**
-
-    -ENTRADA Tensión nominal 220 V, 230 V, 240 V
-    -PROTECCIÓN Entrada Térmico rearmable
-    -FUNCIONES Arranque en frío (Cold Start) Sí
-    -INDICACIONES LCD multifunción Sí
-    -SALIDA Tensión 230 V
-    -BATERÍA Tipo Pb-Ca selladas, AGM, sin mantenimiento
-    -ALARMAS Salida modo batería Alarma acústica cada 10 segundos
-    -COMUNICACIÓN Puerto USB
-    -GENERALES Altitud máxima 2400 m.s.n.m.
-    -NORMATIVA Seguridad EN-62040-1-1; EN-60950-1 
-
+    
+    - ENTRADA Tensión nominal 220 V, 230 V, 240 V
+    - PROTECCIÓN Entrada Térmico rearmable
+    - FUNCIONES Arranque en frío (Cold Start) Sí
+    - INDICACIONES LCD multifunción Sí
+    - SALIDA Tensión 230 V
+    - BATERÍA Tipo Pb-Ca selladas, AGM, sin mantenimiento
+    - ALARMAS Salida modo batería Alarma acústica cada 10 segundos
+    - COMUNICACIÓN Puerto USB
+    - GENERALES Altitud máxima 2400 m.s.n.m.
+    - NORMATIVA Seguridad EN-62040-1-1; EN-60950-1 
+    
+    
 ## CABLEADO
 
 ### CABLES
