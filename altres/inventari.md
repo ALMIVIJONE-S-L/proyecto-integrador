@@ -49,11 +49,15 @@
 
 ### EQUIPOS DE RED
 
- - SWITCHES
-  -**MARCA**: Dlink
-    -**MODELO**: DES-3526
-    -**CARACTERÍSTICAS TÉCNICAS**
-      - 
+ - switches
+    - **MARCA**: `DLINK`
+    - **MODELO**: `DES-3526`
+    - **CARACTERÍSTICAS TÉCNICAS**
+      - Puertos Ethernet: 26
+        - 24 puertos 10/100Mbps
+        - 2 puetos Gigabit Ethernet tipo COMBO
+        - Stack virtuales de hasta 32U
+
 ### SAI
 
 ....
