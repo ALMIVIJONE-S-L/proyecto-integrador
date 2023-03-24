@@ -47,7 +47,7 @@
 
 ### EQUIPOS DE RED
 
-  - SWITCHES
+ - SWITCHES
     -**MARCA**: Dlink
     -**MODELO**: DES-3526
     -**CARACTERÍSTICAS TÉCNICAS**
