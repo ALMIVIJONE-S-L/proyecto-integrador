@@ -47,6 +47,10 @@
 
 ### SWITCHES
 
+    - **MARCA**: Dlink
+    -**MODELO**: DES-3526
+    -**CARACTERÍSTICAS TÉCNICAS**
+      - 
 ### SAI
 
 ....
