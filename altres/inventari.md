@@ -27,9 +27,9 @@
     - **MODELO**: `ThinkCentre M73`
     - **CÓDIGO DE CONSELLERÍA**: `CLE3`
     - **CARACTERÍSTICAS TÉCNICAS**
-      - CPU: Pentium Gold G5400 – 3.70GHZ – 4MB Cache
-      - HDD: 500 GB SATA III a 7.200 r.p.m. – 32 Mb Cache
-      - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
+      - CPU: i3-4130 – 3.4GHZ – 3M Cache
+      - HDD: 500 GB SATA III y 7200 rpm
+      - RAM: 1x 8GB DDR3 – 1600 MHz
   - **3x**
     - **MARCA**: ` APD`
     - **MODELO**: `ALDA CE H110M (B360G)`
