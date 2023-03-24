@@ -66,7 +66,7 @@
         - 24 puertos 10/100Mbps
 
 ### SAI
-  -Sai con estabilizador sps-2200.soho+
+  -**Sai con estabilizador sps-2200.soho+**
 
     -ENTRADA Tensión nominal 220 V, 230 V, 240 V
     -PROTECCIÓN Entrada Térmico rearmable
