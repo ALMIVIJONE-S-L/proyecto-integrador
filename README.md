@@ -6,7 +6,7 @@
   - [MIGUEL GARCÍA MIRÓ](integrants/miguelgarciamiro.md)
   - [JOSE IVAN OLCINA](integrants/JoseIvanOlcina.md)
   - [NEUS HERNÁNDEZ PASCUAL](integrants/NeusHernandez.md)
-  - [Victor Fuster Rico](integrants/VictorFuster.md)
+  - [VICTOR FUSTER RICO](integrants/VictorFuster.md)
 - **BITACORES**:
   - [MARÇ](bitacores/març.md)
 - **ALTRES**:
