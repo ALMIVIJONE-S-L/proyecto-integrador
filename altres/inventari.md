@@ -83,7 +83,7 @@
 ## CABLEADO
 
 ### CABLES
-- MONITORES
+
   - **1x**:
     - Caja de latiguillos / +8
   - **2x**:
