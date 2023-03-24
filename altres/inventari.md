@@ -57,15 +57,15 @@
 - MONITORES
   - **1x**:
     - Caja de latiguillos / +8
+  - **2x**:
+    - Cable alimentación
   - **1x**:
-    - Caja de latiguillos / +8
+    - Serval -> USB
   - **1x**:
-    - Caja de latiguillos / +8
+    - Cisco Serial -> ethernet    
+  - **3x**:
+    - HDMI -> VGA
+  - **3x**:
+    - TP-link UE300  
   - **1x**:
-    - Caja de latiguillos / +8    
-  - **1x**:
-    - Caja de latiguillos / +8
-  - **1x**:
-    - Caja de latiguillos / +8  
-  - **1x**:
-    - Caja de latiguillos / +8
+    - Destan 20180904
