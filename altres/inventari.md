@@ -3,6 +3,10 @@
 ## SERVIDORES
 
 - EQUIPOS SERVIDORES
+  - **3x**:
+    - **MARCA**: DELL
+    - **MODELO**: D115
+    - **CÓDIGO DE CONSELLERÍA**: `ORJ3`
 
 ## CLIENTES
 
