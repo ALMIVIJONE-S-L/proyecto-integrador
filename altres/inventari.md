@@ -45,9 +45,10 @@
       - RESOLUCIÓN: XX
       - ... (pocas más)
 
-### SWITCHES
+### EQUIPOS DE RED
 
-   - **MARCA**: Dlink
+ - SWITCHES
+   -**MARCA**: Dlink
    -**MODELO**: DES-3526
    -**CARACTERÍSTICAS TÉCNICAS**
       - 
