@@ -3,8 +3,9 @@
 1. [HARDWARE](#hardware)
     1. [SERVIDORES](#servidores)
     2. [CLIENTES](#clientes)
-··3. [MONITORES](#monitores)
+    3. [MONITORES](#monitores)
 2. [CABLEADO](#cableado)
+    1. [CABLES](#cables)
 
 ## HARDWARE
 
