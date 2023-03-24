@@ -38,6 +38,8 @@
       - CPU: Pentium Gold G5400 – 3.70GHZ – 4MB Cache
       - HDD: 500 GB SATA III a 7.200 r.p.m. – 32 Mb Cache
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
+
+
 - MONITORES
     - **MARCA**: `XX`
     - **MODELO**: `XX`
@@ -46,7 +48,6 @@
       - ... (pocas más)
 
 ### EQUIPOS DE RED
-
  - SWITCHES
     -**MARCA**: Dlink
     -**MODELO**: DES-3526
