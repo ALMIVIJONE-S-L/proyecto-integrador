@@ -52,5 +52,18 @@
 ## CABLEADO
 
 ### CABLES
-rdgeaezhg
-...
+- MONITORES
+  - **1x**:
+    - Caja de latiguillos / +8
+  - **1x**:
+    - Caja de latiguillos / +8
+  - **1x**:
+    - Caja de latiguillos / +8
+  - **1x**:
+    - Caja de latiguillos / +8    
+  - **1x**:
+    - Caja de latiguillos / +8
+  - **1x**:
+    - Caja de latiguillos / +8  
+  - **1x**:
+    - Caja de latiguillos / +8
