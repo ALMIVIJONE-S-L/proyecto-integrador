@@ -48,19 +48,19 @@
       - RESOLUCIÓN: XX
       - ... (pocas más)
 
-### SWITCHES
+### EQUIPOS DE RED
 
 - ROUTER 1
-    - MARCA: TP-LINK
-    - MODELO: **TL-SG2008**
-    - PUERTOS: 8 GigabitEthernet
+    - **MARCA**: TP-LINK
+    - **MODELO**: **TL-SG2008**
+    - **PUERTOS**: 8 GigabitEthernet
 
 - ROUTER 2
-    - MARCA: `MICROTIC`  
-    - MODELO: **`RB941-2nD-TC`**
-    - PUERTOS: `4 FastEthernet`
+    - **MARCA**: `MICROTIC`  
+    - **MODELO**: **`RB941-2nD-TC`**
+    - **PUERTOS**: `4 FastEthernet`
 
- - SWITCH 1
+- SWITCH 1
     - **MARCA**: `DLINK`
     - **MODELO**: `DES-3526`
     - **CARACTERÍSTICAS TÉCNICAS**
@@ -69,21 +69,26 @@
         - 2 puetos Gigabit Ethernet tipo COMBO
         - Stack virtuales de hasta 32U
 
- - SWITCH 2
+- SWITCH 2
     - **MARCA**: `Longshine`
     - **MODELO**: `LCS-FS9124-B`
     - **CARACTERÍSTICAS TÉCNICAS**
       - Puertos Ethernet: 24
         - 24 puertos 10/100Mbps
 
- - SWITCH 4
-    - MARCA: CISCO
-    - MODELO: **CATALYST 3750-E**
-    - PUERTOS:
+- SWITCH 3
+    - **MARCA**: TP-LINK
+    - **MODELO**: **T1600G-28TS**
+    - **PUERTOS**: 24 GigabitEthernet
+
+- SWITCH 4
+    - **MARCA**: CISCO
+    - **MODELO**: **CATALYST 3750-E**
+    - **PUERTOS**:
         - 2x  10 Gbps 		Puertos para fibra
         - 24x 10/100/1000 Mbps 	GigabitEthernet
 
-    - 1x PATCH PANEL CAT.5e
+- 1x PATCH PANEL CAT.5e
 
 
 
