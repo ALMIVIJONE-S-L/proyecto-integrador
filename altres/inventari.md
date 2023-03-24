@@ -50,6 +50,16 @@
 
 ### SWITCHES
 
+- ROUTER 1
+    - MARCA: TP-LINK
+    - MODELO: **TL-SG2008**
+    - PUERTOS: 8 GigabitEthernet
+
+- ROUTER 2
+    - MARCA: `MICROTIC`  
+    - MODELO: **`RB941-2nD-TC`**
+    - PUERTOS: `4 FastEthernet`
+
  - SWITCH 1
     - **MARCA**: `DLINK`
     - **MODELO**: `DES-3526`
@@ -65,6 +75,17 @@
     - **CARACTERÍSTICAS TÉCNICAS**
       - Puertos Ethernet: 24
         - 24 puertos 10/100Mbps
+
+ - SWITCH 4
+    - MARCA: CISCO
+    - MODELO: **CATALYST 3750-E**
+    - PUERTOS:
+        - 2x  10 Gbps 		Puertos para fibra
+        - 24x 10/100/1000 Mbps 	GigabitEthernet
+
+    - 1x PATCH PANEL CAT.5e
+
+
 
 ### SAI
   - **Sai con estabilizador sps-2200.soho+**
