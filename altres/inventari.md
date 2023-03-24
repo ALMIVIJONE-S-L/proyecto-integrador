@@ -47,9 +47,9 @@
       - RESOLUCIÓN: XX
       - ... (pocas más)
 
-### EQUIPOS DE RED
+### SWITCHES
 
- - SWITCHES
+ - SWITCH 1
     - **MARCA**: `DLINK`
     - **MODELO**: `DES-3526`
     - **CARACTERÍSTICAS TÉCNICAS**
@@ -58,6 +58,7 @@
         - 2 puetos Gigabit Ethernet tipo COMBO
         - Stack virtuales de hasta 32U
 
+ - SWITCH 2
     - **MARCA**: `Longshine`
     - **MODELO**: `LCS-FS9124-B`
     - **CARACTERÍSTICAS TÉCNICAS**
