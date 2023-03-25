@@ -40,7 +40,6 @@
       - HDD: 500 GB SATA III a 7.200 r.p.m. – 32 Mb Cache
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
 
-
 - MONITORES
     - **MARCA**: `XX`
     - **MODELO**: `XX`
@@ -51,8 +50,8 @@
 ### EQUIPOS DE RED
 
 - ROUTER 1
-    - **MARCA**: TP-LINK
-    - **MODELO**: **TL-SG2008**
+    - **MARCA**: `TP-LINK`
+    - **MODELO**: **`TL-SG2008`**
     - **PUERTOS**: 8 GigabitEthernet
 
 - ROUTER 2
@@ -77,22 +76,21 @@
         - 24 puertos 10/100Mbps
 
 - SWITCH 3
-    - **MARCA**: TP-LINK
-    - **MODELO**: **T1600G-28TS**
+    - **MARCA**: `TP-LINK`
+    - **MODELO**: **`T1600G-28TS`**
     - **PUERTOS**: 24 GigabitEthernet
 
 - SWITCH 4
-    - **MARCA**: CISCO
-    - **MODELO**: **CATALYST 3750-E**
+    - **MARCA**: `CISCO`
+    - **MODELO**: **`CATALYST 3750-E`**
     - **PUERTOS**:
         - 2x  10 Gbps 		Puertos para fibra
         - 24x 10/100/1000 Mbps 	GigabitEthernet
 
 - 1x PATCH PANEL CAT.5e
 
-
-
 ### SAI
+
   - **Sai con estabilizador sps-2200.soho+**
     
     - **ENTRADA** Tensión nominal 220 V, 230 V, 240 V
