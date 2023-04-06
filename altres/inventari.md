@@ -111,8 +111,8 @@
 
   - **1x**:
     - Caja de latiguillos / +8
-  - **2x**:
-    - Cable alimentación
+  - **3x**:
+    - Cable alimentación (incluido el del mikrotic)
   - **1x**:
     - Serval -> USB
   - **1x**:
