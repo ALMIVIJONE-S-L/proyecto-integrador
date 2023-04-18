@@ -3,7 +3,7 @@
 1. [HARDWARE](#hardware)
     1. [SERVIDORES](#servidores)
     2. [CLIENTES](#clientes)
-    3. [EQUIPOS DE RED](#ewuipso de red)
+    3. [EQUIPOS DE RED](#equiposdered)
     4. [PERIFÉRICOS](#perfiféricos)
 2. [CABLEADO](#cableado)
     1. [CABLES](#cables)
