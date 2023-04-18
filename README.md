@@ -9,6 +9,7 @@
   - [VICTOR FUSTER RICO](integrants/VictorFuster.md)
 - **BITACORES**:
   - [MARÇ](bitacores/març.md)
+  - [ABRIL](bitacores/Abril.md)
 - **ALTRES**:
   - [INVENTARI](altres/inventari.md)
 
