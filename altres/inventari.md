@@ -39,8 +39,12 @@
       - CPU: Pentium Gold G5400 – 3.70GHZ – 4MB Cache
       - HDD: 500 GB SATA III a 7.200 r.p.m. – 32 Mb Cache
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
+     
+
+### PERIFÉRICOS
 
 - MONITORES
+    *2
     - **MARCA**: `Acer`
     - **MODELO**: `V193HQL`
     - **CARACTERÍSTICAS TÉCNICAS**
@@ -50,7 +54,7 @@
                 VGA = 1
                 Alimentación = 1
       
-      
+     *1
     - **MARCA**: `Samsung`
     - **MODELO**: `SyncMaster 720N`
     - **CARACTERÍSTICAS TÉCNICAS**
@@ -60,9 +64,19 @@
                 HDMI = 1
                 USB = 1
                 Alimentación = 1
+                         
+- TECLADOS
+    *2
+    - **MARCA**: `Acer`
+    - **MODELO**: `V193HQL`
+    
                 
-                
-                
+- RATONES
+    *2
+    - **MARCA**: `Acer`
+    - **MODELO**: `V193HQL`
+    -
+
 ### EQUIPOS DE RED
 
 - ROUTER 1
@@ -130,7 +144,7 @@
   - **3x**:
     - Cable alimentación (incluido el del mikrotic)
   - **1x**:
-    - Serval -> USB
+    - Serial -> USB
   - **1x**:
     - Cisco Serial -> ethernet    
   - **3x**:
@@ -138,9 +152,9 @@
   - **3x**
     - VGA
   - **3x**:
-    - TP-link UE300  
+    -  RJ-45 -> USB
   - **1x**:
-    - Destan 20180904
+    - RJ-45  -> VGA
 
 ### REGLETAS
 - **2x**:
