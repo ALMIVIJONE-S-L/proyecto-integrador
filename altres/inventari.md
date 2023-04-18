@@ -41,23 +41,6 @@
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
      
 
-
-### CLIENTES
-
-- MONITORES
-  - **2x**:
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
-   
-  - **1x**
-    - **MARCA**: ` APD`
-    - **MODELO**: `ALDA CE H110M (B360G)`
-                             
-- TECLADOS
-  - **2x**:
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
-
 ### EQUIPOS DE RED
 
 - ROUTER 1
@@ -99,6 +82,22 @@
         - 24x 10/100/1000 Mbps 	GigabitEthernet
 
 - 1x PATCH PANEL CAT.5e
+
+### PERIFÉRICOS
+
+- MONITORES
+  - **2x**:
+    - **MARCA**: ` Lenovo ThinkCentre M73`
+    - **MODELO**: `ThinkCentre M73`
+   
+  - **1x**
+    - **MARCA**: ` APD`
+    - **MODELO**: `ALDA CE H110M (B360G)`
+                             
+- TECLADOS
+  - **2x**:
+    - **MARCA**: ` Lenovo ThinkCentre M73`
+    - **MODELO**: `ThinkCentre M73`
 
 ### SAI
 
