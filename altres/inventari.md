@@ -41,41 +41,22 @@
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
      
 
-### PERIFÉRICOS
+
+### CLIENTES
 
 - MONITORES
-    *2
-    - **MARCA**: `Acer`
-    - **MODELO**: `V193HQL`
-    - **CARACTERÍSTICAS TÉCNICAS**
-        - Resolución: 1366 x 768
-        - Pulgadas: 18.5"
-        - Puertos: 
-                VGA = 1
-                Alimentación = 1
-      
-     *1
-    - **MARCA**: `Samsung`
-    - **MODELO**: `SyncMaster 720N`
-    - **CARACTERÍSTICAS TÉCNICAS**
-        - Resolución: 1280 x 1024
-        - Pulgadas: 24"
-        - Puertos: 
-                HDMI = 1
-                USB = 1
-                Alimentación = 1
-                         
+  - **2x**:
+    - **MARCA**: ` Lenovo ThinkCentre M73`
+    - **MODELO**: `ThinkCentre M73`
+   
+  - **1x**
+    - **MARCA**: ` APD`
+    - **MODELO**: `ALDA CE H110M (B360G)`
+                             
 - TECLADOS
-    *2
-    - **MARCA**: `Acer`
-    - **MODELO**: `V193HQL`
-    
-                
-- RATONES
-    *2
-    - **MARCA**: `Acer`
-    - **MODELO**: `V193HQL`
-    -
+  - **2x**:
+    - **MARCA**: ` Lenovo ThinkCentre M73`
+    - **MODELO**: `ThinkCentre M73`
 
 ### EQUIPOS DE RED
 
