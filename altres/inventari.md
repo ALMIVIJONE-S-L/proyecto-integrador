@@ -41,12 +41,28 @@
       - RAM: 2x 4GB de Memoria DRAM DDR4 a 2400Mhz
 
 - MONITORES
-    - **MARCA**: `XX`
-    - **MODELO**: `XX`
+    - **MARCA**: `Acer`
+    - **MODELO**: `V193HQL`
     - **CARACTERÍSTICAS TÉCNICAS**
-      - RESOLUCIÓN: XX
-      - ... (pocas más)
-
+        - Resolución: 1366 x 768
+        - Pulgadas: 18.5"
+        - Puertos: 
+                VGA = 1
+                Alimentación = 1
+      
+      
+    - **MARCA**: `Samsung`
+    - **MODELO**: `SyncMaster 720N`
+    - **CARACTERÍSTICAS TÉCNICAS**
+        - Resolución: 1280 x 1024
+        - Pulgadas: 24"
+        - Puertos: 
+                HDMI = 1
+                USB = 1
+                Alimentación = 1
+                
+                
+                
 ### EQUIPOS DE RED
 
 - ROUTER 1
