@@ -1,6 +1,25 @@
-# DIA 0 [24-03-2023]
+# DIA 2 [20-04-2023]
 
-Modificación del fichero del inventario
+**OBJETIVO DEL DIA:**
+
+Mi objetivo principal era dejar configurado el router mikrotik para poder tener acceder a internet desde nuestra LAN y restaurar a valores de fábrica el switch de cisco.
+
+**QUE HE PODIDO CONSEGUIR:**
+
+he podido cumplir todo lo que tenía previsto por hacer, que era tener internet en la LAN y devolver a los valores de fábrica el equipo de cisco.
+
+**QUE NO HE PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+He podido conseguir todo lo que tenía pensado.
+
+**TAREAS**:
+
+- Puesta en marcha y configuración básica del router mikrotic.
+  - **TAREAS**: Configuración del SRCNAT, ENRUTAR, DHCP, INTERFACES...
+- Restaurar el switch cisco.
+- Modificar la bitácora de abril.
+
+---
 
 # DIA 1 [18-04-2023]
 
@@ -11,11 +30,6 @@ Modificación del fichero del inventario
 
 ---
 
-# DIA 2 [20-04-2023]
+# DIA 0 [24-03-2023]
 
-- Puesta en marcha y configuración básica del router mikrotic.
-  - **TAREAS**: Configuración del SRCNAT, ENRUTAR, DHCP, INTERFACES...
-- Restaurar el switch cisco.
-- Modificar la bitácora de abril.
-
----
+Modificación del fichero del inventario
