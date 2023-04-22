@@ -12,6 +12,7 @@
   - [ABRIL](bitacores/Abril.md)
 - **ALTRES**:
   - [INVENTARI](altres/inventari.md)
+  - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
 
 ---
 
