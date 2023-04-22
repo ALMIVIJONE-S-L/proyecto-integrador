@@ -2,6 +2,15 @@
 
 En este apartado realizaremos la práctica de indicar en que servidores físicos van a ir todos los servidores virtualizados.
 
+## ÍNDICE:
+- [RESUMEN DE LOS RECURSOS](#breve-resumen-de-los-recursos)
+- [DISTRIBUCIÓN DE SERVIDORES VIRTUALES](#distribución-de-servidores-virtuales)
+  - [DELL 1](#dell-1)
+  - [DELL 2](#dell-2)
+  - [DELL 3](#dell-3)
+
+---
+
 ## BREVE RESUMEN DE LOS RECURSOS
 
 **SERVIDORES DELL**
@@ -13,7 +22,15 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 - **RAM**: 16GB
 - **ALMACENAMIENTO**: _Va a variar, así que no se indicará_
 
-
 > _Todos tienen los mismos recursos_
 
+---
+
 ## DISTRIBUCIÓN DE SERVIDORES VIRTUALES
+
+### DELL 1
+
+### DELL 2
+
+### DELL 3
+
