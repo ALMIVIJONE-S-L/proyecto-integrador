@@ -43,26 +43,36 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 
 > _Mucha más información en el PDF de la actividad (FASE 3 - Práctica 3.3. - Instalación i configuración....)_
 
-- **SERVIDOR EMPRESARIAL** | _WINDOWS SERVER 2022_
+- ### SERVIDOR EMPRESARIAL | _WINDOWS SERVER 2022 GUI_
   - Active Directory y Domain Controller (ADDC)
-    - Información a tener en cuenta:
-      - > - **DOMINIO**: `barcelona.lan`
-        > - **TIPOS DE USUARIOS**:
-        >     > _Explicación de cada departamento en el PDF Práctica 3.3._
-        >   - Gerente
-        >   - Administrativo
-        >   - Comerciales
-        >   - Técnicos
-        >   - Laboratorio
-        >   - Producción
-        >   - Almacén
-        > - **PERFILES MÓVILES**: Comerciales
-        > - **PERFILES OBLIGATORIOS**: Usuarios de Laboratorio y Técnicos
-        > - 
-  - Servicio de Aplicaciones
+    - Servicio de instalación **Sistemas Operativos** por RED a los clientes windows.
+      - > _Las ISOs necesarias estarán en una carpeta desde la **cabina de discos** mediante **iSCSI**_
+    - Servicio de un sistema centralizado de **actualizaciones automáticas** de windows, para que los clientes se lo descarguen directamente desde nuestro servidor local
+    - (posible) Servicio DHCP
+  - 
+  - 
 
-- **SERVIDOR EMPRESARIAL 2** | _WINDOWS SERVER 2022_
-  - Active Directory y Domain Controller (ADDC)
+- ### SERVIDOR EMPRESARIAL 2 | _WINDOWS SERVER 2022 CLI_
+  - .... (acabar)
+
+- ### SERVIDOR APLICACIONES Y UTILIDADES | _WINDOWS SERVER 2022 CLI_
+  > Será un windows server a parte, para poder evitar problemas de seguridad y gestión de recursos.
+  - Tendrá el servicio RemoteAPP instalado. **Todos los usuarios de la empresa** tendrán acceso a Libreoffice y GIMP.
+
+- ### SERVIDOR DE MONITORIZACIÓN | _DEBIAN 11 BULLSEYE_
+  - Zabbix?, Nagios?, Pandora?, etc: Revisar cual puede cumplir todas nuestras necesidades. Importante que tengán gestión de **LOGS**
+
+- ### SERVIDOR DE DATOS | _ELEGIR OS(TrueNAS? (quizás este es la mejor opción), openfiler?, debian? este nos consumirá mas tiempo para buscar, instalar y configurar los paquetes necesarios, mejor usar alguno especializado como TrueNAS, openfiler, etc.)_
+
+- ### SERVIDOR WEB INTRANET | _DEBIAN 11 BULLSEYE_
+  - Nginx o Apache2
+
+- ### SERVIDOR WEB EXTERNALIZADO | _GitHub Pages? para no pagar dinero ya que no es una situación real,_
+  > Se podría indicar alguna de las mejores soluciones de hosting (sin hacerlo de verdad, únicamente indicando cual sería la solución real)
+
+
+> **SUGERENCIAS:**
+> Mirror debian local, para los servidores?, este servidor tendría que tener una buena configuración de seguridad para comprobar la integridad de los paquetes, etc..
 
 ---
 
@@ -76,10 +86,12 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 1
 
+- **SERVIDOR EMPRESARIAL**
+
 ### DELL 2
 
 ### DELL 3
-
 ---
+
 
 ## SISTEMA DE COPIAS DE SEGURIDAD
