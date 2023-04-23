@@ -7,7 +7,6 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 - [CONFIGURACIONES A TENER EN CUENTA](#configuraciones-a-tener-en-cuenta)
 - [SERVIDORES VIRTUALES Y SERVICIOS A INSTALAR EN CADA UNO](#servidores-virtuales-y-servicios-a-instalar-en-cada-uno)
 - [DISTRIBUCIÓN DE SERVIDORES VIRTUALES](#distribución-de-servidores-virtuales)
-- [SISTEMA DE COPIAS DE SEGURIDAD](#sistema-de-copias-de-seguridad)
   - [DELL 1](#dell-1)
   - [DELL 2](#dell-2)
   - [DELL 3](#dell-3)
@@ -91,7 +90,4 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 ### DELL 2
 
 ### DELL 3
----
 
-
-## SISTEMA DE COPIAS DE SEGURIDAD
