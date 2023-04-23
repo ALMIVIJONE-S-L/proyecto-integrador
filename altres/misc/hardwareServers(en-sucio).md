@@ -1,3 +1,7 @@
+# HARDWARE SERVIDORES:
+
+> Características de hardware de los servidores físicos
+
 # RESUMEN
 
 ```
