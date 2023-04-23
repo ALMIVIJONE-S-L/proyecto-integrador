@@ -72,6 +72,7 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 
 > **SUGERENCIAS:**
 > Mirror debian local, para los servidores?, este servidor tendría que tener una buena configuración de seguridad para comprobar la integridad de los paquetes, etc..
+> Establecer un gestor de contraseñas, por ejemplo keepass2 (ver como se implementaría, y si tiene buena pinta ponerlo)
 
 ---
 
