@@ -8,7 +8,6 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 - [SERVIDORES VIRTUALES Y SERVICIOS A INSTALAR EN CADA UNO](#servidores-virtuales-y-servicios-a-instalar-en-cada-uno)
 - [DISTRIBUCIÓN DE SERVIDORES VIRTUALES](#distribución-de-servidores-virtuales)
 - [SISTEMA DE COPIAS DE SEGURIDAD](#sistema-de-copias-de-seguridad)
-- 
   - [DELL 1](#dell-1)
   - [DELL 2](#dell-2)
   - [DELL 3](#dell-3)
