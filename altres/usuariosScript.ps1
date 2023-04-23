@@ -24,17 +24,17 @@ PRECAUCIONES: Tener cuidado con los acentos, puede ser que explote algún comand
 */
 # ========= VARIABLES ======== #
 
-  # [+] SEDE
+  # [+] NOMBRE SEDE
   $sede = "Barcelona"
 
   # [+] DOMINIO
-  $dominio = W$sede".lan"
+  $dominio = $sede.ToLower() + ".lan"
   
   # [+] UNIDAD ORGANIZATIVA RAÍZ
-  $raizUO = "BARCELONA"
+  $raizUO = $sede.ToUpper()
 
   # [+] LEER EL FICHERO .CSV
-  $ruta = "......ruta......\usuaris.csv"
+  $ruta = "......ruta carpeta compartida......\usuaris.csv"
   $ficheroCSV = import-csv $ruta
   
   # [+] LISTA ACTUAL DE LAS UNIDADES ORGANIZATIVAS
@@ -55,7 +55,7 @@ PRECAUCIONES: Tener cuidado con los acentos, puede ser que explote algún comand
 foreach ($sede in $ficheroCSV){
   if ($ficheroCSV.sede -match $sede){
     
-    ...................CÓDIGO...............
+    ...................CÓDIGO....................
     
   }
 }
