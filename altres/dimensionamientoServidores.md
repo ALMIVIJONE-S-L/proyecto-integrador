@@ -20,7 +20,7 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 - **CPU**: 
   - NÚCLEOS: 6
   - HILOS: 6
-  > _Cabe recalcar que virtualbox (y los programas de virtualización) cuando te permiten poner núcleos a la máquina, se refiere a los hilos del procesador host, son llamados **Virtual CPUs**, ya que estos son habilitados por la tecnología de virtualizar que se habilita en la BIOS/UEFI_
+  > _Cabe recalcar que virtualbox (y los programas de virtualización) cuando te permiten poner núcleos a la máquina, se refiere a las **Virtual CPUs**, las cuales son CPUs simuladas por nuestro procesador real, normalmente esta ténica se llama hyper-threading ([MÁS INFO](https://www.ibm.com/docs/en/power8?topic=processors-virtual)). Esta tecnología de virtualizar de la CPU que se habilita en la BIOS/UEFI_
 - **RAM**: 16GB
 - **ALMACENAMIENTO**: _Va a variar, así que no se indicará_
 
