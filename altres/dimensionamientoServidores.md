@@ -70,8 +70,8 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
 
 
 > **SUGERENCIAS:**
-> Mirror debian local, para los servidores?, este servidor tendría que tener una buena configuración de seguridad para comprobar la integridad de los paquetes, etc..
-> Establecer un gestor de contraseñas, por ejemplo keepass2 (ver como se implementaría, y si tiene buena pinta ponerlo)
+> - Mirror debian local, para los servidores?, este servidor tendría que tener una buena configuración de seguridad para comprobar la integridad de los paquetes, etc..
+> - Establecer un gestor de contraseñas, por ejemplo keepass2 (ver como se implementaría, y si sale rentable ponerlo)
 
 ---
 
@@ -85,7 +85,20 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 1
 
+> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> 
+> **MEMORIA RAM CONSUMIDA**: 
+> **NÚCLEOS CONSUMIDOS**: 
+
+
+
+
 - **SERVIDOR EMPRESARIAL**
+  - _RECURSOS_
+    - NÚCLEOS VIRTUALES: 2/6
+    - RAM: 4GB/16GB
+    - UEFI: SÍ
+    - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
 
 ### DELL 2
 
