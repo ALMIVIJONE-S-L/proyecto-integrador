@@ -11,6 +11,34 @@
 
 ---
 
+# DIA 5 [26-04-23]
+
+**OBJETIVO DEL DIA:**
+
+Nuestro objetivo hoy ha sido instalar los sistemas operativos de windows a los equipos clientes desde red.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _No acudió a clase_
+  - MIGUEL GARCÍA MIRÓ: _..._
+  - JOSE IVAN OLCINA: _..._
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _..._
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hemos conseguido tener una imágen del sistema windows con clonezilla. Crimpar unos cuantos cables y comprobar otros cuantos más para más adelante.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido acabar de instalar los sistemas operativos porque la imagen del sistema ha tardado mucho en crearse (aproximadamente 1h), en la próxima sesión nos encargaremos de instalarlos.
+
+**TAREAS:**
+
+.....
+
+---
+
 # DIA 4 [20-04-23]
 
 **OBJETIVO DEL DIA:**
