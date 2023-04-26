@@ -1,0 +1,5 @@
+# COMANDOS A UTILIZAR
+
+## INSTALAR VIRTUALBOX
+
+info en máquina.....
