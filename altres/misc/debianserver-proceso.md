@@ -10,8 +10,36 @@ En los clientes no habrá problema, únicamente se ampliará desde interfaz grá
 
 En los servidores se tendrá que utilizar una serie de comandos para ello
 
-## CAMBIAR HOSTNAME
+---
 
+## CONTRASEÑA GRUB
+
+### añadir usuario
+password=1234
+useradd -s /usr/sbin/nologin -p $password admin
+
+### generar la contraseña grub y guardarla en la config
+
+cp /etc/grub.d/40_custom /etc/grub.d/40_custom.backup
+
+grub-mkpasswd-pbkdf2 | cut -d " " -f 8 >> /etc/grub.d/40_custom
+
+### editar el fichero /etc/grub.d/40_custom
+
+```
+set superusers="admin"
+password_pbkdf2 admin contraseña-añadida-antes-al-fichero
+```
+
+### GUARDAR CAMBIOS, copia de seguridad del grub y luego guardar cambios
+
+cp /boot/grub/grub.cfg /tmp/grub.cfg_backup
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+---
+
+## CAMBIAR HOSTNAME
 echo "Introduce el nombre del equipo:"
 read $nequipo
 hostnamectl set-hostname $nequipo
@@ -39,11 +67,9 @@ gpg --dearmor oracle_vbox_2016.asc -o /usr/share/keyrings/oracle-virtualbox-2016
 apt update
 apt install virtualbox-7.0
 
-## Es posible deshabilitar gnome para no consumir muchos recursos, solo usarlo cuando sea necesario
+## Es posible deshabilitar gnome para no consumir muchos recursos, solo usarlo cuando sea necesario (gdm = gnome display manager)
 
 systemctl disable gdm 
-
-(gnome display manager)
 
 # SCRIPT COMPLETO
 
