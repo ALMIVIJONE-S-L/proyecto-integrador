@@ -13,6 +13,7 @@
 - **ALTRES**:
   - [INVENTARI](altres/inventari.md)
   - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
+  - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
 
 ---
 
