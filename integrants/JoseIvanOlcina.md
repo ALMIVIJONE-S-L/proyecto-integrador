@@ -1,5 +1,7 @@
 # Bitácora Jose Ivan Olcina
 
+## 26-04-2023
+
 ## 20-04-2023
 
 En este dia, he estado con Miguel observando y configurando el dispositivo MikroTik, de forma que hemos conseguido configurar un sourceNAT y un DHCP, de este modo, ya podremos salir al exterior con los disintos clientes o servidores conectados al mismo para relizar futuras configuraciones necesarias para la implentacion del proyecto y para el esquema de red definitivo, también hemos creado un DHCP provisional para no conectar los clientes o dispositivos manualmente.
