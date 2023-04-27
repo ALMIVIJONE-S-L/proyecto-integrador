@@ -6,3 +6,6 @@
 
 ## 26-04-2023
   En el dia de hoy hemos ido al taller al ser solo tres personas porque Alberto no estaba y Neus tampoco hemos decidido instalar los sistemas operativos para todos los servidores y para los clientes, para ello hemos hecho servir el clonezilla porque lo hemos enviado por red, al no tener suficientes cables nos hemos dedicado también a terminar algunos de los cables de red que solo tenian la connexión RJ45 por un extremo, por el otro estaban para hacer y así tener alguno más.
+
+## 27-04-2023
+  En el dia de hoy nos hemos quedado en el aula donde hemos hecho el esquema de red que vamos a usar en el taller, Miguel y Jose se han dedicado ha hacer eso mientras que Alberto y Yo nos hemos dedicado a hacer el documento donde explicamos los servidores que vamos a tener la ram que les vamos a dar y todo aquello que necesitamos para porder elaborar el proyecto.
