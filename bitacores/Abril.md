@@ -20,14 +20,14 @@ Nuestro objetivo hoy ha sido instalar los sistemas operativos de windows a los e
 **QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
 
   - ALBERTO CALATAYUD CASTAÑER: _No acudió a clase_
-  - MIGUEL GARCÍA MIRÓ: _..._
-  - JOSE IVAN OLCINA: _..._
+  - MIGUEL GARCÍA MIRÓ: _Crear la imágen del sistema windows con clonezilla_
+  - JOSE IVAN OLCINA: _Cablear todos los equipos_
   - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
-  - VICTOR FUSTER RICO:  _..._
+  - VICTOR FUSTER RICO:  _Crimpar y comprobar cables_
 
 **QUE SE HA PODIDO CONSEGUIR:**
 
-Hemos conseguido tener una imágen del sistema windows con clonezilla. Crimpar unos cuantos cables y comprobar otros cuantos más para más adelante.
+Hemos conseguido tener una imágen del sistema windows con clonezilla. Crimpar unos cuantos cables y comprobar otros cuantos más para más adelante. Y por último cablear provisionalmente los equipos clientes, para la próxima sesión instalar windows por red.
 
 **QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
 
@@ -35,7 +35,9 @@ No hemos podido acabar de instalar los sistemas operativos porque la imagen del 
 
 **TAREAS:**
 
-.....
+- Clonar imagen del sistema windows con clonezilla (ha tardado bastante)
+- Crimpar algunos cables y comprobar algunos otros.
+- Cablear todos los equipos de forma provisional para ir funcionando por ahora.
 
 ---
 
