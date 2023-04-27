@@ -70,9 +70,3 @@ apt install virtualbox-7.0
 ## Es posible deshabilitar gnome para no consumir muchos recursos, solo usarlo cuando sea necesario (gdm = gnome display manager)
 
 systemctl disable gdm 
-
-# SCRIPT COMPLETO
-
-```bash
-
-```
