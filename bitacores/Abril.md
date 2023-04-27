@@ -9,6 +9,13 @@
   - [NEUS HERNÁNDEZ PASCUAL](../integrants/NeusHernandez.md)
   - [VICTOR FUSTER RICO](../integrants/VictorFuster.md)
 
+
+
+  - [MIGUEL GARCÍA MIRÓ](../integrants/miguelgarciamiro.md)
+  - [JOSE IVAN OLCINA](../integrants/JoseIvanOlcina.md)
+  - [NEUS HERNÁNDEZ PASCUAL](../integrants/NeusHernandez.md)
+  - [VICTOR FUSTER RICO](../integrants/VictorFuster.md)
+
 ---
 
 # DIA 5 [26-04-23]
