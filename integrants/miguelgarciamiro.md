@@ -1,3 +1,24 @@
+# DIA 3 [26-04-2023]
+
+**OBJETIVO DEL DIA:**
+
+Mi objetivo hoy ha sido instalar los sistemas operativos de windows a los equipos clientes desde red.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+He conseguido obtener una imagen del sistema windows con clonezilla. (mientras se creaba, estuve haciendo pruebas con otra máquina con clonezilla, para desplegarlo lo más correctamente posible)
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No he podido acabar de instalar los sistemas operativos porque la imagen del sistema ha tardado mucho en crearse (aproximadamente 1h), en la próxima sesión acabaré mi tarea de instalarlos.
+
+**TAREAS:**
+
+- Clonar imagen del sistema windows con clonezilla (ha tardado bastante)
+- Hacer pruebas con otra máquina con clonezilla, para poder desplegarlo correctamente la próxima sesión
+
+---
+
 # DIA 2 [20-04-2023]
 
 **OBJETIVO DEL DIA:**
