@@ -85,10 +85,11 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 1
 
-> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
-> **MEMORIA RAM CONSUMIDA**: 
-> **NÚCLEOS CONSUMIDOS**: 
+> **MEMORIA RAM CONSUMIDA**: 1GB
+> **NÚCLEOS CONSUMIDOS**: 1 núcelo  
+> **ESPACIO EN DISCO PARA EL SO**: 20GB
 
 
 - **SERVIDOR EMPRESARIAL**
@@ -126,10 +127,11 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 2
 
-> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
-> **MEMORIA RAM CONSUMIDA**: 
-> **NÚCLEOS CONSUMIDOS**: 
+> **MEMORIA RAM CONSUMIDA**: 1GB
+> **NÚCLEOS CONSUMIDOS**: 1 núcleo  
+> **ESPACIO EN DISCO PARA EL SO**: 20GB
 
 - **SERVIDOR EMPRESARIAL SECUNDARIO**
   - _RECURSOS_
@@ -144,7 +146,7 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 - **SERVIDOR DE APLICACIONES**
   - _RECURSOS_
     - NÚCLEOS VIRTUALES: 2/6
-    - RAM: 4GB/16GB
+    - RAM: 6GB/16GB
     - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
@@ -153,15 +155,16 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 3
 
-> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
-> **MEMORIA RAM CONSUMIDA**: 
-> **NÚCLEOS CONSUMIDOS**:
+> **MEMORIA RAM CONSUMIDA**: 1GB
+> **NÚCLEOS CONSUMIDOS**: 1 núcleo  
+> **ESPACIO EN DISCO PARA EL SO**: 20GB
 
 - **SERVIDOR DE DATOS**
   - _RECURSOS_
     - NÚCLEOS VIRTUALES: 2/6
-    - RAM: 2GB/16GB
+    - RAM: 5GB/16GB
     - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
@@ -178,4 +181,4 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
   - SO: FreeNAS (Especializado en almacenamiento)
-  - Adaptador de red: 1 adaptador conctado a la red interna de el SAN.
+  - Adaptador de red: 1 adaptador concetado a la red interna de el SAN.
