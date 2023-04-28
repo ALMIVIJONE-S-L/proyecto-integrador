@@ -1,6 +1,12 @@
 # Bitácora Jose Ivan Olcina
 
-## 26-04-2023
+## 28-04-2023
+
+Hoy tocaba clase con Juan, en la caul hemos ido al taller; yo me he encargado, junto con alberto de orgnizar la práctica de "Dimensionamineto deServidores" organizando los distintos servidores virtuales definiendo en que cual de los 3 servidores físicos se van a instalar, asignandoles los recursos necesarios en cuanto a núcleos de CPU y RAM (el almacenamiento los definiremos más adelante), el SO que tendran los servidores y sus adaptadores de red.
+
+## 27-04-2023
+
+Este dia, estuvimos en clase viendo iniciando y planificando la estructura física de la res, estuvimos viendo, en base a los materiales y equipo de el que disponíamos, como distribuirimaos los distintos swtich y la organización de las dtintas plantas, edificios, departamentos (aun no hay nada definitivo) para emezar a tener una ligera idea de como orgnizar la red en el taller.
 
 ## 20-04-2023
 
