@@ -46,13 +46,12 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
     - Servicio de instalación **Sistemas Operativos** por RED a los clientes windows.
       - > _Las ISOs necesarias estarán en una carpeta desde la **cabina de discos** mediante **iSCSI**_
     - Servicio de un sistema centralizado de **actualizaciones automáticas** de windows, para que los clientes se lo descarguen directamente desde nuestro servidor local
-    - Servicio DHCP
+    - (posible) Servicio DHCP
   - 
   - 
 
 - ### SERVIDOR EMPRESARIAL 2 | _WINDOWS SERVER 2022 CLI_
-  - Active Directory y Domain Controller (ADDC)
-    - Servicio DHCP
+  - .... (acabar)
 
 - ### SERVIDOR APLICACIONES Y UTILIDADES | _WINDOWS SERVER 2022 CLI_
   > Será un windows server a parte, para poder evitar problemas de seguridad y gestión de recursos.
@@ -86,7 +85,7 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 1
 
-> **SISTEMA OPERATIVO HOST**: _Debian 11 Bullseye_
+> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
 > 
 > **MEMORIA RAM CONSUMIDA**: 
 > **NÚCLEOS CONSUMIDOS**: 
@@ -95,20 +94,88 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 - **SERVIDOR EMPRESARIAL**
   - _RECURSOS_
     - NÚCLEOS VIRTUALES: 2/6
-    - RAM: 4GB/16GB
+    - RAM: 6GB/16GB
+    - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Windows Server 2022 64bit CORE
+  - Adaptador de red: 1 adaptador en modo puente 
+
+- **SERVIDOR DE MONITORIZACIÓN**
+  - _RECURSOS_
+    - NÚCLEOS VIRTUALES: 1/6
+    - RAM: 2GB/16GB
+    - Almacenamineto: 
+    - UEFI: SÍ
+    - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Debian 11 Bullseye Sin escritorio
+  - Software de monitorización: Zabblix
+  - Adaptador de red: 1 adaptador en modo puente
+
+- **SERVIDOR WEB INTRANET**
+  - _RECURSOS_
+    - NÚCLEOS VIRTUALES: 1/6
+    - RAM: 4GB/16GB
+    - Almacenamineto: 
+    - UEFI: SÍ
+    - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Debian 11 Bullseye Sin escritorio
+  - Software servidor web: Apache Web Server 2.4.57
+  - Adaptador de red: 1 adaptador en modo puente
+
 
 ### DELL 2
- - _RECURSOS_
+
+> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> 
+> **MEMORIA RAM CONSUMIDA**: 
+> **NÚCLEOS CONSUMIDOS**: 
+
+- **SERVIDOR EMPRESARIAL SECUNDARIO**
+  - _RECURSOS_
     - NÚCLEOS VIRTUALES: 2/6
-    - RAM: 4GB/16GB
+    - RAM: 6GB/16GB
+    - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Windows Server 2022 64bit CORE
+  - Adaptador de red: 1 adaptador en modo puente
+
+- **SERVIDOR DE APLICACIONES**
+  - _RECURSOS_
+    - NÚCLEOS VIRTUALES: 2/6
+    - RAM: 4GB/16GB
+    - Almacenamineto: 
+    - UEFI: SÍ
+    - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Windows Server 2022 64bit CORE
+  - Adaptador de red: 1 adaptador en modo puente 
 
 ### DELL 3
- - _RECURSOS_
+
+> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> 
+> **MEMORIA RAM CONSUMIDA**: 
+> **NÚCLEOS CONSUMIDOS**:
+
+- **SERVIDOR DE DATOS**
+  - _RECURSOS_
     - NÚCLEOS VIRTUALES: 2/6
-    - RAM: 4GB/16GB
+    - RAM: 2GB/16GB
+    - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: Windows Server 2022 64bit CORE
+  - Adaptador de red: 
+    - 1 adaptador en modo puente
+    - 1 adaptador conectado a la red interna del SAN (Servidor de almacenamineto).
+
+- **SERVIDOR DE ALMACENAMINETO**
+  - _RECURSOS_
+    - NÚCLEOS VIRTUALES: 2/6
+    - RAM: 8GB/16GB
+    - Almacenamineto: 
+    - UEFI: SÍ
+    - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
+  - SO: FreeNAS (Especializado en almacenamiento)
+  - Adaptador de red: 1 adaptador conctado a la red interna de el SAN.
