@@ -46,27 +46,29 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
     - Servicio de instalación **Sistemas Operativos** por RED a los clientes windows.
       - > _Las ISOs necesarias estarán en una carpeta desde la **cabina de discos** mediante **iSCSI**_
     - Servicio de un sistema centralizado de **actualizaciones automáticas** de windows, para que los clientes se lo descarguen directamente desde nuestro servidor local
-    - (posible) Servicio DHCP
-  - 
-  - 
+    - Servicio DHCP
 
 - ### SERVIDOR EMPRESARIAL 2 | _WINDOWS SERVER 2022 CLI_
-  - .... (acabar)
+  - ADDC
+    - DHCP
 
 - ### SERVIDOR APLICACIONES Y UTILIDADES | _WINDOWS SERVER 2022 CLI_
   > Será un windows server a parte, para poder evitar problemas de seguridad y gestión de recursos.
   - Tendrá el servicio RemoteAPP instalado. **Todos los usuarios de la empresa** tendrán acceso a Libreoffice y GIMP.
 
 - ### SERVIDOR DE MONITORIZACIÓN | _DEBIAN 11 BULLSEYE_
-  - Zabbix?, Nagios?, Pandora?, etc: Revisar cual puede cumplir todas nuestras necesidades. Importante que tengán gestión de **LOGS**
+  - Zabbix. Importante que tengán gestión de **LOGS** también.
 
-- ### SERVIDOR DE DATOS | _ELEGIR OS(TrueNAS? (quizás este es la mejor opción), openfiler?, debian? este nos consumirá mas tiempo para buscar, instalar y configurar los paquetes necesarios, mejor usar alguno especializado como TrueNAS, openfiler, etc.)_
+- ### SERVIDOR DE DATOS | _TrueNAS_
+  -  Está mucho más especializado en el tema relacionado
 
 - ### SERVIDOR WEB INTRANET | _DEBIAN 11 BULLSEYE_
-  - Nginx o Apache2
+  - Apache2, el cual albergará las aplicaciones web
 
 - ### SERVIDOR WEB EXTERNALIZADO | _GitHub Pages? para no pagar dinero ya que no es una situación real,_
   > Se podría indicar alguna de las mejores soluciones de hosting (sin hacerlo de verdad, únicamente indicando cual sería la solución real)
+  > 
+  > Se podría también publicarlo en en DMZ (ya dependiendo de los que se nos pida más adelante se decidirá)
 
 
 > **SUGERENCIAS:**
@@ -88,7 +90,9 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 > **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
 > **MEMORIA RAM CONSUMIDA**: 1GB
+> 
 > **NÚCLEOS CONSUMIDOS**: 1 núcelo  
+> 
 > **ESPACIO EN DISCO PARA EL SO**: 20GB (Por determinar hasta que se instale el SO)
 
 
@@ -130,7 +134,9 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 > **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
 > **MEMORIA RAM CONSUMIDA**: 1GB
+> 
 > **NÚCLEOS CONSUMIDOS**: 1 núcleo  
+> 
 > **ESPACIO EN DISCO PARA EL SO**: 20GB
 
 - **SERVIDOR EMPRESARIAL SECUNDARIO**
@@ -158,8 +164,11 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 > **SISTEMA OPERATIVO HOST**: Debian 11 Bullseye Con Escritorio
 > 
 > **MEMORIA RAM CONSUMIDA**: 1GB
+> 
 > **NÚCLEOS CONSUMIDOS**: 1 núcleo  
+> 
 > **ESPACIO EN DISCO PARA EL SO**: 20GB
+> 
 
 - **SERVIDOR DE DATOS**
   - _RECURSOS_
