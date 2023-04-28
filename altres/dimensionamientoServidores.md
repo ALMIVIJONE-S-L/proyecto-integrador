@@ -46,12 +46,13 @@ En este apartado realizaremos la práctica de indicar en que servidores físicos
     - Servicio de instalación **Sistemas Operativos** por RED a los clientes windows.
       - > _Las ISOs necesarias estarán en una carpeta desde la **cabina de discos** mediante **iSCSI**_
     - Servicio de un sistema centralizado de **actualizaciones automáticas** de windows, para que los clientes se lo descarguen directamente desde nuestro servidor local
-    - (posible) Servicio DHCP
+    - Servicio DHCP
   - 
   - 
 
 - ### SERVIDOR EMPRESARIAL 2 | _WINDOWS SERVER 2022 CLI_
-  - .... (acabar)
+  - Active Directory y Domain Controller (ADDC)
+    - Servicio DHCP
 
 - ### SERVIDOR APLICACIONES Y UTILIDADES | _WINDOWS SERVER 2022 CLI_
   > Será un windows server a parte, para poder evitar problemas de seguridad y gestión de recursos.
@@ -85,7 +86,7 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
 
 ### DELL 1
 
-> **SISTEMA OPERATIVO HOST**: _xxxxxxxxxxx_ <------ a falta de decidir
+> **SISTEMA OPERATIVO HOST**: _Debian 11 Bullseye_
 > 
 > **MEMORIA RAM CONSUMIDA**: 
 > **NÚCLEOS CONSUMIDOS**: 
