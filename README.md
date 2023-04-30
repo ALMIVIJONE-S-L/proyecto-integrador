@@ -17,10 +17,6 @@
 
 ---
 
-https://trello.com/invite/alvimijonebarcelona/ATTIc22a3e22a668ab4d62fa9640e0630e4962A28968
-
----
-
 # ESTRUCTURA ALUMNE.md
 
 - Entrada cada día de treball en ordre cronológic invers (primer les entrades noves)
