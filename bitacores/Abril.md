@@ -11,6 +11,39 @@
 
 ---
 
+# DIA 6 [28-04-23]
+
+**OBJETIVO DEL DIA:**
+
+Nuestro objetivo hoy ha sido instalar los sistemas operativos de windows a los equipos clientes desde red y los servidores, además de adelantar la práctica de [dimensionamiento de servidores](../altres/dimensionamentoServidores.md).
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Acabar la práctica de dimensionamiento de servidores_
+  - MIGUEL GARCÍA MIRÓ: _Desplegar la imagen de windows a los equipos con clonezilla, preparar la imágen de debian para los servidores, revisar el esquema de red y pensar otras soluciones_
+  - JOSE IVAN OLCINA: _Acabar la práctica de dimensionamiento de servidores_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Poner PXE a los equipos clientes, recablear los equipos (por un cambio de regletas con otro equipo), revisar también el esquema de red_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hemos conseguido instalar el sistema operativo windows 10 pro en los 5 clientes (aunque con algunos problemas de por medio), preparar la máquina debian de los servidores.
+
+Acabar la práctica de dimensionamiento de equipos.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido acabar de crear la imágen de debian e instalarla en los equipos de servidores host, ya que faltaban algunas configuraciones importantes antes de desplegarlo en los 3 servidores y no dió tiempo a hacerlas.
+
+**TAREAS:**
+
+- Instalar la imagen del sistema windows con clonezilla a los clientes
+- Configurar el sistema debian a desplegar en los servidores.
+- Acabar la práctica de [dimensionamiento de servidores](../altres/dimensionamentoServidores.md)
+- Recablear todos los equipos de forma provisional porque hicimos unos cambios de regletas con un equipo.
+
+---
+
 # DIA 5 [26-04-23]
 
 **OBJETIVO DEL DIA:**
