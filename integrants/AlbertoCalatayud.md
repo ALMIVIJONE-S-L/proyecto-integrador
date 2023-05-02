@@ -10,6 +10,12 @@
 
 
 
+## Mayo
+
+- 02
+    - Hoy solo hemos estado una hora, la de Juan. No nos ha dado tiempo a hacer mucho, pero lo que hemos hecho a sido investigar y empezar a arreglar el esquema de red, esto lo hemos hecho Jose y yo.
+
+
 
 
 
