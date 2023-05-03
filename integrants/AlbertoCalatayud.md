@@ -15,6 +15,8 @@
 - 02
     - Hoy solo hemos estado una hora, la de Juan. No nos ha dado tiempo a hacer mucho, pero lo que hemos hecho a sido investigar y empezar a arreglar el esquema de red, esto lo hemos hecho Jose y yo.
 
+- 03
+    - Hoy a sido un dia variado, al principio he ayudado a Victor y Miguel a intalar el sistema operativo a los equipos por red y luego hemos estado Jose y yo preparando el pach panel.
 
 
 
