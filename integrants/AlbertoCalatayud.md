@@ -19,7 +19,8 @@
     - Hoy a sido un dia variado, al principio he ayudado a Victor y Miguel a intalar el sistema operativo a los equipos por red y luego hemos estado Jose y yo preparando el pach panel.
 
 
-
+- 04 
+    - Este dia en clase de redes hemos continuado Jose y yo con el pach panel, al final lo hemos termiando, falta volverlo a comprobar todo y atornillarlo al rack.
 
 
 
