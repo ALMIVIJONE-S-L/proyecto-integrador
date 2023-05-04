@@ -11,6 +11,79 @@
 
 ---
 
+# DIA 9 [02-05-23]
+
+servidores instalados!
+
+patch panel casi a acabar
+
+---
+
+# DIA 8 [02-05-23]
+
+**OBJETIVO DEL DIA:**
+
+_Cabe recalcar que tuvimos menos tiempo ese dia que el anterior, ~1h_
+
+Nuestro objetivo del dia ha sido empezar a montar el patch panel, revisando todos los elementos del esquema de red, preparar la imagen para los servidores.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Revisar el esquema de red y empezar a montar el patch panel_
+  - MIGUEL GARCÍA MIRÓ: _Terminar de hacer la imágen nueva del sistema de los servidores_
+  - JOSE IVAN OLCINA: _Revisar el esquema de red y empezar a montar el patch panel_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Terminar de hacer la imágen nueva del sistema de los servidores_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hacer la imagen del sistema, ya que la anterior estaba en BIOS, y ahora está en UEFI y revisar el esquema de red y empezar a montar el patch panel
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido instalarlo en los equipos servidores porque la imagen tardó mucho en realizarse.
+
+**TAREAS:**
+
+- Hacer la imagen del sistema de los servidores
+- Revisar el esquema de red
+- Empezar a hacer el patch panel
+
+---
+
+# DIA 7 [02-05-23]
+
+**OBJETIVO DEL DIA:**
+
+_Cabe recalcar que no tuvimos mucho tiempo ese dia_
+
+Revisar el esquema de red y seguir haciendolo. Terminar de hacer la imagen nueva del sistema de los clientes y volverlo a instalarlo.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Revisar el esquema de red y seguir haciendolo_
+  - MIGUEL GARCÍA MIRÓ: _Terminar de hacer la imágen nueva del sistema de los clientes_
+  - JOSE IVAN OLCINA: _Revisar el esquema de red y seguir haciendolo_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Terminar de hacer la imágen nueva del sistema de los clientes_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hacer la imagen del sistema, ya que la anterior estaba en BIOS, y ahora está en UEFI y modificar el esquema de red.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido instalarlo en los equipos clientes porque la imagen tardó mucho en realizarse.
+
+**TAREAS:**
+
+- Hacer la imagen del sistema
+- Revisar el esquema de red
+- Modificar el esquema de red
+- Reconectar todos los clientes
+
+---
+
 # DIA 6 [28-04-23]
 
 **OBJETIVO DEL DIA:**
