@@ -18,6 +18,8 @@ Quizás la instalación de los clientes que falta con UEFI, pero no estaba en nu
 
 - Instalar los servidores
   - _Al final descubrímos porque el clonezilla iba tan mal y era porque al poner 2 clonezillas al mismo tiempo en vbox con diferentes tarjetas de red, vbox se queda colgado y las máquinas no funcionan correctamente_
+- Actualizar el fichero de la bitácora
+- (en casa) Avanzar el esquema de red
 
 ---
 
@@ -41,6 +43,7 @@ No hemos podido instalarlo en los equipos servidores porque la imagen tardó muc
 **TAREAS:**
 
 - Hacer la imagen del sistema de los servidores
+- Actualizar el fichero de la bitácora
 
 ---
 
@@ -64,6 +67,7 @@ No he podido acabar porque la imagen tardó mucho en realizarse.
 
 - Hacer la imagen del sistema
 - Reconectar todos los clientes
+- Actualizar el fichero de la bitácora
 
 --- 
 
@@ -85,6 +89,7 @@ No he podido acabar de crear la imágen de debian e instalarla en los equipos de
 
 - Instalar la imagen del sistema windows con clonezilla a los clientes
 - Configurar el sistema debian a desplegar en los servidores.
+- Actualizar el fichero de la bitácora
 
 ---
 
@@ -106,6 +111,7 @@ No he podido acabar de instalar los sistemas operativos porque la imagen del sis
 
 - Clonar imagen del sistema windows con clonezilla (ha tardado bastante)
 - Hacer pruebas con otra máquina con clonezilla, para poder desplegarlo correctamente la próxima sesión
+- Actualizar el fichero de la bitácora
 
 ---
 
