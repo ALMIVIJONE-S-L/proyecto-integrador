@@ -1,3 +1,93 @@
+# DIA 7 [04-05-23]
+
+**OBJETIVO DEL DIA:**
+
+_Cabe recalcar que tuvimos menos tiempo ese dia que el anterior, ~1h_
+
+Acabar de instalar los servidores 
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Instalar los SO a los servidores
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+Quizás la instalación de los clientes que falta con UEFI, pero no estaba en nuestros planes hoy.
+
+**TAREAS:**
+
+- Instalar los servidores
+  - _Al final descubrímos porque el clonezilla iba tan mal y era porque al poner 2 clonezillas al mismo tiempo en vbox con diferentes tarjetas de red, vbox se queda colgado y las máquinas no funcionan correctamente_
+
+---
+
+# DIA 6 [03-05-23]
+
+
+**OBJETIVO DEL DIA:**
+
+_Cabe recalcar que tuvimos menos tiempo ese dia que el anterior, ~1h_
+
+Preparar la imagen para los servidores.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hacer la imagen del sistema, ya que la anterior estaba en BIOS, y ahora está en UEFI de los servidores.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido instalarlo en los equipos servidores porque la imagen tardó mucho en realizarse.
+
+**TAREAS:**
+
+- Hacer la imagen del sistema de los servidores
+
+---
+
+# DIA 5 [02-05-23]
+
+**OBJETIVO DEL DIA:**
+
+_Cabe recalcar que no tuvimos mucho tiempo ese dia_
+
+Terminar de hacer la imagen nueva del sistema de los clientes y volverlo a instalarlo.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hacer la imagen del sistema, ya que la anterior estaba en BIOS, y ahora está en UEFI 
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No he podido acabar porque la imagen tardó mucho en realizarse.
+
+**TAREAS:**
+
+- Hacer la imagen del sistema
+- Reconectar todos los clientes
+
+--- 
+
+# DIA 4 [28-04-23]
+
+**OBJETIVO DEL DIA:**
+
+Mi objetivo hoy ha sido desplegar la imagen de windows a los equipos con clonezilla, preparar la imágen de debian para los servidores, revisar el esquema de red y pensar otras soluciones
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Mi objetivo hoy ha sido instalar los sistemas operativos de windows a los equipos clientes desde red y los servidores
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No he podido acabar de crear la imágen de debian e instalarla en los equipos de servidores host, ya que faltaban algunas configuraciones importantes antes de desplegarlo en los 3 servidores y no dió tiempo a hacerlas
+
+**TAREAS:**
+
+- Instalar la imagen del sistema windows con clonezilla a los clientes
+- Configurar el sistema debian a desplegar en los servidores.
+
+---
+
 # DIA 3 [26-04-2023]
 
 **OBJETIVO DEL DIA:**
