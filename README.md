@@ -8,6 +8,7 @@
   - [NEUS HERNÁNDEZ PASCUAL](integrants/NeusHernandez.md)
   - [VICTOR FUSTER RICO](integrants/VictorFuster.md)
 - **BITACORES**:
+  - [MAIG](bitacores/maig.md)
   - [ABRIL](bitacores/Abril.md)
   - [MARÇ](bitacores/març.md)
 - **ALTRES**:
