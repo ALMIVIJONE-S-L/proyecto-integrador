@@ -13,9 +13,31 @@
 
 # DIA 9 [02-05-23]
 
-servidores instalados!
+**OBJETIVO DEL DIA:**
 
-patch panel casi a acabar
+Acabar de instalar los servidores y acabar el patch panel
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Crimpar el patch panel_
+  - MIGUEL GARCÍA MIRÓ: _Instalación de servidores_
+  - JOSE IVAN OLCINA: _Crimpar el patch panel_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Instalación de servidores_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hemos podido instalar los SO a los servidores y hemos casi que acabado de crimpar el patch panel
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido acabar de crimpar el patch panel por falta de tiempo, pero nos quedó muy poco
+
+**TAREAS:**
+
+- Instalar los servidores
+  - _Al final descubrímos porque el clonezilla iba tan mal y era porque al poner 2 clonezillas al mismo tiempo en vbox con diferentes tarjetas de red, vbox se queda colgado y las máquinas no funcionan correctamente_
+- Crimpar la mayoría de clables necesarios para el patch panel.
 
 ---
 
