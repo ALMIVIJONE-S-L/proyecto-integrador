@@ -20,3 +20,6 @@
 
 ### 4-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, mientras Alberto y Jose estaban distribuyendo los pach panel y conectando algún cable Miguel y yo hemos seguido instalando los SO de los servidores, como en el día de ayer, hemos tenido algún problema que otro y con ello y solo nos ha dado tiempo a instalar los servidores por lo que ya solo nos quedan 3 de los pc para así tenerlos ya todos instalados y en funcionamiento que esperamos que sea para la próxima clase.
+
+### 5-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan, hoy nos hemos dedicado a instalar los equipos clientes que nos quedaban y ya lo hemos conseguido por completo, todos están instalados y sin problemas, por ello hemos aprovechado para poner el pach panel en el lugar que corresponde y hemos organizado todos los serrvidores en lugar que tienen que ir junto con los pc, switches...
