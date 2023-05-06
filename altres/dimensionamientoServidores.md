@@ -189,5 +189,6 @@ RECORDAR INDICAR LO SIGUIENTE EN ESTE APARTADO:
     - Almacenamineto: 
     - UEFI: SÍ
     - PUERTOS DE CONEXIÓN DE DISCOS: OPTICAL, HARD DISK
-  - SO: FreeNAS (Especializado en almacenamiento)
-  - Adaptador de red: 1 adaptador concetado a la red interna de el SAN.
+  - SO: TrueNAS (Especializado en almacenamiento)
+  - [DOCUMENTACIÓN](https://www.truenas.com/docs/)
+  - Adaptador de red: 1 adaptador conectado a la red interna de el SAN.
