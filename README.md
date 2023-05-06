@@ -12,9 +12,12 @@
   - [ABRIL](bitacores/Abril.md)
   - [MARÇ](bitacores/març.md)
 - **ALTRES**:
-  - [INVENTARI](altres/inventari.md)
-  - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
-  - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
+  - **DOCUMENTACIÓ**
+    - [INVENTARI](altres/inventari.md)
+    - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
+    - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
+  - **INFORMACIÓ IMPORTANT**
+    - [COMANDOS](altres/comandos.md)
 
 ---
 
