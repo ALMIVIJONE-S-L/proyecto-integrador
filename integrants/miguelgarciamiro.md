@@ -1,3 +1,23 @@
+# DIA 8 [08-05-23]
+
+**OBJETIVO DEL DIA:**
+
+Instalar las OVAs múltiples en los servidores.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Instalar los SO a los servidores
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+Acabar de desplegar las OVAs múltiples
+
+**TAREAS:**
+
+- Crear las OVAS (esto lo hice el día anterior **en casa**)
+- Instalar virtualbox 7.0 en los servidores mediante [un script](../altres/scripts/instalacionVbox.sh)
+- Desplegar las OVAs Múltiples, previamente enviando a cada servidor la correspondiente mediante el comando SCP.
+
 # DIA 7 [04-05-23]
 
 **OBJETIVO DEL DIA:**
