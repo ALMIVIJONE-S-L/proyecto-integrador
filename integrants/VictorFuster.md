@@ -25,4 +25,4 @@
  En el dia de hoy hemos ido en las horas de Juan, hoy nos hemos dedicado a instalar los equipos clientes que nos quedaban y ya lo hemos conseguido por completo, todos están instalados y sin problemas, por ello hemos aprovechado para poner el pach panel en el lugar que corresponde y hemos organizado todos los serrvidores en lugar que tienen que ir junto con los pc, switches...
 
 ### 8-05-2023  
- En el dia de hoy hemos ido en las horas de Pep, 
+ En el dia de hoy hemos ido en las horas de Pep, como era voluntario hemos ido Jose, Miguel y Yo  
