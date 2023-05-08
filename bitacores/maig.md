@@ -11,6 +11,38 @@
 
 ---
 
+# DIA 10 [08-05-23]
+
+**OBJETIVO DEL DIA:**
+
+Instalar virtualbox en los servidores físicos además de desplegar las OVAs múltiples (previamente creadas por @kr0nos). Reparar algunos latiguillos. Restaurar el punto de acceso y volverlo accesible por wireless
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Crimpar el patch panel_
+  - MIGUEL GARCÍA MIRÓ: _Instalar virtualbox 7.0, enviar mediante el comando SCP las OVAs a los distintos ordenadores, desplegar las OVAs en un servidor de tres_
+  - JOSE IVAN OLCINA: _Reparar (crimpar) algunos latiguillos y extensores de red, Instalar algunos programas necesarios para el ordenador SYSADMIN._
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía). Reconfigurar el punto de acceso WIFI_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Instalar virtualbox 7.0, enviar mediante el comando SCP las OVAs a los distintos ordenadores, desplegar las OVAs en un servidor de tres. Instalar algunos programas necesarios para el ordenador SYSADMIN. Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía). Reconfigurar el punto de acceso WIFI. Reparar (crimpar) algunos latiguillos y extensores de red.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+No hemos podido acabar de desplegar las OVAs múltiples.
+
+**TAREAS:**
+
+- Instalar virtualbox 7.0, enviar mediante el comando SCP las OVAs a los distintos ordenadores, desplegar las OVAs en un servidor de tres.
+- Instalar algunos programas necesarios para el ordenador SYSADMIN
+- Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía)
+- Reconfigurar el punto de acceso WIFI.
+- Reparar (crimpar) algunos latiguillos y extensores de red.
+
+---
+
 # DIA 9 [04-05-23]
 
 **OBJETIVO DEL DIA:**
