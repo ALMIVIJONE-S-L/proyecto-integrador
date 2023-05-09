@@ -11,6 +11,16 @@
 
 ---
 
+# DIA 11 [09-05-23]
+
+**OBJETIVO DEL DIA**
+
+Nuestro objetivo era, primero acabar de instalar virtualbox y desplegar las OVAs en los servidores. También organizar todo el cableado de los equipos, porque estaban muy desordenados debido a las pruebas hechas anteriormente, etc. También teníamos pensado empezar a configurar las vlans en por lo menos el switch del tplink.
+
+.........
+
+---
+
 # DIA 10 [08-05-23]
 
 **OBJETIVO DEL DIA:**
