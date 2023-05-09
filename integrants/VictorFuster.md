@@ -26,3 +26,6 @@
 
 ### 8-05-2023  
  En el dia de hoy hemos ido en las horas de Pep, como era voluntario hemos ido Jose, Miguel y Yo, una vez allí mientras Miguel estaba con los servidores y Jose con la instalación de algúnas aplicaciones de los clientes me he dedicado a configurar el punto inalámbrico, una vez finalizado me he puesto a buscar como instalar zabbix y como funciona para poder instalarlo mas adelante y configurarlo.
+
+### 9-05-2023  
+ En el dia de hoy hemos ido en las horas de Pep y de Juan, en el dia de hoy nos hemos dedicado a ordenar todo el lugar de trabajo y los servidores, nas, tplinks... Hoy ha sido un dia en el que hemos trabajado todos y en el que nos hemos dejado el espacio de trabajo listo para poder trabajar en futuros dias y así ir más rápido, hoy también me he puesto con el zabbix para los servidores, pero no ha sido suficiente tiempo ya que teniamos mas cosas por hacer y nos ha llevado bastante tiempo hacer la organización de todo el lugar de trabajo.
