@@ -15,6 +15,7 @@
   - **DOCUMENTACIÓ**
     - [INVENTARI](altres/inventari.md)
     - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
+    - [IMPLANTACIÓN BÁSICA DEL SISTEMA](altres/implementacionSistema.md)
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
