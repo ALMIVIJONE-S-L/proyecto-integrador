@@ -22,6 +22,9 @@
 - 04 
     - Este dia en clase de redes hemos continuado Jose y yo con el pach panel, al final lo hemos termiando, falta volverlo a comprobar todo y atornillarlo al rack.
 
+-10 
+    - Hoy lo que hemos realizado en clase de Redes ha sido crimpar latigillos y más cables en el pachpanel, esto lo he realizado junto a Víctor ya que eran más de 15 latigillos.
+
 
 
 
