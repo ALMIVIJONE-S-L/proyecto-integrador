@@ -22,6 +22,10 @@
 
 ---
 
+[**GOOGLE SHEETS**](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
+
+---
+
 # ESTRUCTURA ALUMNE.md
 
 - Entrada cada día de treball en ordre cronológic invers (primer les entrades noves)
