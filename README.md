@@ -18,6 +18,7 @@
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
+    - [SCRIPTS](altres/scripts/scripts.md)
 
 ---
 
