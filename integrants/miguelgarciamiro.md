@@ -1,3 +1,55 @@
+# DIA 12 [10-05-23]
+
+**OBJETIVO DEL DIA:**
+
+Nuestro objetivo el dia de hoy ha sido terminar la configuración inicial de VLANs en los switches de tp-link y cisco. También era fabricar unos cuantos más de latiguillos, además de configurar el mikrotik con las subinterfaces.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Crimpar el patch panel_
+  - MIGUEL GARCÍA MIRÓ: _Configurar Bounding, VLANs en el Mirkotik_
+  - JOSE IVAN OLCINA: _Reparar (crimpar) algunos latiguillos y extensores de red, Instalar algunos programas necesarios para el ordenador SYSADMIN._
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía). Reconfigurar el punto de acceso WIFI_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Configurar Bounding, VLANs en el Mirkotik, esquema de electricidad, modificar el esquema de red, colocar tarjetas de red faltantes en los servidores
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- DHCP del mikrotik, porque nos faltava determinar las IPs que tendrán los servidores y sin esto no es posible establecer las puertas de enlace.
+
+**TAREAS:**
+
+- Configuracion básica de VLANs, bounding y a medias con el DHCP del mikrotik.
+- Colocar las tarjetas de red faltantes en los servidores
+- Empezar a cambiar los nombres de las tarjetas de red de los servidores.
+- Crear el esquema de electricidad usado en la sede
+- Modificar el esquema de red (añadiendole nuevas cosas)
+
+# DIA 11 [09-05-23]
+
+**OBJETIVO DEL DIA**
+
+Mi objetivo era, primero acabar de instalar virtualbox y desplegar las OVAs en los servidores. También organizar todo el cableado de los equipos, porque estaban muy desordenados debido a las pruebas hechas anteriormente, etc. 
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+He podido conseguir todo lo propuesto.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+Nada hoy.
+
+**TAREAS:**
+
+- Acabar de instalar vbox y las ovas
+- Recablear toda la sede
+- Empalmar cables de corriente para aprovechar una regleta.
+
+---
+
 # DIA 8 [08-05-23]
 
 **OBJETIVO DEL DIA:**
