@@ -16,7 +16,7 @@
 **OBJETIVO DEL DIA**
 
 Nuestro objetivo era, primero acabar de instalar virtualbox y desplegar las OVAs en los servidores. También organizar todo el cableado de los equipos, porque estaban muy desordenados debido a las pruebas hechas anteriormente, etc. También teníamos pensado empezar a configurar las vlans en por lo menos el switch del tplink.
-
+Además, también hemos empezado a hacer la intranet
 .........
 
 ---
