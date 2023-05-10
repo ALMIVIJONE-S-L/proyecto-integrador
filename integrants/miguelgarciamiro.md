@@ -4,14 +4,6 @@
 
 Nuestro objetivo el dia de hoy ha sido terminar la configuración inicial de VLANs en los switches de tp-link y cisco. También era fabricar unos cuantos más de latiguillos, además de configurar el mikrotik con las subinterfaces.
 
-**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
-
-  - ALBERTO CALATAYUD CASTAÑER: _Crimpar el patch panel_
-  - MIGUEL GARCÍA MIRÓ: _Configurar Bounding, VLANs en el Mirkotik_
-  - JOSE IVAN OLCINA: _Reparar (crimpar) algunos latiguillos y extensores de red, Instalar algunos programas necesarios para el ordenador SYSADMIN._
-  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
-  - VICTOR FUSTER RICO:  _Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía). Reconfigurar el punto de acceso WIFI_
-
 **QUE SE HA PODIDO CONSEGUIR:**
 
 - Configurar Bounding, VLANs en el Mirkotik, esquema de electricidad, modificar el esquema de red, colocar tarjetas de red faltantes en los servidores
