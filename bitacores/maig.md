@@ -11,13 +11,69 @@
 
 ---
 
+# DIA 12 [10-05-23]
+
+**OBJETIVO DEL DIA:**
+
+Nuestro objetivo el dia de hoy ha sido terminar la configuración inicial de VLANs en los switches de tp-link y cisco. También era fabricar unos cuantos más de latiguillos, además de configurar el mikrotik con las subinterfaces.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Crimpar el patch panel_
+  - MIGUEL GARCÍA MIRÓ: _Configurar Bounding, VLANs en el Mirkotik_
+  - JOSE IVAN OLCINA: _Reparar (crimpar) algunos latiguillos y extensores de red, Instalar algunos programas necesarios para el ordenador SYSADMIN._
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Desinstalar WAC de los ordenadores clientes (porque la img de clonezilla desplegada ya la tenía). Reconfigurar el punto de acceso WIFI_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Configurar Bounding, VLANs en el Mirkotik
+- Configuración básica de las vlans tplink grande
+- Configuración básica de las vlans en cisco
+- Creación de latiguillos
+- Crimpar cables faltantes en el patch panel
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- DHCP del mikrotik, porque nos faltava determinar las IPs que tendrán los servidores y sin esto no es posible establecer las puertas de enlace.
+- Terminar de configurar el switch cisco.
+
+**TAREAS:**
+
+- Configuraciones iniciales de las VLANs de los switches de CISCO y TP-LINK.
+- Configuracion básica de VLANs, bounding y a medias con el DHCP del mikrotik.
+- Crimpar cables faltantes en el patch panel.
+- Crimpar latiguillos.
+
 # DIA 11 [09-05-23]
 
 **OBJETIVO DEL DIA**
 
 Nuestro objetivo era, primero acabar de instalar virtualbox y desplegar las OVAs en los servidores. También organizar todo el cableado de los equipos, porque estaban muy desordenados debido a las pruebas hechas anteriormente, etc. También teníamos pensado empezar a configurar las vlans en por lo menos el switch del tplink.
-Además, también hemos empezado a hacer la intranet
-.........
+Además, también hemos empezado a programar la intranet de la empresa.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _empezar a programar la intranet de la empresa_
+  - MIGUEL GARCÍA MIRÓ: _acabar de instalar virtualbox y desplegar las OVAs en los servidores,  También organizar todo el cableado de los equipos (bastante larga, por tener que recablear todo_
+  - JOSE IVAN OLCINA: _configurar las vlans en por lo menos el switch del tplink_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Ayudar a organizar todo el cableado de los equipos_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+Hemos podido conseguir todo lo propuesto, menos por las VLANs, que no las acabamos de configurar
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+VLANs del swtitch de TP-LINK
+
+**TAREAS:**
+
+- Programar intranet
+- Acabar de instalar vbox y las ovas
+- Recablear toda la sede
+- VLANs en el TP-LINK
 
 ---
 
