@@ -32,3 +32,6 @@
  
  ### 10-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, hoy Alberto y Yo nos hemos dedicado las primeras horas a hacer latiguillos para poder conectar nuestros servidores, el pach panel... Y después si que nos hemos dedicado a continuar con las labores que teniamos pendientes, mientras Jose y Miguel estaban adelantando las VLAN de los switches para que así junto con los latiguillos que estabamos haciendo nosotros quedara todo terminado para poder tener red en todas las máquinas y en todos los departamentos de nuestra sede.
+ 
+  ### 11-05-2023  
+ En el dia de hoy hemos ido en las horas de Raúl, hoy Alberto no ha venido por lo que mientras que Jose y Miguel configuraban las VLAN y todo esol, yo he ido apuntando las direcciónes MAC de las redes de los servidores para así poder tener un registro como no me ha dado tiempo porque como hemos tenido que cambiar la distribución de los servidores porque al cambiar los profesores algunos puntos teniamos que hacer mejor la distribución porque nos costaba hacer algunas cosas.
