@@ -35,3 +35,6 @@
  
   ### 11-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, hoy Alberto no ha venido por lo que mientras que Jose y Miguel configuraban las VLAN y todo esol, yo he ido apuntando las direcciónes MAC de las redes de los servidores para así poder tener un registro como no me ha dado tiempo porque como hemos tenido que cambiar la distribución de los servidores porque al cambiar los profesores algunos puntos teniamos que hacer mejor la distribución porque nos costaba hacer algunas cosas.
+
+ ### 12-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan, hoy me he puesto con la identificación de las mac de los servidores y con el script que habia hecho Miguel para cambiar el nombre de las interfaces de red, este script coge las MAC y le cambia el nombre de la interfaz para que pase a llamarse como nosotros queramos, para que se haga automaticamente al iniciar lo hemos hecho por crontab.Por otro lado Jose y Alberto estaban configurando el microtik y los switches.
