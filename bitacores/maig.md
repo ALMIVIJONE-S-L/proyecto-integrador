@@ -11,14 +11,38 @@
 
 ---
 
- En el dia de hoy hemos ido en las horas de Raúl, hoy Alberto no ha venido por lo que mientras que Jose y Miguel configuraban las VLAN y todo esol, yo he ido apuntando las direcciónes MAC de las redes de los servidores para así poder tener un registro como no me ha dado tiempo porque como hemos tenido que cambiar la distribución de los servidores porque al cambiar los profesores algunos puntos teniamos que hacer mejor la distribución porque nos costaba hacer algunas cosas.
-
- ### 12-05-2023  
- En el dia de hoy hemos ido en las horas de Juan, hoy me he puesto con la identificación de las mac de los servidores y con el script que habia hecho Miguel para cambiar el nombre de las interfaces de red, este script coge las MAC y le cambia el nombre de la interfaz para que pase a llamarse como nosotros queramos, para que se haga automaticamente al iniciar lo hemos hecho por crontab.Por otro lado Jose y Alberto estaban configurando el microtik y los switches.
-
 # DIA 14 [12-05-23]
 
-Nuestro objetivo del dia ha sido implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) usando el csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439) donde está toda la información de las interfaces. Agregar VLANs
+**OBJETIVO DEL DIA**
+
+Nuestro objetivo del dia ha sido implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) usando el csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439) donde está toda la información de las interfaces. Realizar configuraciones de DHCP en el mikrotik, poner los servidores en su sitio, ocultando el cableado para mejor impresión y organización. Configuracion de bounding en los switches.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Configuración TP-LINK (configs variadas), CISCO (configs variadas)_
+  - MIGUEL GARCÍA MIRÓ: _Implementación del script en casi todos los servidores. mikrotik (dhcp), Terminar de cablear el rack_
+  - JOSE IVAN OLCINA: _Configuración TP-LINK (configs variadas), CISCO (configs variadas) y mikrotik (dhcp)_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Implementación del script en casi todos los servidores. Terminar de recoger todas las mac de las interfaces_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Implementación del script en casi todos los servidores.
+- Configuración TP-LINK (configs variadas), CISCO (configs variadas) y mikrotik (dhcp)
+- Terminar de cablear el rack
+- Terminar de recoger todas las mac de las interfaces
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- DHCP del mikrotik
+- Implementación del script, no nos dió tiempo a acabar de implementarlo, pero el sábado (esto lo estoy escribiendo más tarde del dia 12) he estado trabajando para automatizar mucho más el proceso.
+
+**TAREAS:**
+
+- Implementación del script
+- Configuración TP-LINK (configs variadas), CISCO (configs variadas) y mikrotik (dhcp)
+- Terminar de cablear el rack
+- Terminar de recoger todas las mac de las interfaces
 
 ---
 
@@ -26,7 +50,34 @@ Nuestro objetivo del dia ha sido implementar el [script de interfaces](../altres
 
 **OBJETIVO DEL DIA**
 
-Nuestro objetivo hoy ha sido configurar varias opciones sobre VLANs en los switches configurables y en el router mikrotik (bounding en tp-link y cisco,...), recablear toda la parte inferior del rack (donde están los servidores) por 2 motivos, 1 por una actualización en el proyecto y otra porque había una regleta que impedia una conexión ideal entre el cable y la NIC. También teníamos como objetivo obtener las MAC de las diferentes interfaces de red para posteriormente poder implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) poniendolo todo en csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439)
+Nuestro objetivo hoy ha sido configurar varias opciones sobre VLANs en los switches configurables y en el router mikrotik (bounding en tp-link y cisco,...), recablear toda la parte inferior del rack (donde están los servidores) por 2 motivos, 1 por una actualización en el proyecto y otra porque había una regleta que impedia una conexión ideal entre el cable y la NIC. También teníamos como objetivo obtener las MAC de las diferentes interfaces de red para posteriormente poder implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) poniendolo todo en csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439).
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _No acudió a clase_
+  - MIGUEL GARCÍA MIRÓ: _Añadir algua que otra configuración en el mikrotik, reorganizar todos los cables de la parte inferior del rack, para poder tenerlo todo mucho más organizado para que sea más fácil de operar. **(Por la noche me puse a crear el script para tenerlo al día siguiente operativo)**_
+  - JOSE IVAN OLCINA: _Configuraciones en mikrotik, vlans en tp-link y cisco_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Obtener las MAC de todas las interfaces de red_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Obtener gran parte de las MAC de las interfaces
+- Configurar las VLANs en los switches
+- Reorganizar todos los cables de la parte inferior del rack 
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- Terminar de añadir los servidores en la parte inferior del rack (el reorganizar los cables consumió mucho tiempo ~1 hora)
+- Obtención de todas las direcciones MAC
+
+**TAREAS:**
+
+- Configurar VLANs cisco
+- Configurar TP-LINK (bounding, etc)
+- Configurar Mirkotik
+- Reorganizar todos los cables de la parte inferior del rack
+- Recoger información sobre las MAC de las interfaces
 
 ---
 
