@@ -11,6 +11,25 @@
 
 ---
 
+ En el dia de hoy hemos ido en las horas de Raúl, hoy Alberto no ha venido por lo que mientras que Jose y Miguel configuraban las VLAN y todo esol, yo he ido apuntando las direcciónes MAC de las redes de los servidores para así poder tener un registro como no me ha dado tiempo porque como hemos tenido que cambiar la distribución de los servidores porque al cambiar los profesores algunos puntos teniamos que hacer mejor la distribución porque nos costaba hacer algunas cosas.
+
+ ### 12-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan, hoy me he puesto con la identificación de las mac de los servidores y con el script que habia hecho Miguel para cambiar el nombre de las interfaces de red, este script coge las MAC y le cambia el nombre de la interfaz para que pase a llamarse como nosotros queramos, para que se haga automaticamente al iniciar lo hemos hecho por crontab.Por otro lado Jose y Alberto estaban configurando el microtik y los switches.
+
+# DIA 14 [12-05-23]
+
+Nuestro objetivo del dia ha sido implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) usando el csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439) donde está toda la información de las interfaces. Agregar VLANs
+
+---
+
+# DIA 13 [11-05-23]
+
+**OBJETIVO DEL DIA**
+
+Nuestro objetivo hoy ha sido configurar varias opciones sobre VLANs en los switches configurables y en el router mikrotik (bounding en tp-link y cisco,...), recablear toda la parte inferior del rack (donde están los servidores) por 2 motivos, 1 por una actualización en el proyecto y otra porque había una regleta que impedia una conexión ideal entre el cable y la NIC. También teníamos como objetivo obtener las MAC de las diferentes interfaces de red para posteriormente poder implementar el [script de interfaces](../altres/scripts/scriptInterfaces.py) poniendolo todo en csv de la [hoja de cálculo](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit#gid=1281501439)
+
+---
+
 # DIA 12 [10-05-23]
 
 **OBJETIVO DEL DIA:**
