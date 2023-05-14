@@ -20,6 +20,7 @@
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
     - [SCRIPTS](altres/scripts/scripts.md)
+<!--      - [Script Usuarios (PWSHELL)]() -->
 
 ---
 
