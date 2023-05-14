@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# BY: Miguel G. M. ~ Kr0nosKM
+
 # INFO ADICIONAL PARA EJECUTAR COMANDOS: 2 formas de ejecutar comandos (usando las librerías o os o subprocess)
 # EJEMPLOS:
     # SUBPROCESS: subprocess.run("echo","hola") tiene muchas herramientas (puede ocultar el stdout!), te lo saca con \n así que hay que quitarlo con string.replace("\n","")
