@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# BY: Miguel G. M. ~ Kr0nosKM
+# BY: Miguel G. ~ Kr0nosKM
 
 # INFO ADICIONAL PARA EJECUTAR COMANDOS: 2 formas de ejecutar comandos (usando las librerías o os o subprocess)
 # EJEMPLOS:
