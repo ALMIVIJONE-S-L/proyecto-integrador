@@ -85,7 +85,7 @@ if os.path.exists(nombreFicheroCSV):
 
             # CREAR UN DIRECTORIO /SCRIPTS EN ROOT CON PERMISOS ADECUADOS PARA PODER EJECUTARLO (os.mkdir,os.W_OK...)
             ruta = "/usr/scripts"
-            if os.path.exists(ruta):
+            if os.path.exists(ruta):######## quizás en vede de os.path.exists... poner os.ruta.exists(), tu lta siendo /use/scripts, porque si no se hace es posible que haga ./usr/scripts desde la ruta actual
                 print("[info]: El directorio '/usr/scripts' ya existe, no lo crearé.")
             else:
                 print("[info]: Creando el directorio en '/usr/scripts'")
