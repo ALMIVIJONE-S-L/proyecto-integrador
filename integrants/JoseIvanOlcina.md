@@ -1,4 +1,5 @@
 # Bitácora Jose Ivan Olcina
+
 ## 15-05-2023
 
 En el día de hoy, hemos estado Miguel y yo tratnado de averguiar los que nos dejamos a medias el viernes (Tema MiktoTik) y hemos conseguido que nos funcionen bien las VLANs, cambiando y añadiendo ciertos parámetros que estaban por configurar en el switch TP-Link y en el MikroTik, con ello, de momento, hemos logrado hacer funcionar dos VLANs (20-SysAdmin y 40-AccesPoint), queda pendiente por terminar las demás VLAN, posteriormente Miguel ya se centró en el switch Cisco en los últimos compases de clase.
