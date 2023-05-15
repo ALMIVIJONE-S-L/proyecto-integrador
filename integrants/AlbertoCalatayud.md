@@ -25,6 +25,9 @@
 - 10 
     - Hoy lo que hemos realizado en clase de Redes ha sido crimpar latigillos y más cables en el pachpanel, esto lo he realizado junto a Víctor ya que eran más de 15 latigillos.
 
+- 12 
+    - Hoy en la clase de Juan he estado ayudando a Jose intentando enrutar Vlan's, mientras el estaba en el TP-LINK yo estaba en el Microtik y yo me encargaba de buscar toda la información.
+
 
 
 
