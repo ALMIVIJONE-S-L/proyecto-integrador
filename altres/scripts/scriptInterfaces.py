@@ -2,6 +2,8 @@
 
 # BY: Miguel G. ~ Kr0nosKM
 
+# USO: python3 scriptInterfaces.py fichero.csv
+
 # INFO ADICIONAL PARA EJECUTAR COMANDOS: 2 formas de ejecutar comandos (usando las librerías o os o subprocess)
 # EJEMPLOS:
     # SUBPROCESS: subprocess.run("echo","hola") tiene muchas herramientas (puede ocultar el stdout!), te lo saca con \n así que hay que quitarlo con string.replace("\n","")
