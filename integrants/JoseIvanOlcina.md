@@ -1,4 +1,27 @@
 # Bitácora Jose Ivan Olcina
+## 15-05-2023
+
+En el día de hoy, hemos estado Miguel y yo tratnado de averguiar los que nos dejamos a medias el viernes (Tema MiktoTik) y hemos conseguido que nos funcionen bien las VLANs, cambiando y añadiendo ciertos parámetros que estaban por configurar en el switch TP-Link y en el MikroTik, con ello, de momento, hemos logrado hacer funcionar dos VLANs (20-SysAdmin y 40-AccesPoint), queda pendiente por terminar las demás VLAN, posteriormente Miguel ya se centró en el switch Cisco en los últimos compases de clase.
+
+## 12-05-2023
+
+He continuado con la implemetnación de las VLAN, corrigigendo algun pequeño fallo y optimizando las mismas; posteriormente, junto con Miguel, hemos estado tratnado de averiguar (sion e´xito) como gestionar las VLAN y las interfaces virtuales desde el dispositivo MikroTik.
+
+## 10-05-2023 & 11-05-2023
+
+En estos dos días, he implementado las distintas VLANs ubicadas en nuestra red, empezando por el switch de **TP-Link** y continuando con el de **Cisco**.
+
+## 09-05-2023
+
+He buscado mas información y algún tutorial en internet referente e la implemetnación de las distintas VLANs, por otra parte, entre todos hemos optimizado el *Trello* con las recomendaciones que nos ha dado Juan.
+
+## 08-05-2023
+
+En este día, he seguido buscando información referente a los switches, ampliando la búsqueda por internet, también juntos con los otros miembros.
+
+## 04-05-2023 & 05-05-2023
+
+Estos dos dias, junto con Alberto, hemos terminado de crimpar todos los correspondientes cables en el patch panel y hemos comprobado su correcto funcionamineto, posteriormente he emepzado por mi cuenta a ller cierta infroamción referente a el funcionamiento de los *switches* **TP-LINK** y **CISCO**.
 
 ## 03-05-2023
 
@@ -6,7 +29,7 @@ He realizado un pequeño esquema o resumen detallando todas las interfaces o ada
 
 ## 28-04-2023
 
-Hoy tocaba clase con Juan, en la caul hemos ido al taller; yo me he encargado, junto con alberto de orgnizar la práctica de "Dimensionamineto deServidores" organizando los distintos servidores virtuales definiendo en que cual de los 3 servidores físicos se van a instalar, asignandoles los recursos necesarios en cuanto a núcleos de CPU y RAM (el almacenamiento los definiremos más adelante), el SO que tendran los servidores y sus adaptadores de red.
+Hoy tocaba clase con Juan, en la cual hemos ido al taller; yo me he encargado, junto con alberto de orgnizar la práctica de "Dimensionamineto deServidores" organizando los distintos servidores virtuales definiendo en que cual de los 3 servidores físicos se van a instalar, asignandoles los recursos necesarios en cuanto a núcleos de CPU y RAM (el almacenamiento los definiremos más adelante), el SO que tendran los servidores y sus adaptadores de red.
 
 ## 27-04-2023
 
