@@ -38,3 +38,6 @@
 
  ### 12-05-2023  
  En el dia de hoy hemos ido en las horas de Juan, hoy me he puesto con la identificación de las mac de los servidores y con el script que habia hecho Miguel para cambiar el nombre de las interfaces de red, este script coge las MAC y le cambia el nombre de la interfaz para que pase a llamarse como nosotros queramos, para que se haga automaticamente al iniciar lo hemos hecho por crontab.Por otro lado Jose y Alberto estaban configurando el microtik y los switches.
+ 
+ ### 15-05-2023  
+ En el dia de hoy hemos ido en las horas de Pep, para el dia de hoy nos hemos dividido las tareas en dos personas por tarea, a mi me ha tocado con alberto, por lo que los otros dos eran Miguel y Jose que han estado haciendo VPN y comprobando si fuincionaban, por otra parte Alberto y yo nos hemos dedicado a hacer el dominio y unir todos los clientes a ellos, estamos aún uniendo clientes ya que no nos ha dado tiempo a terminarlo, pero el dominio ya esta creado, también hemos cambiado las IP de los servidores y las hemos puesto manuales. 
