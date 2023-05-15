@@ -11,6 +11,46 @@
 
 ---
 
+# DIA 15 [15-05-23]
+
+**OBJETIVO DEL DIA**
+
+El objetivo del día de hoy ha sido comprobar que el script funciona en el entorno (no ha funcionado como esperábamos), conseguir hacer funcionar el DHCP del mikrotik y el bouning entre este y el tp-link. También ponerle direccionamiento a los servidores virtualizados e instalar el active directory al servidor principal de ADDC.
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), _
+  - MIGUEL GARCÍA MIRÓ: _Probar el script mejorado,Hemos configurado también bounding en el switch de cisco, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
+  - JOSE IVAN OLCINA: _Bounding entre TP-LINK y MIKROTIK, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), Direccionamiento de los servidores_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)
+- Bounding entre TP-LINK y MIKROTIK
+- Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.)
+- Hemos configurado también bounding en el switch de cisco
+- Probar el script mejorado
+- Direccionamiento de los servidores
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- No hemos podido acabar de crear los DHCP para todos los clientse
+- El script no ha funcionado como esperábamos (esta tarde, cuando estoy escribiendo esto, ya está solucionado aparentemente ~kr0nosKM)
+- No hemos podido acabar de direccionar todos los servidores virtuales.
+
+**TAREAS:**
+
+- VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)
+- Bounding entre TP-LINK y MIKROTIK
+- Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.)
+- Hemos configurado también bounding en el switch de cisco
+- Probar el script mejorado
+- Direccionamiento de los servidores
+
+---
+
 # DIA 14 [12-05-23]
 
 **OBJETIVO DEL DIA**
