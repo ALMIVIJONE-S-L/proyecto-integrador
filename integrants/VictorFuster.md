@@ -41,3 +41,6 @@
  
  ### 15-05-2023  
  En el dia de hoy hemos ido en las horas de Pep, para el dia de hoy nos hemos dividido las tareas en dos personas por tarea, a mi me ha tocado con alberto, por lo que los otros dos eran Miguel y Jose que han estado haciendo VPN y comprobando si fuincionaban, por otra parte Alberto y yo nos hemos dedicado a hacer el dominio y unir todos los clientes a ellos, estamos aún uniendo clientes ya que no nos ha dado tiempo a terminarlo, pero el dominio ya esta creado, también hemos cambiado las IP de los servidores y las hemos puesto manuales. 
+ 
+ ### 16-05-2023  
+ En el dia de hoy hemos ido en las horas de Pep y de Juan, Alberto y Yo hemos continuado con el cambio de las IP a los servers, hoy hemos tenido problemas con el virtualbox porque al arrancar una maquina nos salia un error, dicho error era el 1908, hemos encontrado el error y hemos podido solucionarlo ya que era por no tener un driver actualizado, pero hemos actualizado el virtualbox y hemos podido solucionar el problema y hemos podido cambiar todas las IP de los servers.Por otra parte Jose Y Miguel seguian liados con las VPN. 
