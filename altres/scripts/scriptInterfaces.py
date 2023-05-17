@@ -62,30 +62,34 @@ if os.path.exists(nombreFicheroCSV):
                     continue
 
                 macInterfazCSV = linea["DIRECCIÓN MAC"]
-        
-                for interfaz in range(nInterfaces):
-                    mac = (ifDic[interfaz])["address"]
-                    nombreInterfazSYS = (ifDic[interfaz])["ifname"]
             except:
                 print("[ERROR]: El fichero no está correctamente formateado, recuerda únicamente 2 columnas: 'ALIAS INTERFAZ' y 'DIRECCIÓN MAC'")
                 exit()
+            for interfaz in range(nInterfaces):
+                #print(interfaz)
+                mac = (ifDic[interfaz])["address"]
+                nombreInterfazSYS = (ifDic[interfaz])["ifname"]
+                #print(nombreInterfazSYS," ",mac)
 
-            if mac == macInterfazCSV and nombreInterfazSYS != nombreInterfazCSV:
-                cmdApagarInterfaz = f"ip link set {nombreInterfazSYS} down"
-                cmdCambiarNombre = f"ip link set {nombreInterfazSYS} name {nombreInterfazCSV}"
-                cmdEncenderInterfaz = f"ip link set {nombreInterfazCSV} up"
+                #print("ints?")
+                print(macInterfazCSV,"+",mac)
+                if mac == macInterfazCSV and nombreInterfazSYS != nombreInterfazCSV:
+                    cmdApagarInterfaz = f"ip link set {nombreInterfazSYS} down"
+                    cmdCambiarNombre = f"ip link set {nombreInterfazSYS} name {nombreInterfazCSV}"
+                    cmdEncenderInterfaz = f"ip link set {nombreInterfazCSV} up"
 
-                os.system(cmdApagarInterfaz)
-                os.system(cmdCambiarNombre)
-                #os.system(cmdEncenderInterfaz) No se levanta si lo dejo aquí, así que hay que crear una nueva sentencia en crontab
-                print(nombreInterfazCSV)
-
-                cronIfUp = f'* * * * * root ip link set {nombreInterfazCSV} up'
-                existeIfUp = os.system(f"grep -w '{cronIfUp}' /etc/crontab >-")
-                if existeIfUp != 0:
-                    os.system(f"echo '{cronIfUp}' >> /etc/crontab")
-                print("[Éxito!]: Nombre cambiado con éxito.")
-        
+                    os.system(cmdApagarInterfaz)
+                    os.system(cmdCambiarNombre)
+                    #os.system(cmdEncenderInterfaz) No se levanta si lo dejo aquí, así que hay que crear una nueva sentencia en crontab
+                    print(nombreInterfazCSV)
+##################
+                if mac == macInterfazCSV:
+                    cronIfUp = f'* * * * * root ip link set {nombreInterfazCSV} up'
+                    existeIfUp = os.system(f"grep -w '{cronIfUp}' /etc/crontab >-")
+                    if existeIfUp != 0:
+                        os.system(f"echo '{cronIfUp}' >> /etc/crontab")
+                    print("[Éxito!]: Nombre cambiado con éxito.")
+###################
 
 
         # CREAR UN DIRECTORIO /SCRIPTS EN ROOT CON PERMISOS ADECUADOS PARA PODER EJECUTARLO (os.mkdir,os.W_OK...)
@@ -142,7 +146,7 @@ if os.path.exists(nombreFicheroCSV):
         dondePy3 = 'python3' # Considerando que tenemos python3 instalado en la ruta por defecto, si se quiere automatizar mejorar las líneas de arriba (porque se repite.)
 
         cmdEjecucionScript = f"{dondePy3} {ruta}/{os.path.basename(__file__)} {ruta}/{os.path.basename(nombreFicheroCSV)}"
-        cronInstruccion = f"* * * * * root {cmdEjecucionScript}" #Cada minuto comprobará si está encendida, si se pone @reboot no se enciende por problemas con otros programas probablemente
+        cronInstruccion = f"* * * * * root {cmdEjecucionScript}"
         existeLaLineaEnCrontab = os.system(f"grep -w '{cronInstruccion}' /etc/crontab >-")
         
         if existeLaLineaEnCrontab != 0:
