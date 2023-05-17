@@ -16,6 +16,7 @@
 **INSTALACIÓN**
 
 - `wget https://dev.mysql.com/get/mysql-apt-config_0.8.25-1_all.deb`
+- `dpkg -i mysql-apt-config_0.8.25-1_all.deb`
 - `apt install mysql-server -y`
 - `systemctl enable mysql`
 - `apt install zabbix-server-mysql zabbix-frontend-php zabbix-agent -y`
