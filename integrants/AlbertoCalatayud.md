@@ -31,6 +31,12 @@
 - 15
     - Hoy hemos tenido 3 horas y las hemos utilizado Victor y yo para establecer las IP's estáticas a los servidores, crear el dominio e intentar unir los demas servidores al dominio, aun que hemos tenido bastantes problemas al unir el resto de los servidores al dominio ya que no iba y nos quedan configurar algún servidor más.
 
+- 16
+    - Hoy hemos tenido algún problema con las IP's y con el virtual box del DELL3 ya que nos daba un error 83, al final Victor y yo lo hemos solucionado y hemos puesto las IP's necesarias.
+
+- 17
+    - En el día de hoy hemos instalado el FreeNAS y configurado la IP.
+
 
 
 
