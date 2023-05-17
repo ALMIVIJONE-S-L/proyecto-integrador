@@ -51,7 +51,7 @@ mysql> quit;
 
 > Posible problema con el lenguaje:
 >  
->  **Solución**: dpkg-reconfigure locales
+>  **Solución**: dpkg-reconfigure locales y elegir el idioma
 
 https://www.zabbix.com/download?zabbix=6.0&os_distribution=debian&os_version=11&components=server_frontend_agent&db=mysql&ws=apache
 
