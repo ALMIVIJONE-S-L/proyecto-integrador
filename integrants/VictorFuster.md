@@ -44,3 +44,6 @@
  
  ### 16-05-2023  
  En el dia de hoy hemos ido en las horas de Pep y de Juan, Alberto y Yo hemos continuado con el cambio de las IP a los servers, hoy hemos tenido problemas con el virtualbox porque al arrancar una maquina nos salia un error, dicho error era el 1908, hemos encontrado el error y hemos podido solucionarlo ya que era por no tener un driver actualizado, pero hemos actualizado el virtualbox y hemos podido solucionar el problema y hemos podido cambiar todas las IP de los servers.Por otra parte Jose Y Miguel seguian liados con las VPN. 
+
+ ### 17-05-2023  
+ En el dia de hoy hemos ido en las horas de Raúl, Alberto y Yo hemos continuado con el cambio de las IP a los servers, nos quedaba el del FREE NAS que hoy lo hemos instalado y le hemos puesto la IP mientras que Miguel y Jose ya tienen casi acabado las VPN del cisco y de los demas switches.
