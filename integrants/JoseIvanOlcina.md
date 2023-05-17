@@ -1,5 +1,13 @@
 # Bitácora Jose Ivan Olcina
 
+## 17-05-2023
+
+Hoy por fin hemos logrado el *propósito del dia 16* (Comunicar vlan de switch cisco con MikroTik a través de el switch Cico), el probelma errdicava en la configuración de el switch **TP-LINK**, que no dejaba pasar el tráfico de las VLANs provenientes de el swtich **Cisco**.
+
+## 16-05-2023
+
+El objetivo de hoy era logar hacer que las VLAN de el switch Cisco, leggaran al MikroTik a través de el switch TP-LINK, pero por desgracia no hemos logrado avergiurar nada.
+
 ## 15-05-2023
 
 En el día de hoy, hemos estado Miguel y yo tratnado de averguiar los que nos dejamos a medias el viernes (Tema MiktoTik) y hemos conseguido que nos funcionen bien las VLANs, cambiando y añadiendo ciertos parámetros que estaban por configurar en el switch TP-Link y en el MikroTik, con ello, de momento, hemos logrado hacer funcionar dos VLANs (20-SysAdmin y 40-AccesPoint), queda pendiente por terminar las demás VLAN, posteriormente Miguel ya se centró en el switch Cisco en los últimos compases de clase.
