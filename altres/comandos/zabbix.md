@@ -39,5 +39,21 @@ mysql> quit;
   - -p: indicar que queremos promptear la password
   - zabbix: es la base de datos
 
+**CONFIGURACIÓN WEB**
+- Siguiente.
+- Poner la contraseña.
+- Siguiente...
+
+**INICIO SESIÓN**
+- Default: 
+  - usr: Admin
+  - pwd: zabbix
+
+> Posible problema con el lenguaje:
+> **Solución**: dpkg-reconfigure locales
+
 https://www.zabbix.com/download?zabbix=6.0&os_distribution=debian&os_version=11&components=server_frontend_agent&db=mysql&ws=apache
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04
+
+https://www.zabbix.com/forum/zabbix-troubleshooting-and-problems/427991-zabbix-giu-broken-no-languages-and-web-interface-errors
