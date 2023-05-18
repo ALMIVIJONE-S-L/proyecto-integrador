@@ -39,6 +39,12 @@ mysql> quit;
   - -p: indicar que queremos promptear la password
   - zabbix: es la base de datos
 
+**REINICIAR Y RECARGAR CONFIGURACIONES**
+- `dpkg-reconfigure locales` _Reconfigurar los archivos de idioma_
+- `systemctl reload apache2`
+- `systemctl enable zabbix-server.service zabbix-agent.service apache2` _habilitarlo para que inicien automáticamente_
+- `systemctl restart zabbix-server.service zabbix-agent.service apache2`
+
 **CONFIGURACIÓN WEB**
 - Siguiente.
 - Poner la contraseña.
