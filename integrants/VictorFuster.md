@@ -47,3 +47,9 @@
 
  ### 17-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, Alberto y Yo hemos continuado con el cambio de las IP a los servers, nos quedaba el del FREE NAS que hoy lo hemos instalado y le hemos puesto la IP mientras que Miguel y Jose ya tienen casi acabado las VPN del cisco y de los demas switches.
+ 
+### 18-05-2023  
+ En el dia de hoy hemos ido en las horas de Raúl,yo me he puesto con la instalación de zabbix en el servidor de monitorización, en el que he tenido algún problema que otro mientras lo hacia, así que no lo he podido terminar, para ello he estado investigando y mañana volveré a probar porque he visto cual puede ser el error.
+
+### 19-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan, nada mas llegar me he puesto con la instalación de zabbix en el servidor,hoy he borrado todo lo que habia anteriormente en el sistema para que no diera error y me he puesto a instalarlo, esta vez todo ha funcionado correctamente por lo que zabbix está instalado en el servidor, despúes de ello me he dedicado a isntalar en todos los clientes la versión cliente de zabbix para poder monitorizarlo y poder controlarlo desde los clientes, pero también he tenido en algúno fallos y por lo tanto no he podido acabar esa parte pero la tendré para el próximo día.
