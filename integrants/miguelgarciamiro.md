@@ -1,8 +1,8 @@
 (poner formato)
 
-dia 19: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell, 
+dia 19-05: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell. He conseguido acabar de configurar el SSH del switch de cisco (el problema estaba en que le faltaba poner tagged en la vlan 20 del puerto (del tplink) donde se conecta el cisco, para que el usuario admin pueda conectarse y habilitar la vlan 20 en el trunk del cisco. También hemos acabado de hacer funcionar zabbix (únicamente acabé de hacer el manual anoche, y hoy lo hemos implementado, todo ha funcionado como se esperaba). Al final me he quedado intentando establecer una conexińo entre el mikrotik y el servidor TrueNAS. Hemos también solucionado un problema en la red en el ordenador del syssadmin
 
-día 18: hoy he crimpado y buscado por las cajas de cables algunos latiguillos que necesitábamos para la conexión de los servidores en el patch panel al cisco. También he empezado a establecer SSH en el switch Cisco ( no he acabado). A oche prepare un pequeño manual para instalar zabbix,el cual probé en una máquina virtual, pero no hoy al probarlo Víctor no le ha funcionado, así que tendré que revisarlo.
+día 18-05: hoy he crimpado y buscado por las cajas de cables algunos latiguillos que necesitábamos para la conexión de los servidores en el patch panel al cisco. También he empezado a establecer SSH en el switch Cisco ( no he acabado). A oche prepare un pequeño manual para instalar zabbix,el cual probé en una máquina virtual, pero no hoy al probarlo Víctor no le ha funcionado, así que tendré que revisarlo.
 
 También he reorganizado los cables del patch panel. 
 
