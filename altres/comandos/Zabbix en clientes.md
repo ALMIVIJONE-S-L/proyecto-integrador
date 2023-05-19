@@ -2,7 +2,7 @@
 
 ## DESCARGA
 
-- `Descargamos el instalador desde este enlace.
+- Descargamos el instalador desde este enlace.
 
 https://www.zabbix.com/download_agents#tab:44
 
