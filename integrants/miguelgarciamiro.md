@@ -1,12 +1,25 @@
 (poner formato)
 
-dia 19-05: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell. He conseguido acabar de configurar el SSH del switch de cisco (el problema estaba en que le faltaba poner tagged en la vlan 20 del puerto (del tplink) donde se conecta el cisco, para que el usuario admin pueda conectarse y habilitar la vlan 20 en el trunk del cisco. También hemos acabado de hacer funcionar zabbix (únicamente acabé de hacer el manual anoche, y hoy lo hemos implementado, todo ha funcionado como se esperaba). Al final me he quedado intentando establecer una conexińo entre el mikrotik y el servidor TrueNAS. Hemos también solucionado un problema en la red en el ordenador del syssadmin
+dia 19-05: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell. He conseguido acabar de configurar el SSH del switch de cisco (el problema estaba en que le faltaba poner tagged en la vlan 20 del puerto (del tplink) donde se conecta el cisco, para que el usuario admin pueda conectarse y habilitar la vlan 20 en el trunk del cisco. También hemos acabado de hacer funcionar zabbix (únicamente acabé de hacer el manual anoche, y hoy lo hemos implementado, todo ha funcionado como se esperaba). Al final me he quedado intentando establecer una conexińo entre el mikrotik y el servidor TrueNAS. Hemos también solucionado un problema en la red en el ordenador del syssadmin. También he ayudado en solucionar el error del sid del windows server. Cambiar 2 puertos de valn 
 
 día 18-05: hoy he crimpado y buscado por las cajas de cables algunos latiguillos que necesitábamos para la conexión de los servidores en el patch panel al cisco. También he empezado a establecer SSH en el switch Cisco ( no he acabado). A oche prepare un pequeño manual para instalar zabbix,el cual probé en una máquina virtual, pero no hoy al probarlo Víctor no le ha funcionado, así que tendré que revisarlo.
-
 También he reorganizado los cables del patch panel. 
-
 faltaría cambiar un cable de lugar en el switch Cisco y poner correctamente la vlan de administración del sistema.
+
+dia 17-05:
+Solucionar problemas entre la conexión del switch cisco al mikrotik. Pensar y modificar cables en el rack (ya que esta muy desordenado, y cada dia voy modificando algo nuevo hasta dejar algo más profesional todas las conexiones, esto también involucra configuración en switches y router.)
+
+dia 16-05:
+Hemos acabado de configurar el DHCP para todos los clientes, hemos tenido más problemas con el script (esta tarde, cuando estoy escribiendo esto, ya está solucionado aparentemente). Pensar y modificar cables en el rack (ya que esta muy desordenado, y cada dia voy modificando algo nuevo hasta dejar algo más profesional todas las conexiones, esto también involucra configuración en switches y router.)
+
+dia 15-05:
+Probar el script mejorado,Hemos configurado también bounding en el switch de cisco, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)
+
+dia 12-05:
+Implementación del script en casi todos los servidores. mikrotik (dhcp), Pensar y modificar cables en el rack (ya que esta muy desordenado, y cada dia voy modificando algo nuevo hasta dejar algo más profesional, en este caso he organizaod bastante todas las conexiones, esto también involucra configuración en switches y router.)
+
+dia 11-05:
+Añadir configuraciones al mikrotik, reorganizar todos los cables de la parte inferior del rack para poder tenerlo todo mucho más organizado para que sea más fácil de operar. (Por la noche me puse a crear el script para tenerlo al día siguiente operativo.
 
 ...
 
