@@ -1,5 +1,7 @@
 (poner formato)
 
+dia 19: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell, 
+
 día 18: hoy he crimpado y buscado por las cajas de cables algunos latiguillos que necesitábamos para la conexión de los servidores en el patch panel al cisco. También he empezado a establecer SSH en el switch Cisco ( no he acabado). A oche prepare un pequeño manual para instalar zabbix,el cual probé en una máquina virtual, pero no hoy al probarlo Víctor no le ha funcionado, así que tendré que revisarlo.
 
 También he reorganizado los cables del patch panel. 
