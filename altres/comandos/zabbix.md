@@ -64,3 +64,7 @@ https://www.zabbix.com/download?zabbix=6.0&os_distribution=debian&os_version=11&
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-18-04
 
 https://www.zabbix.com/forum/zabbix-troubleshooting-and-problems/427991-zabbix-giu-broken-no-languages-and-web-interface-errors
+
+## INFORMACIÓN POST INSTALACIÓN
+- Cuando se añade un host, en `host name` hay que poner el nombre de host del ordeandor actual
+- En interfaces, al añadir, se puede poner el protocolo por el que se quiere conectar con el agent.
