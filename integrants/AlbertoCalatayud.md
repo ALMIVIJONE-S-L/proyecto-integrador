@@ -37,7 +37,11 @@
 - 17
     - En el día de hoy hemos instalado el FreeNAS y configurado la IP.
 
+- 18 
+    - Hoy Jose y yo hemos intentado hacer que el segundo servidor de empresa este como en segundo servidor y conectado con el primero, pero nos ha salido diferentes fallos de sid.
 
+- 19
+    - En el dia de hoy Jose y yo nos hemos estado peleando con el fallo de sid, alfinal lo hemos arreglado y ya lo hemos conseguido poner como el segundo servidor.
 
 
 
