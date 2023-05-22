@@ -53,3 +53,6 @@
 
 ### 19-05-2023  
  En el dia de hoy hemos ido en las horas de Juan, nada mas llegar me he puesto con la instalación de zabbix en el servidor,hoy he borrado todo lo que habia anteriormente en el sistema para que no diera error y me he puesto a instalarlo, esta vez todo ha funcionado correctamente por lo que zabbix está instalado en el servidor, despúes de ello me he dedicado a isntalar en todos los clientes la versión cliente de zabbix para poder monitorizarlo y poder controlarlo desde los clientes, pero también he tenido en algúno fallos y por lo tanto no he podido acabar esa parte pero la tendré para el próximo día.
+
+### 22-05-2023  
+ En el dia de hoy hemos ido en las horas de Pep, hoy Miguel se ha puesto con un problema que hemos tenido en la red y al final lo ha solucionado, Alberto y Jose estaban con la instalación del VirtualBox en los clientes para virtualizar varias maquinas y creo que también han tenido problemas. Yo me he puesto con la configuración del zabbix pero como he tenido un momento que no conseguia hacer bien las cosas he decidido ponerme con las IP de los clientes y sus MAC, que ya están todas apuntadas en el drive para tenerlo todo controlado. El zabbix en el próximo día lo acabaré para poder dejarlo también configurado y funcionando.
