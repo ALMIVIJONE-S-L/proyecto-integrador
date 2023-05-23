@@ -1,5 +1,21 @@
 # Bitácora Jose Ivan Olcina
 
+## 23-05-2023
+
+Hoy, solo he estado 1 hora, ya que me he tenido que ir al médico, pero el tiempo que he tenido, lo he aprovechado para unir los cliente que quedavan al dominio y comprobar que si habian unido correctamente y todo iba sin problemas mayores.
+
+## 22-05-2023
+
+Hoy, me he dedicado a terimnar de configurar el WAC desde el que ya podemos gestionar remotamente los servidores Empresariales (AD), luego, he empezado a unidor ciertos clietnes al dominio, y en los PC-3 y PC-4, Alberto y yo hemos procedido a instalar VirtualBox, ya que en esos PC, tenemos virtualizados dos departamentos en cada uno, posteriomente, he creado las máquina virtuales (Dept. Técino y Dept. Laboratorio) y las he dejado insatlandose.
+
+## 19-05-2023
+
+Hoy ha sido un día un poco frustrante, pero antes que nada, comentar que el tema de el servidor Empresarial Secundario, Miguel propuso un solución alternativa que funcionó sin necesidad de reinstalar el SO, pero tocó volver a configurar su nombre y la red el el mismo, todo ello, dinalmente, con la ayuda de Alberto, conseguí unir el servidor Empresarial Secundario al dominio cono controlador de el mismo, de forma que si el servidor Empresarial Principal cae, el secundario asumiría el rol de gestionar el Dominio y el AD, por otro lado, hemos tenido un problema bastante frustrante con el PC-5 (sysadmin) ya que sin razón aparente, no le funcoinaba la conexión de red, al final el problema estaba en que el *patch cord* que iba desde el *patch panel* al switch TP-LINK esta roto o defectuoso, ya que parecía que alguien lo había pisado o algo, y el conetor RJ-45 tenía los pines dañados, hemos substituido el cable y el probelma se ha subsanado.
+
+## 18-05-2023
+
+Hoy me he dedicado a hacer fucnoinar las herrmientas RSAT y WAC para gestionar el servidor empresarias desde el ordenadors sysadmin, han habido algunas complicaciones (por ejemplo a la hora de comunicarse no detectaba el DNS), pero no ha pasado a mayores. Por otro lado, luego me he puesto junto con Alberto a configurar correctametne el servidor Empresarial Secundario, pero no hemos logrado hacerlo funcionar, ya que al ser un SO cloando, detectaba que tenía un SID duplicado igual al de el servidor Empresarial Principal, no hemos podido terminar de solucionarlo, pero la intención de mañana es volver a instlarlo desde 0.
+
 ## 17-05-2023
 
 Hoy por fin hemos logrado el *propósito del dia 16* (Comunicar vlan de switch cisco con MikroTik a través de el switch Cico), el probelma errdicava en la configuración de el switch **TP-LINK**, que no dejaba pasar el tráfico de las VLANs provenientes de el swtich **Cisco**.
