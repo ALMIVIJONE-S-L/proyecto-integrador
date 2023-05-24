@@ -5,7 +5,6 @@
   - [ALBERTO CALATAYUD CASTAÑER](integrants/AlbertoCalatayud.md)
   - [MIGUEL GARCÍA MIRÓ](integrants/miguelgarciamiro.md)
   - [JOSE IVAN OLCINA](integrants/JoseIvanOlcina.md)
-  - [NEUS HERNÁNDEZ PASCUAL](integrants/NeusHernandez.md)
   - [VICTOR FUSTER RICO](integrants/VictorFuster.md)
 - **BITACORES**:
   - [MAIG](bitacores/maig.md)
