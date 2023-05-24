@@ -57,5 +57,8 @@
 ### 22-05-2023  
  En el dia de hoy hemos ido en las horas de Pep, hoy Miguel se ha puesto con un problema que hemos tenido en la red y al final lo ha solucionado, Alberto y Jose estaban con la instalación del VirtualBox en los clientes para virtualizar varias maquinas y creo que también han tenido problemas. Yo me he puesto con la configuración del zabbix pero como he tenido un momento que no conseguia hacer bien las cosas he decidido ponerme con las IP de los clientes y sus MAC, que ya están todas apuntadas en el drive para tenerlo todo controlado. El zabbix en el próximo día lo acabaré para poder dejarlo también configurado y funcionando.
  
- ### 23-05-2023  
+### 23-05-2023  
  En el dia de hoy hemos ido en las horas de Pep y de Juan, hoy Miguel se ha puesto con un problema que hemos tenido en la red pero no ha podido solucionarlo ya que nadie sabe tampoco porque nos pasa ese problema, Alberto y Yo nos hemos puesto con la configuración del punto wifi, hemos tenido algúnos problemas pero en la próxima clase lo tendremos acabado, también me he puesto con el zabbix y su configuración para monitorizar los servers...
+ 
+### 24-05-2023  
+ En el dia de hoy hemos ido en las horas de Raúl, hoy Miguel ha continuado solucionando el problema que hemos tenido en la red ya ques estaba Raúl con nosotros pero no ha podido solucionarlo, Alberto y Jose se han puesto con los servicios virtualizados, yo sin embargo me he puesto con el zabbix ya que ahora nos hemos dado cuenta que tenía que estar instalado en los servidores, por lo que todo el trabajo hecho anteriormente nos toca desacerlo, hoy hemos terminado antes porque a las 12 han cortado la luz del instituto y no hemos podido tener todo el tiempo que duraba la clase.
