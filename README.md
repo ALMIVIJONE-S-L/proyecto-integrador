@@ -23,7 +23,7 @@
 
 ---
 
-[**DIRECCIONAMIENTO IP | GOOGLE SHEETS**](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
+[**DIRECCIONAMIENTO IP**](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
 
 ---
 
