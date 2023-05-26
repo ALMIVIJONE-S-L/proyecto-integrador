@@ -80,8 +80,8 @@
 
 ### PERIFÉRICOS
 
-- MONITORES
-  - **2x**:
+- MONITORES 
+  - **2x**: _(Actualmente 4)_
     - **MARCA**: ` Lenovo ThinkCentre M73`
     - **MODELO**: `ThinkCentre M73`
    
@@ -90,7 +90,7 @@
     - **MODELO**: `ALDA CE H110M (B360G)`
                              
 - TECLADOS
-  - **2x**:
+  - **2x**: _(Actualmente 5 de diferentes marcas, igual que los ratones)_
     - **MARCA**: ` Lenovo ThinkCentre M73`
     - **MODELO**: `ThinkCentre M73`
 
