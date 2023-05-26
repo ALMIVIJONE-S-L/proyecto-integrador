@@ -18,8 +18,8 @@
     - **MODELO**: `D115`
     - **CÓDIGO DE CONSELLERÍA**: `ORJ3`
     - **CARACTERÍSTICAS TÉCNICAS**
-      - CPU: 
-      - ... 
+      - CPU: 6/6
+      - RAM: 16GB
 
 ### CLIENTES
 
@@ -50,38 +50,31 @@
     - **PUERTOS**: `4 FastEthernet`
 
 - SWITCH 1
-    - **MARCA**: `DLINK`
-    - **MODELO**: `DES-3526`
-    - **CARACTERÍSTICAS TÉCNICAS**
-      - Puertos Ethernet: 26
-        - 24 puertos 10/100Mbps
-        - 2 puetos Gigabit Ethernet tipo COMBO
-        - Stack virtuales de hasta 32U
-
-- SWITCH 2
     - **MARCA**: `Longshine`
     - **MODELO**: `LCS-FS9124-B`
     - **CARACTERÍSTICAS TÉCNICAS**
       - Puertos Ethernet: 24
         - 24 puertos 10/100Mbps
 
-- SWITCH 3
+- SWITCH 2
     - **MARCA**: `TP-LINK`
     - **MODELO**: **`T1600G-28TS`**
     - **PUERTOS**: 24 GigabitEthernet
 
-- SWITCH 4
+- SWITCH 3
     - **MARCA**: `CISCO`
     - **MODELO**: **`CATALYST 3750-E`**
     - **PUERTOS**:
         - 2x  10 Gbps 		Puertos para fibra
         - 24x 10/100/1000 Mbps 	GigabitEthernet
  
- 
-- SWITCH 5
+- SWITCH 4
     - **MARCA**: `TP-LINK`
     - **MODELO**: **`TL-SG2008`**
     - **PUERTOS**: 8 GigabitEthernet
+
+- Punto de acceso wifi
+    - **MARCA**: `TP-LINK`
 
 - 1x PATCH PANEL CAT.5e
 
@@ -114,22 +107,24 @@
     - **ALARMAS** Salida modo batería Alarma acústica cada 10 segundos
     - **COMUNICACIÓN** Puerto USB
     - **GENERALES** Altitud máxima 2400 m.s.n.m.
-    - **NORMATIVA** Seguridad EN-62040-1-1; EN-60950-1 
-    
+    - **NORMATIVA** Seguridad EN-62040-1-1; EN-60950-1
     
 ## CABLEADO
 
 ### CABLES
 
   - **1x**:
-    - Caja de latiguillos / +8
+    - Caja de latiguillos / +8 (Actualmente esto ha cambiado, ya que la mitad no funcionaban)
   - **3x**:
-    - Cable alimentación (incluido el del mikrotic)
+    - Cable alimentación del mikrotic
+    - Cable alimentación del punto de acceso wifi
+    - Cable alimentación del switch TP-LINK de 8 puertos
+    - Cables de alimentación varios para poder alimentar todos los switches, servidores, etc.
   - **1x**:
     - Serial -> USB
   - **1x**:
     - Cisco Serial -> ethernet    
-  - **3x**:
+  - **?x**: _Al principio teniamos 3, pero por falta de estas va rotando por grupos dependiendo de las necesidades_
     - HDMI -> VGA
   - **3x**
     - VGA
@@ -139,6 +134,8 @@
     - RJ-45  -> VGA
 
 ### REGLETAS
-- **2x**:
-    - MODELO
-    - 5 ENCHUFES 
+- **Regleta linear -> 2x**:
+    - 5 ENCHUFES
+    - Palanca de apagado
+- **Regleta extensora -> 1x**:
+    - 4 Enchufes
