@@ -2,11 +2,11 @@
 
 ## INDICE
 
-1. [INTRO](#introducción)
-2. [MATERIAL DISPONIBLE](#material-disponible)
-3. [MODULO DE FH](#modulo-de-fundamentos-de-hardware)
-  1. [CPD](#cpd)
-  2. [SAI](#sai)
+- [INTRO](#introducción)
+- [MATERIAL DISPONIBLE](#material-disponible)
+- [MODULO DE FH](#modulo-de-fundamentos-de-hardware)
+  - [CPD](#cpd)
+  - [SAI](#sai)
 
 ## INTRODUCCIÓN
 
