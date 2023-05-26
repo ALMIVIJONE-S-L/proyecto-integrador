@@ -1,5 +1,7 @@
 (poner formato)
 
+26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta.
+
 25-05: Hoy he conseguido solucionar uno de los problemas que hacía no funcionar correctamente al bounding. Este problema es que había un latiguillo que no hacía pasar nada de electricidad, así que lo he sustituido y el bounding ha empezado a funcionar. Después hemos descubierto que depende de como se coloque el cable del sysadmin (del puerto patch panel) al switch funciona o no la conexión, por lo visto el crimpado del patchpanel esta estropeado, pero eso el dia siguiente tendré que ocuparme de solucionarlo.
 
 24-05: Hoy no hemos tenido mucho tiempo (~1h) para estar en el taller, en este tiempo he estado intentando solucionar el mismo problema en la red que el de dias anteriores. En este caso, he actualizado el firmware del dispositivo mikrotik y ahora queda hacer pruebas para ver si funciona, ya que por lo visto, es un bug. Mañana en el taller veremos si ha funcionado. De todas formas, ahora el mikrotik ha dejado de enviar peticiones con la ip 129.0.0.VLAN así que un problema ha sido solucionado.
