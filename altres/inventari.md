@@ -134,7 +134,7 @@
     - RJ-45  -> VGA
 
 ### REGLETAS
-- **Regleta linear -> 2x**:
+- **Regleta lineal -> 2x**:
     - 5 ENCHUFES
     - Palanca de apagado
 - **Regleta extensora -> 1x**:
