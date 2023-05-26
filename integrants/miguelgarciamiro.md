@@ -1,6 +1,10 @@
 (poner formato)
 
-26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta.
+26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta. He arreglado todos los problemas de red que aparentemente eran los causantes de errores de conexión del sysadmin: volver a crimpar una roseta que usamos al principio como extensor, porque el pin 5 fallaba (pero cuando lo montamos, funcionaba perfectamente), también he ido comprobando los latiguillos implicados por si acaso.
+También he solucionado un problema del servidor de monitorización.
+También he añadido al servidor zabbix el switch tplink y el router mikrotik (a falta del de cisco y los servidores, pero estos se está ocupando Víctor)
+También he añadido en el DNS del dominio principal un host para el zabbix
+también he ayudado a enviar el .exe del agente de zabbix al servidor datos, pero nos hemos quedado por ahí.
 
 25-05: Hoy he conseguido solucionar uno de los problemas que hacía no funcionar correctamente al bounding. Este problema es que había un latiguillo que no hacía pasar nada de electricidad, así que lo he sustituido y el bounding ha empezado a funcionar. Después hemos descubierto que depende de como se coloque el cable del sysadmin (del puerto patch panel) al switch funciona o no la conexión, por lo visto el crimpado del patchpanel esta estropeado, pero eso el dia siguiente tendré que ocuparme de solucionarlo.
 
