@@ -65,3 +65,6 @@
 
 ### 25-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, hoy Miguel ha continuado solucionando el problema que hemos tenido en la red ya que estaba Raúl con nosotros, en principio parecia ser problema del microtick pero al final hemos cambiado un cable y parecía haberse solucionado, pero no ha podido ser así por lo que estamos igual, Alberto y Jose se han puesto con los servicios virtualizados, yo sin embargo me he puesto con el zabbix ya que ahora nos hemos dado cuenta que tenía que estar instalado en los servidores pero como estamos sin internet no hemos podido avanzar mucho.
+
+### 26-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan, hoy Miguel me ha pedido ayuda para solucionar el problema con la red, le he ayudado y por suerte parece que de momento aunque no esta reparado del todo porque falla en algunos momentos, parece ser que esta casi arreglado o por lo menos podemos trabajar y adelantar un poco mas que antes, hoy he instalado zabbix en los servidores pero no me ha dado tiempo a todos, así que la próxima clase voy a ponerme con los que me faltan, Jose y Alberto estaban con el TrueNas, ya que lleba tiempo con la configuración...
