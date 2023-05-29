@@ -3,6 +3,7 @@
 ## INDICE
 - [Ejecutar MSIs en WCore](#ejecutar-msis)
 - [WServer se apaga solo](#windows-server-se-apaga-solo)
+- [Generar otro SID](#generar-otro-sid)
 
 ## EJECUTAR MSIs
 
@@ -34,3 +35,19 @@ Restart-Computer
 ```
 
 [Más Info](https://mulcas.com/windows-server-shuts-down-unexpectedly/)
+
+## GENERAR OTRO SID
+
+Este problema, en nuestro caso ha pasado en todos los servidores, porque como hice una imagen personalizada a partir de un único windows server, todos tienen el mismo SID (Security ID), así que para regenerarlo hay que usar el programa **sysprep** (system preparation), que también se puede usar por la línea de comandos (para tardar menos). En este caso añadiré alguna opción de mas, para que se reinicie cuando acaba y que no muestre información.
+Es imporante saber la SID del equipo actual, para saber si se ha cambado correctamente o no.
+
+```powershell
+# Saber la SID actual [nombreEquipo -> SID]
+get-ADComputer -Filter "*" | select-object name,sid
+
+# Cambiar la SID [RECORDATORIO: tabulador cuando pongas la ruta, para que se te autocomplete la variable de entorno y no de error]
+# Ruta alternativa: C:\windows\system32....\sysprep.exe
+$env:windir\system32\sysprep\sysprep.exe /generalize /oobe /quiet /reboot
+```
+
+[Más info](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/sysprep-command-line-options?view=windows-11)
