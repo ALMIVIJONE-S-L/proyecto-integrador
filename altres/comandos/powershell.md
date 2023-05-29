@@ -51,7 +51,7 @@ $env:windir\system32\sysprep\sysprep.exe /generalize /oobe /quiet /reboot
 ```
 ### EN EL CASO DE QUE SYSPREP DE ERROR
 
-**ACABAR!!!**
+**ACABAR!!!** (sigue dando el error) :(
 $RegistryPath = 'REGISTRY::HKLM\SOFTWARE\microsoft\windows nt\currentVersion\softwareProtectionPlatform'
 >> $Name         = 'SkipRearm'
 >> $Value        = '1'
