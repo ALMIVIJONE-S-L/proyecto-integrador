@@ -1,5 +1,10 @@
 (poner formato)
 
+29-05: Hoy he estado intentando solucionar los problemas de red que han aparecido, por lo visto el problema de red no lo resolví por completo el otro día.
+Hoy he descubierto algo importante, que es posible que sea el origen de todo este dolor de cabeza. Este problema es que en la tabla ARP del cliente windows la fila que relaciona la ip de la puerta de enlace y la mac desaparece y en algunos momentos dura poco más de 5 minutos y en otros dura segundos. Ahora toca saber porque pasa esto.
+Además de esto, he ejecutado (mediante un servidor local HTTP) el cliente zabbix (msi) en alguno de los servidores windows core.
+
+
 26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta. He arreglado todos los problemas de red que aparentemente eran los causantes de errores de conexión del sysadmin: volver a crimpar una roseta que usamos al principio como extensor, porque el pin 5 fallaba (pero cuando lo montamos, funcionaba perfectamente), también he ido comprobando los latiguillos implicados por si acaso.
 También he solucionado un problema del servidor de monitorización.
 También he añadido al servidor zabbix el switch tplink y el router mikrotik (a falta del de cisco y los servidores, pero estos se está ocupando Víctor)
