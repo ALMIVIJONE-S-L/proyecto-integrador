@@ -18,6 +18,7 @@
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
+      - [Resolucion de problemas y Comandos de POWERSHELL](altres/comandos/powershell.md)
     - [SCRIPTS](altres/scripts/scripts.md)
       - [Script Interfaces (PYTHON)](altres/scripts/scriptInterfaces.py)
 
