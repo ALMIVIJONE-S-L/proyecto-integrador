@@ -68,3 +68,6 @@
 
 ### 26-05-2023  
  En el dia de hoy hemos ido en las horas de Juan, hoy Miguel me ha pedido ayuda para solucionar el problema con la red, le he ayudado y por suerte parece que de momento aunque no esta reparado del todo porque falla en algunos momentos, parece ser que esta casi arreglado o por lo menos podemos trabajar y adelantar un poco mas que antes, hoy he instalado zabbix en los servidores pero no me ha dado tiempo a todos, así que la próxima clase voy a ponerme con los que me faltan, Jose y Alberto estaban con el TrueNas, ya que lleba tiempo con la configuración...
+
+### 29-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan y Pep, hoy al entrar nos hemos dado cuenta que el error de red continuava estando ahí, Miguel y Yo lo hemos vuelto a reparar como la otra vez para así poder trabajar, Alberto y Jose estaban con el TrueNas que parece estar ya casi terminado, después de reparar el problema de red me he puesto junto con la ayuda de Miguel a instalar el zabbix agente en los servidores Windows que son los que me quedaban, pero ha vuelto el problema de red y solo he podido hacer uno.
