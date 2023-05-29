@@ -49,5 +49,14 @@ get-ADComputer -Filter "*" | select-object name,sid
 # Ruta alternativa: C:\windows\system32....\sysprep.exe
 $env:windir\system32\sysprep\sysprep.exe /generalize /oobe /quiet /reboot
 ```
+### EN EL CASO DE QUE SYSPREP DE ERROR
+
+**ACABAR!!!**
+$RegistryPath = 'REGISTRY::HKLM\SOFTWARE\microsoft\windows nt\currentVersion\softwareProtectionPlatform'
+>> $Name         = 'SkipRearm'
+>> $Value        = '1'
+>> New-ItemProperty -Path $RegistryPath -Name $Name -Value $Value -PropertyType DWORD -Force
+https://www.pantallazos.es/2016/12/windows-7-reparar-rearmado-sysprep.html
+https://devblogs.microsoft.com/powershell-community/how-to-update-or-add-a-registry-key-value-with-powershell/
 
 [Más info](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/sysprep-command-line-options?view=windows-11)
