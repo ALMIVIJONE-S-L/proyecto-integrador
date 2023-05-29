@@ -1,5 +1,9 @@
 # COMANDOS Y RESOLUCIÓN DE PROBLEMAS EN POWERSHELL
 
+## INDICE
+- [Ejecutar MSIs en WCore](#ejecutar-msis)
+- [WServer se apaga solo](#windows-server-se-apaga-solo)
+
 ## EJECUTAR MSIs
 
 El siguiente comando lo que hace es ejecutar el .msi **sin mostrar la ventana**, así se puede ejecutar por powershell en los windows core (porque como se sabe, los windows core no tienen una interfaz gráfica como tal). Para ello se tiene que usar los argumentos /quiet y /passive
