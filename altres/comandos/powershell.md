@@ -54,7 +54,7 @@ $env:windir\system32\sysprep\sysprep.exe /generalize /oobe /quiet /reboot
 
 ### EN EL CASO DE QUE SYSPREP DE ERROR
 
-https://www.pantallazos.es/2016/12/windows-7-reparar-rearmado-sysprep.html
-https://devblogs.microsoft.com/powershell-community/how-to-update-or-add-a-registry-key-value-with-powershell/
+- https://www.pantallazos.es/2016/12/windows-7-reparar-rearmado-sysprep.html
+- https://devblogs.microsoft.com/powershell-community/how-to-update-or-add-a-registry-key-value-with-powershell/
 
 
