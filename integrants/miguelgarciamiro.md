@@ -1,9 +1,12 @@
 (poner formato)
 
+30-05: Hoy hemos seguido teniendo problemas de red, pero ya no ha pasado tan regularmente lo de la MAC del equipo sysadmin. Hemos podido solucionar otro problema de red entre el NAS y el servidor de Datos en la red interna (SAN) y no funcionaba el iSCSI, yo he ayudado en reparar ese problema. También hemos conectado el punto de acceso, yo he ayudado en indicar donde ponerlo. He puesto de forma provisional (y quizás definitiva, al menos en este curso) el DNS del centro además del de ADDC para los clientes que van por DHCP.  También he unido a zabbix el switch cisco. El dia anterior por la tarde preparé una serie de comandos para poder avanzar en resoluciones de problemas como por ejemplo el que se nos apagaba los servidores w22, SID, etc. Y hoy los hemos podido utilizar.
+
+Uno de los problemas que he tenido es que el agente zabbix de los servidores no funciona como esperábamos así que hay que ejecutarlo de otra forma. No hemos podido acabar de conectar el SAI a la red.
+
 29-05: Hoy he estado intentando solucionar los problemas de red que han aparecido, por lo visto el problema de red no lo resolví por completo el otro día.
 Hoy he descubierto algo importante, que es posible que sea el origen de todo este dolor de cabeza. Este problema es que en la tabla ARP del cliente windows la fila que relaciona la ip de la puerta de enlace y la mac desaparece y en algunos momentos dura poco más de 5 minutos y en otros dura segundos. Ahora toca saber porque pasa esto.
 Además de esto, he ejecutado (mediante un servidor local HTTP) el cliente zabbix (msi) en alguno de los servidores windows core.
-
 
 26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta. He arreglado todos los problemas de red que aparentemente eran los causantes de errores de conexión del sysadmin: volver a crimpar una roseta que usamos al principio como extensor, porque el pin 5 fallaba (pero cuando lo montamos, funcionaba perfectamente), también he ido comprobando los latiguillos implicados por si acaso.
 También he solucionado un problema del servidor de monitorización.
