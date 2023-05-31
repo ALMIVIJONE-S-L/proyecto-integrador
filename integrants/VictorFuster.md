@@ -71,3 +71,9 @@
 
 ### 29-05-2023  
  En el dia de hoy hemos ido en las horas de Juan y Pep, hoy al entrar nos hemos dado cuenta que el error de red continuava estando ahí, Miguel y Yo lo hemos vuelto a reparar como la otra vez para así poder trabajar, Alberto y Jose estaban con el TrueNas que parece estar ya casi terminado, después de reparar el problema de red me he puesto junto con la ayuda de Miguel a instalar el zabbix agente en los servidores Windows que son los que me quedaban, pero ha vuelto el problema de red y solo he podido hacer uno.
+
+### 30-05-2023  
+ En el dia de hoy hemos ido en las horas de Juan y Pep, hoy al entrar nos hemos dado cuenta que el error de red estaba reparado porque ya no teniamos el problema, Alberto y Jose estaban con el servidos de de datos y el TrueNas que al parecer han tenido algunos problemas, pero parece ser que esta todo solucionado, hoy me he puesto a instalar el zabbix agente en los servidores Windows que son los que me quedaban y me los he dejado terminados, después de eso me he puesto con el punto wifi que se ha quedado funcionando ya correctamente, por lo que tenemos otra cosa acabada, y me he puesto con el sai, pero con esto no me ha dado tiempo ya que era casi hora de acabar y me habia dado cuenta que me habia equivocado en un paso de la instalación.
+ 
+ ### 31-05-2023  
+ En el dia de hoy hemos ido en las horas de Raúl, Miguel estaba con los servidores y Jose seguia con el servidor de datos, hoy he podido instalar correctamente el programa para la monitorización del sai ya que ayer me quedé sin isntalarlo porque no me dió tiempo, una vez instalado me he puesto con la configuración del mismo, pero no he conseguido hacerlo del todo ya que nos daba errores y no sabemos como solucionarlo, por lo que tenemos que investigar.
