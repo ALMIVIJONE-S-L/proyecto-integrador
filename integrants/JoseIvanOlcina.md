@@ -1,5 +1,21 @@
 # Bitácora Jose Ivan Olcina
 
+## 30-05-2023
+
+El dia de hoy, he logrado congiurar y compartir correctmanete el volumen iSCSI de datos (quedaria crear la pool de backups) no sin tener difcultades para ellos ya que la conectivdad en la red interna por la que compartimos el recurso iSCSI (192.168.0.0/24) no funcionaba correctamente, lo que me ha supuesto bastante tiempo invertido, en los próximos dias (esta semana) el objetivo, si todo va bien, es crear las carptas necesarias (asignarles permisos y compartirlas) en el servidor de datos (reusrso iSCSI datos) y el pool de backups.
+
+## 26-05-2023
+
+Seguimos teniendo problemas con la conetividad de la red, aunque esta vez hemos averiguado que peude deberse a problemas con la tabla arp; por otra parte, con la ayuda de alberto, emepzamos a configurar el servidor de datos que estará conectado con la cabina de discos, pero me he podido avanzar casi nada debido a los problemas de red, ya que me era imposible conectarme remotamente al servidor mediante WAC, y hacerlo directamente desde el servidor no era lo más ótimpo (Juan no ha reñido varias veces por eso).
+
+## 25-05-2023
+
+Seguimos teniendo problemas de red, principalmente en le PC-5 (sysAdmin), por mi parte, uni o le asigne un nombre de dominio al Truenas, aplicamos algunas configuraciones iniciales junto con Alberto (servidornas.barcelona.lan) además de crear la pool de datos en el mismo.
+
+## 24-05-2023
+
+Limitados por los problemas de red, estuve mirando y recopilando información acerca de TrueNAS y su funcionamiento (Vinedo apuntes y a través de búsuqedas de internet).
+
 ## 23-05-2023
 
 Hoy, solo he estado 1 hora, ya que me he tenido que ir al médico, pero el tiempo que he tenido, lo he aprovechado para unir los cliente que quedavan al dominio y comprobar que si habian unido correctamente y todo iba sin problemas mayores.
@@ -18,7 +34,7 @@ Hoy me he dedicado a hacer fucnoinar las herrmientas RSAT y WAC para gestionar e
 
 ## 17-05-2023
 
-Hoy por fin hemos logrado el *propósito del dia 16* (Comunicar vlan de switch cisco con MikroTik a través de el switch Cico), el probelma errdicava en la configuración de el switch **TP-LINK**, que no dejaba pasar el tráfico de las VLANs provenientes de el swtich **Cisco**.
+Hoy por fin hemos logrado el *propósito del dia 16* (Comunicar vlan de switch cisco con MikroTik a través de el switch Cico), el probelma erradicava en la configuración de el switch **TP-LINK**, que no dejaba pasar el tráfico de las VLANs provenientes de el swtich **Cisco**.
 
 ## 16-05-2023
 
