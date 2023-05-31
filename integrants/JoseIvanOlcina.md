@@ -1,5 +1,9 @@
 # Bitácora Jose Ivan Olcina
 
+## 31-05-2023
+
+Hoy a sido un dia infrctífero y desesparante, ya que tanto el servidor de datos como la cabina de discos (TrueNAS) no funcionaban, al final de el dia, hemos averguado que el problema en el TryeNAS era que los srcipts implmentados por Miguel para renombrar la interfaces de red daban ciertos problemas, que se puderion solventar, en cuanto a el servidor de datos, da algun problema con el puerto 5996 para conectarse a traves de https por el WAC, pero ya no nos ha dado tiempo a terminar de solucionarlo.
+
 ## 30-05-2023
 
 El dia de hoy, he logrado congiurar y compartir correctmanete el volumen iSCSI de datos (quedaria crear la pool de backups) no sin tener difcultades para ellos ya que la conectivdad en la red interna por la que compartimos el recurso iSCSI (192.168.0.0/24) no funcionaba correctamente, lo que me ha supuesto bastante tiempo invertido, en los próximos dias (esta semana) el objetivo, si todo va bien, es crear las carptas necesarias (asignarles permisos y compartirlas) en el servidor de datos (reusrso iSCSI datos) y el pool de backups.
