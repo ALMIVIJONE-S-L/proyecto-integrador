@@ -77,3 +77,7 @@
  
  ### 31-05-2023  
  En el dia de hoy hemos ido en las horas de Raúl, Miguel estaba con los servidores y Jose seguia con el servidor de datos, hoy he podido instalar correctamente el programa para la monitorización del sai ya que ayer me quedé sin isntalarlo porque no me dió tiempo, una vez instalado me he puesto con la configuración del mismo, pero no he conseguido hacerlo del todo ya que nos daba errores y no sabemos como solucionarlo, por lo que tenemos que investigar.
+ 
+ # Junio
+### 1-06-2023
+  En el dia de hoy hemos ido en las horas de Raúl y en las de Jorge, hoy en las horas de Raúl hemos ido al taller para continuar con el proyecto, yo he seguido con el SAI ya que hoy he podido hacer la comprobación de que todo funciona correctamente y que los servidores se apagan cuando el SAI queda en un x% de bateria... En las horas de Jorge no hemos ido al taller pero si que hemos estado en clase haciendo la Intranet para la empresa, por lo que ya cada uno tiene su parte casi acabada y casi dispuesta, faltaría cuadrar unas cosas que faltan para que todas tengan los mismos patrones y ya estarían todas acabadas y la semana que viene podemos ponernos con la extranet.
