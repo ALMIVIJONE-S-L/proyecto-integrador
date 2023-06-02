@@ -1,5 +1,11 @@
 (poner formato)
 
+01-02: Hoy antes ir a clase he seguido haciendo el login de la intranet. También he hecho funcionar la conexión iSCSI entre Srv-Datos y Srv-NAS, el problema estaba en el firewall del servidor de windows, que no estaba permitiendo la conexión correcta con el servicio WinRM (usando wac _windows admin center_). Después hemos intentado hacer el DFS, pero no hemos podido acabarlo, porque la herramienta de administración del DFS no se ha acabado de instalar en el cliente sysadmin.
+
+Nos ha faltado instalar la herramienta DFS en el cliente sysadmin.
+
+01-01: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas.
+
 31-05: Hoy antes de ir al taller he avanzado el script de powershell. Hemos solucionado un problema (de forma temporal) del servidor NAS, indicandole la misma interfaz que el servidor de datos (que tiene w22), así que salen con la misma MAC, esta forma funciona, pero lo ideal sería usar la interfaz de red dedicada, pero hasta que no se solucione el error no se podrá. No hemos podido acabar lo del DFS y demás.
 
 30-05: Hoy hemos seguido teniendo problemas de red, pero ya no ha pasado tan regularmente lo de la MAC del equipo sysadmin. Hemos podido solucionar otro problema de red entre el NAS y el servidor de Datos en la red interna (SAN) y no funcionaba el iSCSI, yo he ayudado en reparar ese problema. También hemos conectado el punto de acceso, yo he ayudado en indicar donde ponerlo. He puesto de forma provisional (y quizás definitiva, al menos en este curso) el DNS del centro además del de ADDC para los clientes que van por DHCP.  También he unido a zabbix el switch cisco. El dia anterior por la tarde preparé una serie de comandos para poder avanzar en resoluciones de problemas como por ejemplo el que se nos apagaba los servidores w22, SID, etc. Y hoy los hemos podido utilizar. También he crimpado un cable para un servidor del SAN ya que no funcionaba correctamente el anterior.
