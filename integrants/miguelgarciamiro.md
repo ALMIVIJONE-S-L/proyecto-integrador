@@ -4,7 +4,7 @@
 
 Nos ha faltado instalar la herramienta DFS en el cliente sysadmin.
 
-01-01: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas.
+01-01: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas. Hemos empezado con el tema de la intranet de la empresa, yo he empezado con la pantalla de login.
 
 31-05: Hoy antes de ir al taller he avanzado el script de powershell. Hemos solucionado un problema (de forma temporal) del servidor NAS, indicandole la misma interfaz que el servidor de datos (que tiene w22), así que salen con la misma MAC, esta forma funciona, pero lo ideal sería usar la interfaz de red dedicada, pero hasta que no se solucione el error no se podrá. No hemos podido acabar lo del DFS y demás.
 
