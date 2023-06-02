@@ -10,6 +10,37 @@
   - [VICTOR FUSTER RICO](../integrants/VictorFuster.md)
 
 ---
+(acabar de rellenar los días, aunque aquí no estén en la bitácora de "integrants" está mas o menos todo lo que hemos ido haciendo, más oriendo a cada uno pero juntando algunos se puede acabar bien.)
+
+# DIA 16 [16-05-23] - DIA 18 [18-05-23]  (ACABAR...)
+
+**OBJETIVO DEL DIA**
+
+
+
+**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+
+  - ALBERTO CALATAYUD CASTAÑER: _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), _
+  - MIGUEL GARCÍA MIRÓ: _Probar el script mejorado,Hemos configurado también bounding en el switch de cisco, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
+  - JOSE IVAN OLCINA: _Bounding entre TP-LINK y MIKROTIK, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
+  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
+  - VICTOR FUSTER RICO:  _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), Direccionamiento de los servidores_
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Acabar de configurar DHCP para todos los clientes
+- Reordenar los cables y dejarlo algo más organizado.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+
+- No hemos podido acabar de implementar correctamente script.
+
+**TAREAS:**
+
+- Acabar de configurar DHCP para todos los clientes
+- Reordenar los cables y dejarlo algo más organizado.
+
+---
 
 # DIA 15 [15-05-23]
 
