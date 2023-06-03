@@ -1,4 +1,4 @@
-/*JAVASCRIPT DEL LOGIN*/
+
 let nomUsrs = ["miguel","jose ivan","victor","alberto"];
 let pwdUsrs = ["1234","1234","1234","1234"]; // Supongamos que son diferentes por cada persona
 
@@ -98,9 +98,49 @@ function pwdExiste(password){
             else{
                 continue;
             }
+    }
+}
 
-            
-        
+lugarContador = 0;
+function ubiCorrecta(){
+
+    let estadoActual = "";
+    let estadoOld = "";
+    let texto = "";
+    let divUbicaciones = document.getElementById("divUbicaciones")
+    let selectUbicaciones = document.getElementById("selectUbicaciones")
+    let seleccion = selectUbicaciones.options[selectUbicaciones.selectedIndex].text
+
+    if (seleccion == "No elegido"){
+        estadoActual = "invalid";
+        texto = "Incorrecto, por favor, elija una ubicación correcta"
+    }
+    else{
+        estadoActual = "valid";
+        texto = "Correcto."
+    }
+
+    if(estadoActual != estadoOld && lugarContador == 0){
+        // divu....getElementId..(feedbackBlockUser).class cambiarle la class y cambiarle el texto (con inner)
+        // Que se cree el div una única vez y luego ya es modificarlo, creo que será lo mejor.
+
+        divUbicaciones.innerHTML = (
+        divUbicaciones.innerHTML +   ` 
+                                <div id="feedbackSec" class="`+ estadoActual + `-feedback d-block ms-1">
+                                    ` + texto + `
+                                </div>`)
+        estadoOld = estadoActual;
+        lugarContador++
+    }
+    else if(estadoActual != estadoOld){
+        let feedbackSec = document.getElementById("feedbackSec");
+        feedbackSec.className = estadoActual + "-feedback d-block ms-1";
+        feedbackSec.innerHTML = texto;
+    }
+
+    if(estadoActual == "valid"){
+        document.getElementById("selectUbicaciones").selectedIndex = selectUbicaciones.selectedIndex
+        return true;
     }
 }
 
@@ -110,11 +150,11 @@ function procesarLogin(){
 
     let usrBool = usrExiste(nombreUsuario)
     let pwdBool = pwdExiste(passwordUsuario)
+    ubiCorrecta()
 
     console.log(usrBool + " = " + pwdBool)
     if (usrBool && pwdBool){
         // Para cambiar de directorio
         location.href = "index.html"
     }
-
 }
