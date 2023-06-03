@@ -16,6 +16,8 @@
     - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
     - [IMPLANTACIÓN BÁSICA DEL SISTEMA](altres/implementacionSistema.md)
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
+  - **PÁGINA WEB**
+    - [INTRANET](altres/intranet/)
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
       - [Resolucion de problemas y Comandos de POWERSHELL](altres/comandos/powershell.md)
