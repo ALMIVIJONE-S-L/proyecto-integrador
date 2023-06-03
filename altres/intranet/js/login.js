@@ -150,11 +150,12 @@ function procesarLogin(){
 
     let usrBool = usrExiste(nombreUsuario)
     let pwdBool = pwdExiste(passwordUsuario)
-    ubiCorrecta()
+    let ubiBool = ubiCorrecta()
 
-    console.log(usrBool + " = " + pwdBool)
-    if (usrBool && pwdBool){
+    console.log(usrBool + " = " + pwdBool + " = " + ubiBool)
+    if (usrBool && pwdBool && ubiBool){
         // Para cambiar de directorio
         location.href = "index.html"
     }
+
 }
