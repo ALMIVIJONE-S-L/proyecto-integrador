@@ -43,7 +43,9 @@ En este apartado de deifinirán las configuraciones a realizar sobre el modulo d
 
 ### ORGANIZACIÓN DEL RACK REAL
 
-# !!!!!!PONER AQUÍ IMAGEN DEL RACK POR COMPLETO (CON SWITCHES Y TODO) [LUEGO BORRAR ESTE TEXTO]
+![](../img/servers.jpg)
+
+![](../img/rack-completo.jpg)
 
 ### ESQUEMA DE ELECTRICIDAD
 
