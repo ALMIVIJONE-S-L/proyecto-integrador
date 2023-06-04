@@ -23,41 +23,41 @@ Para gestionar el servidor WEB, tendremos el servicio **SSH** por el puerto 22
 	- Comment: Redirección a la intranet.
 3. Configuraremos los filtros del firewall
 	Filtro = Acceder desde la red interna:
-		- Chain: Forward
-		- Dst. Address: 172.16.0.1
-		- Protocol: 6 (tcp)
-		- Dst. Port: 80
-		- In. Interface: bounding
-		- Comment: Permitiendo desde red interna a DMZ
+	- Chain: Forward
+	- Dst. Address: 172.16.0.1
+	- Protocol: 6 (tcp)
+	- Dst. Port: 80
+	- In. Interface: bounding
+	- Comment: Permitiendo desde red interna a DMZ
 	
 	Filtro = Permitir paquetes de conexión y relacionados:
-		- Chain: Forward
-		- Protocol: 6 (tcp)
-		- Connection State: related y established
-		- Comment: Permitir paquetes relacionados y de conexión
+	- Chain: Forward
+	- Protocol: 6 (tcp)
+	- Connection State: related y established
+	- Comment: Permitir paquetes relacionados y de conexión
 	
 	Filtro = Permitir ssh desde sysadmin:
-		- Chain: Forward
-		- Src Address: 10.1.20.10
-		- Protocol: 6 (tcp)
-		- Dst. Port: 22
-		- In. Interface: Bounding
-		- Out. Interface: ether 2
-		- Action: Accept
-		- Comment: Permitir SSH desde el equipo sysadmin
+	- Chain: Forward
+	- Src Address: 10.1.20.10
+	- Protocol: 6 (tcp)
+	- Dst. Port: 22
+	- In. Interface: Bounding
+	- Out. Interface: ether 2
+	- Action: Accept
+	- Comment: Permitir SSH desde el equipo sysadmin
 	
 	Filtro = Bloquear desde dmz a la interna (pero está permitido a la red entre sedes)
-		- Chain: Forward
-		- In. Interface: ether 2
-		- Out. Interface: bounding
-		- Action: Reject
-		- Comment: Rechazar tráfico desde DMZ a interna
+	- Chain: Forward
+	- In. Interface: ether 2
+	- Out. Interface: bounding
+	- Action: Reject
+	- Comment: Rechazar tráfico desde DMZ a interna
 	
 	Filtro = Bloquear todo lo demás desde la interna al dmz
-		- Chain: Forward
-		- In. Interface: ether 2
-		- Out. Interface: bounding
-		- Action: Reject
-		- Comment: Rechazar el tráfico que queda
+	- Chain: Forward
+	- In. Interface: ether 2
+	- Out. Interface: bounding
+	- Action: Reject
+	- Comment: Rechazar el tráfico que queda
 
 
