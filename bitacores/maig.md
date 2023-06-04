@@ -12,33 +12,78 @@
 ---
 (acabar de rellenar los días, aunque aquí no estén en la bitácora de "integrants" está mas o menos todo lo que hemos ido haciendo, más oriendo a cada uno pero juntando algunos se puede acabar bien.)
 
-# DIA 16 [16-05-23] - DIA 18 [18-05-23]  (ACABAR...)
-
-**OBJETIVO DEL DIA**
 
 
+---
 
-**QUE HA HECHO CADA INTEGRANDE DEL EQUIPO:**
+# DIA 18 [18-05-23]
 
-  - ALBERTO CALATAYUD CASTAÑER: _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), _
-  - MIGUEL GARCÍA MIRÓ: _Probar el script mejorado,Hemos configurado también bounding en el switch de cisco, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
-  - JOSE IVAN OLCINA: _Bounding entre TP-LINK y MIKROTIK, VLAN DHCP en el mikrotik (además de las IPs de cada subinterfaz)_
-  - NEUS HERNÁNDEZ PASCUAL: _No acudió a clase_
-  - VICTOR FUSTER RICO:  _Configuraciones básicas de Windows Server 2022 (Creación del dominio, IP, etc.), Direccionamiento de los servidores_
+**OBJETIVO DEL DIA:**
+
+- El objetivo de hoy ha sido solucionar algunos problemas de conectividad física debido a la falta de latiguillos funcionales, establecer el SSH en el switch Cisco, instalar Zabbix, organizar los cables del patch panel, hacer funcionar RSAT y WAC para gestionar el servidor empresarial desde el ordenador Sysadmin, y configurar el servidor secundario.
 
 **QUE SE HA PODIDO CONSEGUIR:**
 
-- Acabar de configurar DHCP para todos los clientes
-- Reordenar los cables y dejarlo algo más organizado.
+- Se ha podido solucionar problemas de conectividad física, crimpando latiguillos para el patch panel. También se ha logrado instalar Zabbix y utilizar RSAT y WAC para gestionar el servidor.
 
-**QUE NO HEMOS PODIDO CONSEGUIR, I EL PORQUÉ:**
+**QUE NO HEMOS PODIDO CONSEGUIR, Y EL PORQUÉ:**
 
-- No hemos podido acabar de implementar correctamente script.
+- No se ha podido unir el servidor secundario al dominio debido a la necesidad de generar nuevamente la SID. Además, no se ha podido cambiar el cable que conecta el switch Cisco al patch panel y tampoco se ha podido configurar la VLAN para el Sysadmin.
 
 **TAREAS:**
 
-- Acabar de configurar DHCP para todos los clientes
-- Reordenar los cables y dejarlo algo más organizado.
+- Tareas realizadas:
+  - Solucionar problemas de conectividad física y crimpado de latiguillos para el patch panel
+  - Intentar instalar Zabbix
+  - Utilizar RSAT y WAC para gestionar el servidor
+
+
+
+# DIA 17 [17-05-23]
+
+**OBJETIVO DEL DIA:**
+
+- Nuestro objetivo del día ha sido solucionar los problemas de conexión del switch de Cisco al MikroTik, reconfigurar todo el cableado para que quedase mucho mejor, configurar las IP a los servidores e instalar el TrueNAS.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Lo que se ha podido conseguir ha sido solucionar los problemas que teníamos de conectividad entre el switch de Cisco y el MikroTik, instalar el TrueNAS y asignarle una IP, y poner IPs a los servidores.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, Y EL PORQUÉ:**
+
+- Hemos podido conseguir todo lo propuesto para este día.
+
+**TAREAS:**
+
+- Tareas realizadas:
+  - Reconfigurar el cableado
+  - Configurar IP a los servidores
+  - Configuración VLANs
+
+
+---
+
+# DIA 16 [16-05-23]
+
+**OBJETIVO DEL DIA:**
+
+- El objetivo del día ha sido acabar de configurar el DHCP para todos los clientes, lograr que las VLAN del switch de Cisco puedan llegar al MikroTik, implementar el script de interfaces, remodificar los cables y mejorar la disposición, y cambiar las IP de todos los servidores.
+
+**QUE SE HA PODIDO CONSEGUIR:**
+
+- Hemos podido conseguir poner la mayoría de IPs a los servidores y configurar el DHCP en el MikroTik para los clientes.
+
+**QUE NO HEMOS PODIDO CONSEGUIR, Y EL PORQUÉ:**
+
+- No hemos podido acabar de configurar todas las IPs a los servidores. Tampoco hemos podido lograr que las VLANs del Cisco lleguen al MikroTik.
+
+**TAREAS:**
+
+- Tareas realizadas:
+  - Intentar conectar las VLANs del Cisco al MikroTik
+  - Configurar las IPs de los servidores
+  - Modificar los cables del rack
+  - (En la tarde de este día) Miguel ha seguido mejorando el script de las interfaces
 
 ---
 

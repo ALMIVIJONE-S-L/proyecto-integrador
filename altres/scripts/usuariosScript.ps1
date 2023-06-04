@@ -275,7 +275,7 @@ if ($ficheroCSV.sede -match $sede){
                 $grupoGlobalJefe = "gg" + $jefeDept
                 #echo $grupoGlobalJefe
                 Add-ADGroupMember -Identity $grupoGlobalJefe -Members $usr
-                }
+            }
         }
     }
 }
