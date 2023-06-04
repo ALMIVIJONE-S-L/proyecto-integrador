@@ -18,7 +18,7 @@
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
   - **PÁGINA WEB**
     - [INTRANET](altres/intranet/)
-    - [DMZ](altres/dmzConfiguracion.md)
+    - [DMZ CONFIG](altres/dmzConfiguracion.md)
   - **INFORMACIÓ IMPORTANT**
     - [COMANDOS](altres/comandos.md)
       - [Resolucion de problemas y Comandos de POWERSHELL](altres/comandos/powershell.md)
