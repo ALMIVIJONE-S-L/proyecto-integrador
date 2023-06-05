@@ -65,13 +65,25 @@
 
 - 29
     - Nos hemos dado cuenta que el error viene fisico ya sea por el cable de bolding o por el puerto asi que hemos estado probando cables para ver si era el fallo y la red va y viene.
+
+
 - 30
     - Hoy ya lo hemos arreglado ya que era el la red no iba solo en el equipo del administrador y es el puerto, pero ya esta solucionado, mientras tanto hemos estado configurando el Truenas y el sai.
 
+- 31
+    - En el día de hoy hemos tenido algún problema en el dominio y con los servidores así que hemos intentado solucionarlo aún que no lo hemos conseguido solucionar todo.
 
+## Junio
 
+- 01
+    - Hoy en las horas de redes hemos intentado continuado lo del SAI no hemos hecho que funcione y en las horas de lenguaje hemos empezado a hacer la web y he tenido varios problemas.
 
+- 02
+    - Hoy Victor y yo hemos estado comprobando el SAI ya que a ningún grupo le ha salido y nos hemos pasado todas las horas con eso, y solo hemos conseguido que se apagen las maquinas físicas y no queremos eso ya que solo queremos los servidores virtuales.
 
+- 05
+    - En el día de hoy he estado arreglando la web y he solucionado problemas que tenía y he empezado a hacer la otra página 
+ 
 
 
 

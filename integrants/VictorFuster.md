@@ -81,3 +81,9 @@
  # Junio
 ### 1-06-2023
   En el dia de hoy hemos ido en las horas de Raúl y en las de Jorge, hoy en las horas de Raúl hemos ido al taller para continuar con el proyecto, yo he seguido con el SAI ya que hoy he podido hacer la comprobación de que todo funciona correctamente y que los servidores se apagan cuando el SAI queda en un x% de bateria... En las horas de Jorge no hemos ido al taller pero si que hemos estado en clase haciendo la Intranet para la empresa, por lo que ya cada uno tiene su parte casi acabada y casi dispuesta, faltaría cuadrar unas cosas que faltan para que todas tengan los mismos patrones y ya estarían todas acabadas y la semana que viene podemos ponernos con la extranet.
+
+### 2-06-2023
+  En el dia de hoy hemos ido en las horas de Juan, hoy me he puesto ha adelantar la intranet ya que nos corre un poco de prisa ir terminando cosas ya que estamos apunto de acabar la evaluación.
+  
+ ### 5-06-2023
+  En el dia de hoy hemos ido en las horas de Juan, hoy han ido Alberto, Jose y Miguel en las horas de base de datos ya que yo estaba en la recuperación y por eso no he podido ir las primeras tres horas de hoy, pero nada mas terminar he ido y me he puesto ha hacer la intranet ya que tengo un alert que no consigo que me funcione correctamente.
