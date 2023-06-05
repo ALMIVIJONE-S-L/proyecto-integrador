@@ -18,7 +18,13 @@ Esta imagen representa como funciona de una forma fácil de entender el DFS:
 **Conceptos más en profundidad**:
 - **Namespaces**: Es el servidor a donde se dirigirán todas las peticiones y donde crearemos el directorio root el cual será común para todos los que se dirijan a este espacio de nombres.
 - **Directorio Root**: Es un directorio que se crea en el servidor de nombres (normalmente donde está el active directory)
-- **Folder Target**: Este es el directorio que estará apuntando al directorio puesto en el root
+- **Folder Target**: Este es el directorio que estará apuntando al directorio puesto en el directorio root.
+
+Siguiendo el esquema de abajo vemos que `\\Barcelona.lan\Empresa` es la ruta root de donde colgarán los directorios enlazados y también directorios normales. Este root está alojado en el servidor principal (SRV-EMPRESA).
+
+Tenemos un directorio colgando del directorio root, el cual está enlazado a una carpeta compartida en el servidor `SRV-DATOS`
+
+![](../../img/dfsNamespace.svg)
 
 **COMANDOS POWERSHELL**:
 
@@ -58,11 +64,9 @@ Explicación:
 #>
 ```
 
-![](../../img/dfsNamespace.svg)
-
 Existe la posibilidad de indicar dos target folders de diferentes servidores distintos en un mismo directorio en root, esto sirve por si tienes 2 (o los que sean) servidores en diferentes lugares físicos, por ejemplo en barcelona y en madrid y los dos tienen la misma carpeta compartida (por ejemplo para perfiles móviles) y que esté direccionadoa al directorio root llamada móviles. Así cuando un empleado esté en barcelona tendrá la misma ruta pero los perfiles móviles serán de barcelona y si está en madrid tendrá la misa ruta, por ejemplo `\\Empresa.lan\moviles` pero el contenido será diferente porque el servidor que comparte el directorio es diferente.
 
-Se puede entender mucho mejor en la imágen que he puesto arriba.
+Se puede entender mucho mejor en la imagen que he puesto arriba del todo.
 
 En el tema de permisos se puede utilizar el comadno `Grant-DfsnAccess`, pero en mi opinión creo que es mejor hacerlo desde interfaz gráfica, yendo a `propiedades > permisos avanzados` estando en el directorio Namespace compartido (básicamente poniendo en mi caso en el explorador de archivos o en el `win + r`: `\\Barcelona.lan\Empresa`)
 
@@ -72,9 +76,11 @@ Hay muchas más opciones, como dejar un TTL (time to live), Failback, etc. Pero 
 
 >**IMPORTANTE**:
 >
-> diferencias entre new-dfsnfoldertarget y new-dfsfolder
-
-new-dfsfolder: Significa que creas en el DFS Nameserver un directorio direccionandose a una carpeta compartida
+> Diferencias entre New-DfsnFolder y New-DfsnFolderTarget
+>
+>**New-DfsnFolder**: Significa que creas en el DFS Nameserver un directorio direccionandose a una carpeta compartida.
+>
+>**New-DfsnFolderTarget**: Significa que en una carpeta ya creada añades otro directorio objetivo y así tendrás 2 o más servidores apuntando al mismo directorio, para los temas de ubicación física y demás (explicado más abajo).
 
 
 [Más info](https://learn.microsoft.com/en-us/powershell/module/dfsn/new-dfsnfolder?view=windowsserver2022-ps)
