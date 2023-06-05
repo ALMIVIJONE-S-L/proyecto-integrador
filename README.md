@@ -16,10 +16,11 @@
     - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
     - [IMPLANTACIÓN BÁSICA DEL SISTEMA](altres/implementacionSistema.md)
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
+    - [DOCUMENTACIÓN DE LOS SISTEMAS](altres/documentacion/README.md)
   - **PÁGINA WEB**
     - [INTRANET](altres/intranet/)
-    - [DMZ CONFIG](altres/dmzConfiguracion.md)
   - **INFORMACIÓ IMPORTANT**
+    - [PERMISOS DIRECTORIOS](altres/permisos.md)
     - [COMANDOS](altres/comandos.md)
       - [Resolucion de problemas y Comandos de POWERSHELL](altres/comandos/powershell.md)
     - [SCRIPTS](altres/scripts/scripts.md)
