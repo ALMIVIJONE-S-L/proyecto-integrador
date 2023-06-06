@@ -1,10 +1,12 @@
 (poner formato)
 
-01-02: Hoy antes ir a clase he seguido haciendo el login de la intranet. También he hecho funcionar la conexión iSCSI entre Srv-Datos y Srv-NAS, el problema estaba en el firewall del servidor de windows, que no estaba permitiendo la conexión correcta con el servicio WinRM (usando wac _windows admin center_). Después hemos intentado hacer el DFS, pero no hemos podido acabarlo, porque la herramienta de administración del DFS no se ha acabado de instalar en el cliente sysadmin.
+05-06: Hoy hemos solucionado los problemas del DFS, configurandolo meidante powershell, también he solucionado los problemas de RemoteDesktop (RemoteAPP), el problema era que el servidor estaba en modo core, así que lo tuve que reinstalar en modo GUI. Tambien estuve creando el DMZ, el cual se quedó totalmente acabado (ya que el día anterior, por la tarde estuve pensando como hacerlo, esa tarde también estuve preparando los permisos para los directorios a compartir.
+
+02-06: Hoy antes ir a clase he seguido haciendo el login de la intranet. También he hecho funcionar la conexión iSCSI entre Srv-Datos y Srv-NAS, el problema estaba en el firewall del servidor de windows, que no estaba permitiendo la conexión correcta con el servicio WinRM (usando wac _windows admin center_). Después hemos intentado hacer el DFS, pero no hemos podido acabarlo, porque la herramienta de administración del DFS no se ha acabado de instalar en el cliente sysadmin.
 
 Nos ha faltado instalar la herramienta DFS en el cliente sysadmin.
 
-01-01: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas. Hemos empezado con el tema de la intranet de la empresa, yo he empezado con la pantalla de login.
+01-06: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas. Hemos empezado con el tema de la intranet de la empresa, yo he empezado con la pantalla de login.
 
 31-05: Hoy antes de ir al taller he avanzado el script de powershell. Hemos solucionado un problema (de forma temporal) del servidor NAS, indicandole la misma interfaz que el servidor de datos (que tiene w22), así que salen con la misma MAC, esta forma funciona, pero lo ideal sería usar la interfaz de red dedicada, pero hasta que no se solucione el error no se podrá. No hemos podido acabar lo del DFS y demás.
 
