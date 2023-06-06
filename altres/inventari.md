@@ -94,21 +94,26 @@
     - **MODELO**: `HW191D`
                              
 - TECLADOS
-  - **3x**: _(Actualmente 4)_
+  - **4x**: _(Actualmente 5)_
     - **MARCA**: ` APD`
     - **MODELO**: `KU-0325`
-  - **1x**: _(Actualmente 4)_
+  - **1x**: 
     - **MARCA**: ` Microsoft`
     - **MODELO**: `RT9480`
    
-- TECLADOS
+- RATONES
   - **3x**: _(Actualmente 4)_
     - **MARCA**: ` APD`
     - **MODELO**: `MSU0939`
-  - **1x**: _(Actualmente 4)_
+  - **1x**: 
     - **MARCA**: ` Inves`
     - **MODELO**: `O-21`
-   
+  - **1x**: 
+    - **MARCA**: ` Logitech`
+    - **MODELO**: `M-SBF90`
+  - **1x**: 
+    - **MARCA**: ` Genius`
+    - **MODELO**: `GM-120014`  
 
 ### SAI
 
