@@ -107,7 +107,7 @@ function nombreUsuarios{
   $raizUO = "Empresa" #$sede.ToUpper()
 
   # [+] LEER EL FICHERO .CSV
-  $ruta = "C:\Users\Administrador\Desktop\usuaris(2).csv" #### CAMBIAR RUTA !! ####
+  $ruta = "\\Barcelona.lan\Empresa\AdminDominio$\info\usuarios.csv" #### CAMBIAR RUTA !! ####
   $ficheroCSV = import-csv $ruta
   
   # [+] LISTA ACTUAL DE LAS UNIDADES ORGANIZATIVAS
@@ -136,7 +136,7 @@ if ($ficheroCSV.sede -match $sede){
         write-host -ForegroundColor Yellow "[aviso]: Ya existe la UO $raizUO, no la crearé de nuevo."
     }
     else{
-        New-ADOrganizationalUnit -Name $raizUO -Path "DC=miguel,DC=aitex,DC=lan"  -ProtectedFromAccidentalDeletion $False #"DC=$($sede),DC=$($finalDominio)"
+        New-ADOrganizationalUnit -Name $raizUO -Path "DC=$($sede),DC=$($finalDominio)"  -ProtectedFromAccidentalDeletion $False #"DC=$($sede),DC=$($finalDominio)"
         write-host -Foregroundcolor green "[OK] La Unidad Organizativa $raizUO ha sido creada con exito!"
     }
 
@@ -201,7 +201,7 @@ if ($ficheroCSV.sede -match $sede){
             }
 
             # RUTA COMPARTIDA --|
-            $homeDirectory = "C:\scriptUser\$($usr)" # !! CAMBIAR !!   ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
+            $homeDirectory = "\\Barcelona.lan\Empresa\AdminDominio$\CarpPersonal\$($usr)" # !! CAMBIAR !!   ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
             try{
                 # ErrorAction puede ser abreviado a -ea, e indica que cuando de error lo pare.
                 New-Item -Path $homeDirectory -ItemType Directory -ErrorAction stop > $NULL  
@@ -220,7 +220,6 @@ if ($ficheroCSV.sede -match $sede){
                   -Office $lineaInfo.dept `
                   -userPrincipalName $usr `
                   -samAccountName $usr `
-                  -ChangePasswordAtLogon $True `
                   -Enabled $True `
                   -AccountPassword $passwd `
                   -Path $deptPath `
@@ -235,13 +234,13 @@ if ($ficheroCSV.sede -match $sede){
 
             # [x] Perfil Movil
             if ($lineaInfo.dept -eq "Comercial"){
-                $rutaPerfilMovil = "C:\scriptUser\$($usr)" ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
+                $rutaPerfilMovil = "\\Barcelona.lan\Empresa\AdminDominio$\PerfMovil\$($usr)" ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
                 set-ADUser -identity $usr -ProfilePath $rutaPerfilMovil
             }
 
             # [x] Perfil Obligatorio
             if ($lineaInfoDept -eq "Laboratorio" -or $lineaInfoDept -eq "Tecnico"){
-                $rutaPerfilObligatorio = "\\gui-srv-13\AdminDominio-13$\aula-13\perfilObligatorio\obligatorio-13.V6" ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
+                $rutaPerfilObligatorio = "\\Barcelona.lan\Empresa\AdminDominio$\PerfOblig\obligatorio.V6" ####### RUTA ############### RUTA ############### RUTA ############### RUTA ########
                 set-ADUser -identity $usr -ProfilePath $rutaPerfilObligatorio -LogonWorkstations "CLIENTE-13"
             }
 
