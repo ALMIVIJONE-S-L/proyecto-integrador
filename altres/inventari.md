@@ -124,14 +124,12 @@
     - Serial -> USB
   - **1x**:
     - Cisco Serial -> ethernet    
-  - **?x**: _Al principio teniamos 3, pero por falta de estas va rotando por grupos dependiendo de las necesidades_
-    - HDMI -> VGA
-  - **3x**
+  - **4x**
     - VGA
-  - **3x**:
+  - **8x**:
     -  RJ-45 -> USB
   - **1x**:
-    - RJ-45  -> VGA
+    - DisplayPort -> VGA
 
 ### REGLETAS
 - **Regleta lineal -> 2x**:
