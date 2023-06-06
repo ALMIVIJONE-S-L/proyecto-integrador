@@ -89,7 +89,7 @@
     - **MARCA**: ` Acer`
     - **MODELO**: `V193HQV`
  
-   - **2x**
+  - **2x**
     - **MARCA**: ` HANNS.G`
     - **MODELO**: `HW191D`
                              
