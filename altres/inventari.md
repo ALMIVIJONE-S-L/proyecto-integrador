@@ -94,9 +94,21 @@
     - **MODELO**: `HW191D`
                              
 - TECLADOS
-  - **2x**: _(Actualmente 5 de diferentes marcas, igual que los ratones)_
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
+  - **3x**: _(Actualmente 4)_
+    - **MARCA**: ` APD`
+    - **MODELO**: `KU-0325`
+  - **1x**: _(Actualmente 4)_
+    - **MARCA**: ` Microsoft`
+    - **MODELO**: `RT9480`
+   
+- TECLADOS
+  - **3x**: _(Actualmente 4)_
+    - **MARCA**: ` APD`
+    - **MODELO**: `MSU0939`
+  - **1x**: _(Actualmente 4)_
+    - **MARCA**: ` Inves`
+    - **MODELO**: `O-21`
+   
 
 ### SAI
 
