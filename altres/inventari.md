@@ -81,13 +81,17 @@
 ### PERIFÉRICOS
 
 - MONITORES 
-  - **2x**: _(Actualmente 4)_
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
+  - **1x**: _(Actualmente 4)_
+    - **MARCA**: ` Samsung`
+    - **MODELO**: `SyncMaster 720n`
    
-  - **1x**
-    - **MARCA**: ` APD`
-    - **MODELO**: `ALDA CE H110M (B360G)`
+  - **2x**
+    - **MARCA**: ` Acer`
+    - **MODELO**: `V193HQV`
+ 
+   - **2x**
+    - **MARCA**: ` HANNS.G`
+    - **MODELO**: `HW191D`
                              
 - TECLADOS
   - **2x**: _(Actualmente 5 de diferentes marcas, igual que los ratones)_
