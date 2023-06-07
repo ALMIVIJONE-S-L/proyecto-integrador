@@ -30,13 +30,13 @@ Nosotros seguimos estos
   1. Lo primero que hicimos fue descargar la ISO del sitio web oficial: https://www.truenas.com.
   2. Creamos una maquina virtual con los requisitos que quisimos, en nuestro caso fue 2 nucleos y 8 GB de memoria RAM.
   3. Intalamos el Sistema Operativo.
-  4. Despues de intalarlo configuramos la IP en .
+  4. Despues de intalarlo configuramos la IP en la opción 1 que es la de "Configure Network Interfaces".
   5. Posteriormente nos conectamos atraves de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
-  6. Acepta los términos de la licencia.
-  7. Selecciona el dispositivo de almacenamiento donde se instalará TrueNAS.
-  8. Configura las opciones de red, como la asignación de direcciones IP.
-  9. Crea una contraseña segura para la cuenta de administrador de TrueNAS.
-  10. Espera a que se complete la instalación y reinicia el servidor.
+  6. Ya dentro del propio TrueNAS lo primero es cambiar el idioma en: System-General-Language. En el desplegable buscamos el Español.
+  7. Luego fuimos a Red-Global Configuration. Y comprobamos que el nombre Hostname era el que queriamos y la puerta de enlace estaba bien configurada igual que la IP, si no es as solo deberíamos cambiarlo en esa pestaña.
+  8. Posteriormente lo que realizamos fue introducir los discos que queriamos, en nuestro caso metimos 3 discos de 20 GB.
+  9. Luego de introducir los discos en la interfaz web del TrueNAS en. Almacenamiento-discos. Nos deberían aparecer los discos.
+  11. Al comprobar que estaban los discos debemos ir .
 
 
 ## Configuración
