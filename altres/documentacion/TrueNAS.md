@@ -16,33 +16,30 @@ En esta documentación, explica cómo instalamos y configuramos el TrueNAS, un s
 
 ## Requisitos
 
-Antes de comenzar con la instalación de TrueNAS, asegúrate de cumplir con los siguientes requisitos:
+Antes de comenzar con la instalación de TrueNAS, hay que cumplir con los siguientes requisitos:
 
 Un servidor compatible con la arquitectura recomendada para TrueNAS.
-Un dispositivo de almacenamiento apropiado, como discos duros o SSDs.
-Una memoria USB de al menos 8 GB para crear una unidad de arranque de TrueNAS.
-Conexión a Internet para descargar la imagen de TrueNAS y recibir actualizaciones.
-
+Un dispositivo de almacenamiento apropiado, con disco duro suficiente.
+Configuración de la red correcta.
 
 ## Instalación
 
 Nosotros seguimos estos 
   1. Lo primero que hicimos fue descargar la ISO del sitio web oficial: https://www.truenas.com.
-  2. Creamos una maquina virtual con los requisitos que quisimos, en nuestro caso fue 2 nucleos y 8 GB de memoria RAM.
-  3. Intalamos el Sistema Operativo.
-  4. Despues de intalarlo configuramos la IP en la opción 1 que es la de "Configure Network Interfaces".
-  5. Posteriormente nos conectamos atraves de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
-  6. Ya dentro del propio TrueNAS lo primero es cambiar el idioma en: System-General-Language. En el desplegable buscamos el Español.
-  7. Luego fuimos a Red-Global Configuration. Y comprobamos que el nombre Hostname era el que queriamos y la puerta de enlace estaba bien configurada igual que la IP, si no es as solo deberíamos cambiarlo en esa pestaña.
-  8. Posteriormente lo que realizamos fue introducir los discos que queriamos, en nuestro caso metimos 3 discos de 20 GB.
-  9. Luego de introducir los discos en la interfaz web del TrueNAS en. Almacenamiento-discos. Nos deberían aparecer los discos.
-  11. Al comprobar que estaban los discos debemos ir .
-
+  2. Creamos una máquina virtual con los requisitos que quisimos, en nuestro caso fue 2 núcleos y 8 GB de memoria RAM.
+  3. Instalamos el Sistema Operativo.
+  
 
 ## Configuración
 
-Indica cómo las personas pueden contribuir al proyecto. Esto puede incluir instrucciones sobre cómo informar problemas, enviar solicitudes de extracción (pull requests) o un enlace a las directrices de contribución.
+  1. Después de instalarlo configuramos la IP en la opción 1 que es la de "Configure Network Interfaces".
+  2. Posteriormente, nos conectamos a través de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
+  3. Ya dentro del propio TrueNAS lo primero es cambiar el idioma en: System-General-Language. En el desplegable buscamos el Español.
+  4. Luego fuimos a Red-Global Configuration. Y comprobamos que el nombre Hostname era el que queríamos y la puerta de enlace estaba bien configurada igual que la IP, si no es as solo deberíamos cambiarlo en esa pestaña.
+  5. Posteriormente, lo que realizamos fue introducir los discos que queríamos, en nuestro caso metimos 3 discos de 20 GB.
+  6. Luego de introducir los discos en la interfaz web del TrueNAS en. Almacenamiento-discos. Nos deberían aparecer los discos.
+  7. En almacenamiento-Pools deberemos darle a AÑADIR-Create new pool-Nombre(Debes poner el nombre que le quieras dar)-y debes seleccionar los discos-luego a la flecha-Mirror-Crear-Confirmar-Crear volumen .
+  8. Posteriormente, cuando se termine de crear la pool hay que darle a los tres puntos de la derecha y a "Add Dataset"-nombre que desees- SUBMIT.
 
 ## Problemas
 
-Indica la licencia bajo la cual se distribuye el proyecto. Puede ser un enlace a un archivo de licencia o la información de la licencia en sí misma.
