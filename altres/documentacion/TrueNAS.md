@@ -27,11 +27,11 @@ Conexión a Internet para descargar la imagen de TrueNAS y recibir actualizacion
 ## Instalación
 
 Nosotros seguimos estos 
-  - Descarga la imagen de TrueNAS desde el sitio web oficial: https://www.truenas.com.
-  - Crea una unidad de arranque USB utilizando una herramienta como Rufus (Windows) o Etcher (Windows, macOS, Linux).
-  - Inserta la unidad de arranque USB en el servidor y enciéndelo.
-  - Selecciona el dispositivo de arranque adecuado desde la configuración del BIOS/UEFI de tu servidor.
-  - Aparecerá la pantalla de instalación de TrueNAS. Selecciona "Install/Upgrade" (Instalar/Actualizar).
+  - Lo primero que hicimos fue descargar la ISO del sitio web oficial: https://www.truenas.com.
+  - Creamos una maquina virtual con los requisitos que quisimos, en nuestro caso fue 2 nucleos y 8 GB de memoria RAM.
+  - Intalamos el Sistema Operativo.
+  - Despues de intalarlo configuramos la IP en .
+  - Posteriormente nos conectamos atraves de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
   - Acepta los términos de la licencia.
   - Selecciona el dispositivo de almacenamiento donde se instalará TrueNAS.
   - Configura las opciones de red, como la asignación de direcciones IP.
