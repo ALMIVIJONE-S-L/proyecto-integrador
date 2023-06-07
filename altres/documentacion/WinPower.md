@@ -1,20 +1,11 @@
 # Instalación y Configuración del SAI con WinPower
 
-## Introducción
-
-En este documento se describe el proceso de instalación y configuración del Sistema de Alimentación Ininterrumpida (SAI) utilizando el software WinPower.
-
-## Requisitos del Sistema
-
-- Computadora con Windows (versión compatible)
-- Cable de conexión del SAI a la computadora
-- Sistema de Alimentación Ininterrumpida (SAI) compatible
-
 ## Pasos de Instalación
 
-1. Descarga el software WinPower desde el sitio web oficial.
-2. Ejecuta el archivo de instalación descargado.
-3. Sigue las instrucciones del asistente de instalación para completar la instalación de WinPower en tu computadora.
+1. Descarga el software WinPower desde el sitio web oficial.[](https://www.salicru.com/sps-1200-soho-iec.html)
+()
+3. Ejecuta el archivo de instalación descargado.
+4. Sigue las instrucciones del asistente de instalación para completar la instalación de WinPower en tu computadora.
 
 ## Conexión del SAI
 
