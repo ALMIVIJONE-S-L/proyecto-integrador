@@ -32,14 +32,14 @@ Nosotros seguimos estos
 
 ## Configuración
 
-  1. Después de instalarlo configuramos la IP en la opción 1 que es la de ´Configure Network Interfaces´.
+  1. Después de instalarlo configuramos la IP en la opción 1 que es la de ´Configure Network Interfaces`.
   2. Posteriormente, nos conectamos a través de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
-  3. Ya dentro del propio TrueNAS lo primero es cambiar el idioma en: ´System-General-Language´ en el desplegable buscamos el Español.
-  4. Luego fuimos a ´Red-Global Configuration´ y comprobamos que el nombre Hostname era el que queríamos y la puerta de enlace estaba bien configurada igual que la IP, si no es as solo deberíamos cambiarlo en esa pestaña.
+  3. Ya dentro del propio TrueNAS lo primero es cambiar el idioma en: `System-General-Language´ en el desplegable buscamos el Español.
+  4. Luego fuimos a `Red-Global Configuration` y comprobamos que el nombre Hostname era el que queríamos y la puerta de enlace estaba bien configurada igual que la IP, si no es as solo deberíamos cambiarlo en esa pestaña.
   5. Posteriormente, lo que realizamos fue introducir los discos que queríamos, en nuestro caso metimos 3 discos de 20 GB.
-  6. Luego de introducir los discos en la interfaz web del TrueNAS en: `Almacenamiento-discos´ nos deberían aparecer los discos.
-  7. En almacenamiento-Pools deberemos darle a ´AÑADIR-Create new pool-Nombre(Debes poner el nombre que le quieras dar)-y debes seleccionar los discos-luego a la flecha-Mirror-Crear-Confirmar-Crear volumen´ .
-  8. Posteriormente, cuando se termine de crear la pool hay que darle a los tres puntos de la derecha y a ´Add Dataset-nombre que desees- SUBMIT´.
+  6. Luego de introducir los discos en la interfaz web del TrueNAS en: `Almacenamiento-discos` nos deberían aparecer los discos.
+  7. En almacenamiento-Pools deberemos darle a `AÑADIR-Create new pool-Nombre(Debes poner el nombre que le quieras dar)-y debes seleccionar los discos-luego a la flecha-Mirror-Crear-Confirmar-Crear volumen` .
+  8. Posteriormente, cuando se termine de crear la pool hay que darle a los tres puntos de la derecha y a `Add Dataset-nombre que desees- SUBMIT`.
 
 ## Problemas
 
