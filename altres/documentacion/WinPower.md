@@ -12,6 +12,7 @@
 ## Configuración de WinPower
  1. Entramos a WinPower.
  2. Si todo esta bien nos saldrá esta pantalla.
- ![]()
+ ![](../../img/SAI.png)
+ 
 ## Uso de WinPower y el SAI
  1. 
