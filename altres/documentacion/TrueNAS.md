@@ -44,3 +44,7 @@ Nosotros seguimos estos
 ## Problemas
 
   1. Problema inicializador ISCSI 
+
+
+
+
