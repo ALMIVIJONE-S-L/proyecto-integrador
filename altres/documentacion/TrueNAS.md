@@ -1,8 +1,5 @@
-# Título de la Documentación
+# TrueNAS
 
-## Descripción
-
-Breve descripción del propósito y contenido de la documentación.
 
 ## Índice
 
@@ -15,15 +12,32 @@ Breve descripción del propósito y contenido de la documentación.
 
 ## Introducción
 
-Pasos necesarios para instalar y configurar el proyecto. Incluye requisitos previos, instrucciones de instalación y cualquier configuración adicional necesaria.
+En esta documentación, explica cómo instalamos y configuramos el TrueNAS, un sistema operativo de almacenamiento de código abierto. TrueNAS ofrece servicios de almacenamiento por red.
 
 ## Requisitos
 
-Explica cómo utilizar el proyecto o la biblioteca. Proporciona ejemplos de código y capturas de pantalla si es necesario. También puedes incluir casos de uso comunes.
+Antes de comenzar con la instalación de TrueNAS, asegúrate de cumplir con los siguientes requisitos:
+
+Un servidor compatible con la arquitectura recomendada para TrueNAS.
+Un dispositivo de almacenamiento apropiado, como discos duros o SSDs.
+Una memoria USB de al menos 8 GB para crear una unidad de arranque de TrueNAS.
+Conexión a Internet para descargar la imagen de TrueNAS y recibir actualizaciones.
+
 
 ## Instalación
 
-Describe las opciones de configuración disponibles y cómo se pueden utilizar. Incluye ejemplos y explicaciones detalladas para cada opción.
+Nosotros seguimos estos 
+  - Descarga la imagen de TrueNAS desde el sitio web oficial: https://www.truenas.com.
+  - Crea una unidad de arranque USB utilizando una herramienta como Rufus (Windows) o Etcher (Windows, macOS, Linux).
+  - Inserta la unidad de arranque USB en el servidor y enciéndelo.
+  - Selecciona el dispositivo de arranque adecuado desde la configuración del BIOS/UEFI de tu servidor.
+  - Aparecerá la pantalla de instalación de TrueNAS. Selecciona "Install/Upgrade" (Instalar/Actualizar).
+  - Acepta los términos de la licencia.
+  - Selecciona el dispositivo de almacenamiento donde se instalará TrueNAS.
+  - Configura las opciones de red, como la asignación de direcciones IP.
+  - Crea una contraseña segura para la cuenta de administrador de TrueNAS.
+  - Espera a que se complete la instalación y reinicia el servidor.
+
 
 ## Configuración
 
