@@ -27,16 +27,16 @@ Conexión a Internet para descargar la imagen de TrueNAS y recibir actualizacion
 ## Instalación
 
 Nosotros seguimos estos 
-  - Lo primero que hicimos fue descargar la ISO del sitio web oficial: https://www.truenas.com.
-  - Creamos una maquina virtual con los requisitos que quisimos, en nuestro caso fue 2 nucleos y 8 GB de memoria RAM.
-  - Intalamos el Sistema Operativo.
-  - Despues de intalarlo configuramos la IP en .
-  - Posteriormente nos conectamos atraves de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
-  - Acepta los términos de la licencia.
-  - Selecciona el dispositivo de almacenamiento donde se instalará TrueNAS.
-  - Configura las opciones de red, como la asignación de direcciones IP.
-  - Crea una contraseña segura para la cuenta de administrador de TrueNAS.
-  - Espera a que se complete la instalación y reinicia el servidor.
+  1. Lo primero que hicimos fue descargar la ISO del sitio web oficial: https://www.truenas.com.
+  2. Creamos una maquina virtual con los requisitos que quisimos, en nuestro caso fue 2 nucleos y 8 GB de memoria RAM.
+  3. Intalamos el Sistema Operativo.
+  4. Despues de intalarlo configuramos la IP en .
+  5. Posteriormente nos conectamos atraves de la IP por el navegador con el usuario: `root` y la contraseña: `root1234`.
+  6. Acepta los términos de la licencia.
+  7. Selecciona el dispositivo de almacenamiento donde se instalará TrueNAS.
+  8. Configura las opciones de red, como la asignación de direcciones IP.
+  9. Crea una contraseña segura para la cuenta de administrador de TrueNAS.
+  10. Espera a que se complete la instalación y reinicia el servidor.
 
 
 ## Configuración
