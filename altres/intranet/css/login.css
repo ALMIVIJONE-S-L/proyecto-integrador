@@ -1,69 +1,19 @@
-
-body {
-    background: url("../img/sagradafamilia.jpeg") center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-}
-input::-webkit-input-placeholder {
-    color:white;
-}
-
-#caja-login {
-    width: 30%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 15%;
-    text-align: center;
-    background: #00000080;
-    padding: 20px 50px;
-}
-
-#caja-login h1 {
-    color: white;
-
-}
-
-#caja-login .form .item {
-    margin-top: 15px;
-}
-
-#caja-login .form .item input {
-    width: 180px;
-    font-size: 18px;
-    border: 0;
-    border-bottom: 3px solid white;
-    padding: 5px 10px;
-    background: #ffffff00;
-    color: #ffffff;
-}
-
-#caja-login .form .item input[placeholder] {
-    color: white;
-}
-
-#caja-login .form .item i {
-    font-size: 18px;
-    color: white;
-}
-
-#caja-login button {
-    border: 0;
-    margin-top: 15px;
-    width: 125px;
-    height: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    background-color: black ;
-    border-radius: 15px;
-}
-
-#footer {
-    color: white;
-    position: fixed;
-    background-color: black;
-    bottom: 0px;
-    width: 120%;
-    text-align: center;
+/*esto es importante para el login*/
+html, body{
+    height: 100% !important;
+    min-height: 100%;
     
+}
+
+body{
+    background-color: #f2f2f2;
+    min-height: 650px;
+}
+
+h1{
+    margin-top: 3%;
+}
+
+#login{
+    max-width: 650px;
 }

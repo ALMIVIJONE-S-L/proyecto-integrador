@@ -81,18 +81,39 @@
 ### PERIFÉRICOS
 
 - MONITORES 
-  - **2x**: _(Actualmente 4)_
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
+  - **1x**: _(Actualmente 4)_
+    - **MARCA**: ` Samsung`
+    - **MODELO**: `SyncMaster 720n`
    
-  - **1x**
-    - **MARCA**: ` APD`
-    - **MODELO**: `ALDA CE H110M (B360G)`
+  - **2x**
+    - **MARCA**: ` Acer`
+    - **MODELO**: `V193HQV`
+ 
+  - **2x**
+    - **MARCA**: ` HANNS.G`
+    - **MODELO**: `HW191D`
                              
 - TECLADOS
-  - **2x**: _(Actualmente 5 de diferentes marcas, igual que los ratones)_
-    - **MARCA**: ` Lenovo ThinkCentre M73`
-    - **MODELO**: `ThinkCentre M73`
+  - **4x**: _(Actualmente 5)_
+    - **MARCA**: ` APD`
+    - **MODELO**: `KU-0325`
+  - **1x**: 
+    - **MARCA**: ` Microsoft`
+    - **MODELO**: `RT9480`
+   
+- RATONES
+  - **3x**: _(Actualmente 4)_
+    - **MARCA**: ` APD`
+    - **MODELO**: `MSU0939`
+  - **1x**: 
+    - **MARCA**: ` Inves`
+    - **MODELO**: `O-21`
+  - **1x**: 
+    - **MARCA**: ` Logitech`
+    - **MODELO**: `M-SBF90`
+  - **1x**: 
+    - **MARCA**: ` Genius`
+    - **MODELO**: `GM-120014`  
 
 ### SAI
 
@@ -124,14 +145,12 @@
     - Serial -> USB
   - **1x**:
     - Cisco Serial -> ethernet    
-  - **?x**: _Al principio teniamos 3, pero por falta de estas va rotando por grupos dependiendo de las necesidades_
-    - HDMI -> VGA
-  - **3x**
+  - **4x**
     - VGA
-  - **3x**:
+  - **8x**:
     -  RJ-45 -> USB
   - **1x**:
-    - RJ-45  -> VGA
+    - DisplayPort -> VGA
 
 ### REGLETAS
 - **Regleta lineal -> 2x**:

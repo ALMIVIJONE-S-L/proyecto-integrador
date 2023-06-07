@@ -16,16 +16,20 @@
     - [DIMENSIONAMENT DE SERVIDORS](altres/dimensionamientoServidores.md)
     - [IMPLANTACIÓN BÁSICA DEL SISTEMA](altres/implementacionSistema.md)
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
+    - [DOCUMENTACIÓN DE LOS SISTEMAS](altres/documentacion/README.md)
+  - **PÁGINA WEB**
+    - [INTRANET](altres/intranet/)
   - **INFORMACIÓ IMPORTANT**
+    - [PERMISOS DIRECTORIOS](altres/permisos.md)
     - [COMANDOS](altres/comandos.md)
       - [Resolucion de problemas y Comandos de POWERSHELL](altres/comandos/powershell.md)
     - [SCRIPTS](altres/scripts/scripts.md)
       - [Script Interfaces (PYTHON)](altres/scripts/scriptInterfaces.py)
-
----
-
-[**DIRECCIONAMIENTO IP**](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
-
+  - **XARXA**
+    - [ESQUEMA DE RED](img/esquemaREDmejorado.svg)
+    - [ESQUEMA DE ELECTRICIDAD](img/diagramaDeElectricidad.svg)
+    - [DIRECCIONAMIENTO IP](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
+    
 ---
 
 # ESTRUCTURA ALUMNE.md

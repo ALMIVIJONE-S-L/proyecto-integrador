@@ -57,4 +57,8 @@ $env:windir\system32\sysprep\sysprep.exe /generalize /oobe /quiet /reboot
 - https://www.pantallazos.es/2016/12/windows-7-reparar-rearmado-sysprep.html
 - https://devblogs.microsoft.com/powershell-community/how-to-update-or-add-a-registry-key-value-with-powershell/
 
+## ISCSI
 
+```powershell
+Connect-IscsiTarget -TargetPortalAddresss 192.168.0.254 -TargetPortalPortNumber 3260 -NodeAddress "truenas.lan.barcelona:datos" -IsPersistent $True
+```
