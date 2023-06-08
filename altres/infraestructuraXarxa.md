@@ -4,16 +4,14 @@
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
 
-![Texto alternativo](ruta/imagen.jpg)
+![](../img/tp-link switch.png)
 
 ## CISCO
 
-Texto de ejemplo para el subtítulo 2.
+Este dispositiu el tenim com a switch amb VLAN per a poder conduir i conectar tota la red de la nostra empresa, aquest es el switch mes important que tenim, ja que es el que o te tot conectat.
 
-![Texto alternativo](ruta/imagen.jpg)
+![](../img/cisco.png)
 
 ### TP-LINK ROUTER
 
-Texto de ejemplo para el sub-subtítulo.
-
-![Texto alternativo](ruta/imagen.jpg)
+Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
