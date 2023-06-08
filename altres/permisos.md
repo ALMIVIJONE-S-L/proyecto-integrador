@@ -19,7 +19,7 @@
             - ggAdministracion
             - ggGerencia
     - **ImasDmasI**:
-        - gldIdI-M (**Mod**)
+        - gld_IdI-M (**Mod**)
             - ggLaboratorio
             - ggTecnico
     - **Proves**:
