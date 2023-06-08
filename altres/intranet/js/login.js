@@ -1,6 +1,7 @@
 
 let nomUsrs = ["miguel","jose ivan","victor","alberto"];
 let pwdUsrs = ["1234","1234","1234","1234"]; // Supongamos que son diferentes por cada persona
+let ubicacion = "";
 
 // Comprobar si el usuario existe en el array
 let contadorUsr = 0;
@@ -139,7 +140,8 @@ function ubiCorrecta(){
     }
 
     if(estadoActual == "valid"){
-        document.getElementById("selectUbicaciones").selectedIndex = selectUbicaciones.selectedIndex
+        ubicacion = seleccion;
+        document.getElementById("selectUbicaciones").selectedIndex = selectUbicaciones.selectedIndex;
         return true;
     }
 }
@@ -148,6 +150,7 @@ function procesarLogin(){
     let nombreUsuario = document.getElementById("usuario").value;
     let passwordUsuario = document.getElementById("password").value;
 
+
     let usrBool = usrExiste(nombreUsuario)
     let pwdBool = pwdExiste(passwordUsuario)
     let ubiBool = ubiCorrecta()
@@ -155,7 +158,7 @@ function procesarLogin(){
     console.log(usrBool + " = " + pwdBool + " = " + ubiBool)
     if (usrBool && pwdBool && ubiBool){
         // Para cambiar de directorio
-        location.href = "index.html"
+        location.href = "nav-footer-plantilla.html?ubi=" + ubicacion;
     }
 
 }
