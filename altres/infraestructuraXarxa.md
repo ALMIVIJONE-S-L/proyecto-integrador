@@ -1,4 +1,4 @@
-# Funció de cadascun dels elements: Servidors, dispositius d’interconnexió de xarxa
+# Funció de cadascun dels elements: Servidors, dispositius d’interconnexió de xarxa...
 
 ## TP-LINK
 
@@ -15,3 +15,7 @@ Este dispositiu el tenim com a switch amb VLAN per a poder conduir i conectar to
 ### TP-LINK ROUTER
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
+
+### PATCH PANEL
+
+![](../img/PATCHPANEL.jpg)
