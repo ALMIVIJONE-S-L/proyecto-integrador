@@ -84,6 +84,15 @@
 - 05
     - En el día de hoy he estado arreglando la web y he solucionado problemas que tenía y he empezado a hacer la otra página 
  
+- 06
+    - En el dia de hoy he estado documentando todos los componentes físicos que tenemos ya que habían algunos que no teníamos antes o que hemos cambiado.
+
+- 07
+    - Hoy he documentado la instalación y la configuración del servidor TrueNAS
+
+- 08
+    - Hoy he continuado haciendo la web, hoy el javaScript para conectar todas las páginas que he hecho y he empezado a crear la otra.
+
 
 
 
