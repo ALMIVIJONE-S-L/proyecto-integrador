@@ -35,4 +35,19 @@ New-NetFirewallRule -DisplayName "HABILITAR PUERTO 10050" -Direction Inbound -Pr
 ```
 
 ## SERVER LINUX
+```bash
 
+#Descargar desde repositorios
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
+
+dpkg -i zabbix-release_6.0-4+debian11_all.deb
+
+apt update
+
+# Install Zabbix agent
+apt install zabbix-agent
+
+# Start Zabbix agent process
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent 
+```
