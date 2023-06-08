@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    border-radius: 20px 10px 50px 30px;
+    -webkit-border-radius: 20px 10px 50px 30px;
+    -moz-border-radius: 20px 10px 50px 30px;
+    border: 10px double;
+    border-color: #B44E3C;
+    background-color: darkgray;
+}
+
+.body{
+    overflow: hidden;
+}
+
+#tabla {
+    float: right;
+    margin-right: 10px;
+    background-color: #D7DBDD;
+  }
+  th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+#container{
+    margin-left: 30%;
+}
