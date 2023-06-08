@@ -16,11 +16,47 @@
     <header>
         <h1>Creación de usuarios</h1>
     </header>
+    <table id="tabla" class="col-sm-3 border border-primary p-4">
+        <tr>
+          <td><b>Dia</b></td>
+          <td><b>Hora de Entrada</b></td>
+          <td><b>Hora de Salida</b></td>
+        </tr>
+        <tr>
+            <td>Lunes</td>
+            <td>10:00</td>
+            <td>16:00</td>
+          </tr>
+        <tr>
+          <td>Martes</td>
+          <td>09:00</td>
+          <td>15:00</td>
+        </tr>
+        <tr>
+          <td>Miercoles</td>
+          <td>09:00</td>
+          <td>15:00</td>
+        </tr>
+        <tr>
+          <td>Jueves</td>
+          <td>09:30</td>
+          <td>16:00</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>08:00</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Sábado</td>
+            <td>10:00</td>
+            <td>12:00</td>
+        </tr>
+      </table>
     <section>
-        <article>
+        <article id="container">                
             <form>
-                <div class="row justify-content-center">
-                    <div class="col-sm-7 border border-primary p-4">
+                <div class="col-sm-7 border border-primary p-4">
                         <form method="get" onsubmit="procesarFormulario(); return false;">
                             <div class="form-group">
                                 <label for="Nombre" class="col-label-sm">Nombre</label>
@@ -59,6 +95,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <br>
                         <div class="form-check form-check-inline ml-4">
                                 <input type="radio" name="sexo" class="form-check-input" value="H" checked />
                                 <label class="form-check-label">Hombre</label>
@@ -67,11 +104,26 @@
                                 <input type="radio" name="sexo" class="form-check-input" value="M" />
                                 <label class="form-check-label">Mujer</label>
                             </div>
+                            <br>
+                            <br>
                             <div class="form-group">
                                 <label class="col-label-sm">Seleccionar foto de perfil:</label>
                                 <input type="file" class="form-control-file" />
                             </div>
                             <br>
+                            <form>
+                                <label for="rol">Cargo:</label>
+                                <select id="rol" name="rol">
+                                  <option value="">Administrador</option>
+                                  <option value="admin">Administrador</option>
+                                  <option value="gerente">Gerente</option>
+                                  <option value="jefe">Jefe</option>
+                                  <option value="empleado">Empleado</option>
+                                  <option value="comercial">Comercial</option>
+                                </select>
+                              </form>
+                                <br>
+                                <br>
                             <div class="text-right mb-3">
                                 <input type="submit" value="Crear usuario" class="btn btn-primary" id="Crear" />
                                 <input type="reset" value="Eliminar" class="btn btn-outline-danger" />

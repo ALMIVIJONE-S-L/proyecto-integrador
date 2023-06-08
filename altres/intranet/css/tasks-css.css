@@ -4,7 +4,7 @@
 }
 
 header {
-    padding-left: 20px;
+    padding-left: 20px;    
 }
 
 
@@ -31,9 +31,10 @@ textarea {
 }
 
 footer {
-    padding: 10px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     color: #fff;
-    
+    margin-top: 12.35%;
 
 }
 

@@ -16,6 +16,43 @@
     <header>
         <h1>Creación de usuarios</h1>
     </header>
+    <table id="tabla" class="col-sm-3 border border-primary p-4">
+        <tr>
+            <td><b>Dia</b></td>
+            <td><b>Hora de Entrada</b></td>
+            <td><b>Hora de Salida</b></td>
+          </tr>
+          <tr>
+              <td>Lunes</td>
+              <td>10:00</td>
+              <td>16:00</td>
+            </tr>
+          <tr>
+            <td>Martes</td>
+            <td>09:00</td>
+            <td>15:00</td>
+          </tr>
+          <tr>
+            <td>Miercoles</td>
+            <td>10:00</td>
+            <td>16:00</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>09:30</td>
+            <td>16:30</td>
+          </tr>
+          <tr>
+              <td>Viernes</td>
+              <td>07:00</td>
+              <td>13:00</td>
+          </tr>
+          <tr>
+              <td>Sábado</td>
+              <td></td>
+              <td></td>
+          </tr>
+      </table>
     <section>
         <article>
             <form>
@@ -72,6 +109,19 @@
                                 <input type="file" class="form-control-file" />
                             </div>
                             <br>
+                            <form>
+                                <label for="rol">Cargo::</label>
+                                <select id="rol" name="rol">
+                                  <option value="">Gerente</option>
+                                  <option value="admin">Administrador</option>
+                                  <option value="gerente">Gerente</option>
+                                  <option value="jefe">Jefe</option>
+                                  <option value="empleado">Empleado</option>
+                                  <option value="comercial">Comercial</option>
+                                </select>
+                              </form>
+                                <br>
+                                <br>
                             <div class="text-right mb-3">
                                 <input type="submit" value="Crear usuario" class="btn btn-primary" id="Crear" />
                                 <input type="reset" value="Eliminar" class="btn btn-outline-danger" />
