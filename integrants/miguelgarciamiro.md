@@ -1,5 +1,7 @@
 (poner formato)
 
+07-06: Hoy he tenido que hacer una pequeña modificación al DFS, para evitar problemas. He instalado el agente de zabbix en la mayoría de los servidores windows (además de añadirlos a zabbix), me faltó hacerlo en los servidores linux y en el datos (windows). He descubierto que la IP de administración del switch cisco no está funcionando como debería ya que el SSH no funciona y tampoco la conexión con SNMP, no me ha dado tiempo a acabarlo hoy.
+
 06-06: Hoy he desplegado (al fin) el script de usuarios, todo ha funcionado como lo previsto, ha funcionado a la primera, creando todos los usuarios, perfiles móviles, obligatorios y carpetas personales. También, antes de ejectuar el script, he terminado de configurar el DFS, la parte de **Namespace**.  En los directorios compartidos, he tambien puesto el script y el csv con los usuarios. He descargado los 2 programas necesarios para RemoteAPPTambién he acabado de configurar lo de RemoteDesktop (RemoteAPP) y ademas hasta lo hemos corregido ya. También he aplicado la mayoría de permisos necesarios en los directorios.
 
 Me ha quedado por acabar los permisos del directorio compartido AdminDominio
