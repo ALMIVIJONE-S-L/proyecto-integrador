@@ -24,7 +24,7 @@ Siguiendo el esquema de abajo vemos que `\\Barcelona.lan\Empresa` es la ruta roo
 
 Tenemos un directorio colgando del directorio root, el cual está enlazado a una carpeta compartida en el servidor `SRV-DATOS`
 
-![](../../img/dfsNamespace.svg)
+![](../../img/dfsNamespaceDibujoPropio.svg)
 
 **COMANDOS POWERSHELL**:
 

@@ -87,3 +87,9 @@
   
  ### 5-06-2023
   En el dia de hoy hemos ido en las horas de Juan, hoy han ido Alberto, Jose y Miguel en las horas de base de datos ya que yo estaba en la recuperación y por eso no he podido ir las primeras tres horas de hoy, pero nada mas terminar he ido y me he puesto ha hacer la intranet ya que tengo un alert que no consigo que me funcione correctamente.
+
+ ### 6-06-2023
+  En el dia de hoy hemos ido en las horas de Juan y Pep, hoy al tener la recuperación de los scripts el único que ha ido desde primer momento ha sido Miguel ya que los demas estabamos recuperando, Miguel ha conseguido ejecutar los scripts para que todos los usuarios y organizaciones esten creadas y le ha funcionado correctamente y a la primera, yo cuando he llegado me he puesto con la intranet, ya que faltaban algunas cosas por acabar, hoy ya esta acabada.
+
+ ### 7-06-2023
+  En el dia de hoy hemos ido en las horas de Raúl, hoy al tener la recuperación de base de datos he llegado mas tarde que los demas, hoy me he puesto con las documentaciones del punto wifi y de WinPower, que las dos están terminadas, después me he puesto con la intranet que hoy solo me he puesto ha retocar algúnas cosas.

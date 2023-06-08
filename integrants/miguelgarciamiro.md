@@ -1,5 +1,9 @@
 (poner formato)
 
+06-06: Hoy he desplegado (al fin) el script de usuarios, todo ha funcionado como lo previsto, ha funcionado a la primera, creando todos los usuarios, perfiles móviles, obligatorios y carpetas personales. También, antes de ejectuar el script, he terminado de configurar el DFS, la parte de **Namespace**.  En los directorios compartidos, he tambien puesto el script y el csv con los usuarios. He descargado los 2 programas necesarios para RemoteAPPTambién he acabado de configurar lo de RemoteDesktop (RemoteAPP) y ademas hasta lo hemos corregido ya. También he aplicado la mayoría de permisos necesarios en los directorios.
+
+Me ha quedado por acabar los permisos del directorio compartido AdminDominio
+
 05-06: Hoy hemos solucionado los problemas del DFS, configurandolo meidante powershell, también he solucionado los problemas de RemoteDesktop (RemoteAPP), el problema era que el servidor estaba en modo core, así que lo tuve que reinstalar en modo GUI. Tambien estuve creando el DMZ, el cual se quedó totalmente acabado (ya que el día anterior, por la tarde estuve pensando como hacerlo, esa tarde también estuve preparando los permisos para los directorios a compartir.
 
 02-06: Hoy antes ir a clase he seguido haciendo el login de la intranet. También he hecho funcionar la conexión iSCSI entre Srv-Datos y Srv-NAS, el problema estaba en el firewall del servidor de windows, que no estaba permitiendo la conexión correcta con el servicio WinRM (usando wac _windows admin center_). Después hemos intentado hacer el DFS, pero no hemos podido acabarlo, porque la herramienta de administración del DFS no se ha acabado de instalar en el cliente sysadmin.
