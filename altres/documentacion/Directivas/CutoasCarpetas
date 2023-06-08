@@ -1,6 +1,6 @@
 # Configuración de Directivas y Cuotas de Carpetas
 
-A continuación mostrare la ruta a las diferentes platillas de las GPO, para saber en un futuro donde se implmentan (Se presupone que sabemos como, donde y a quien vincular dichas GPO).
+A continuación mostrare la ruta a las diferentes platillas de las GPO, para saber en un futuro donde se enceutran las platillas a implmentar (Se presupone que sabemos como, donde y a quien vincular dichas GPO).
 
 Lo recomendable es crear primero una GPO sin vincularla a ninguna OU y comprobar su correcto funcionamiento.
 
