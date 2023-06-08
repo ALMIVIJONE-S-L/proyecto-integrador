@@ -4,13 +4,15 @@ Este es un índice donde está de forma estructurada toda la documentación del 
 
 ## INDICE
 
+- **PROGRAMAS DE ADMINISTRACIÓN**
+    - [WinPower](WinPower.md) _SysAdmin PC_
 - **SERVIDORES**
     - WINDOWS
         - []
         - [DFS](dfs.md)
     - LINUX
         - [CONFIGURACION DE RED]() _Todos_
-        - [ZABBIX]() _SrvMonitorización_
+        - [ZABBIX](zabbixInServers.md) _SrvMonitorización_
 - **EQUIPOS DE RED**
     - MIKROTIK
         - [SUBINTERFACES CON VLANs]()
@@ -19,6 +21,8 @@ Este es un índice donde está de forma estructurada toda la documentación del 
         - []()
     - CISCO
         - []()
+    - PUNTO WIFI
+        - [CONFIGURACIÓN GENERAL](PuntoWifi.md)
 
 
 
