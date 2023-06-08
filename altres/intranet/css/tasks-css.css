@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    padding-left: 20px;
+}
+
+
+#bloque-central{
+    text-align: center;
+    background-color: #c3c3c3;
+    margin-left: 33%;
+    margin-bottom: 3%;
+    margin-right: 33%;
+    border-radius: 10%;
+}
+
+
+
+
+.container {
+    padding: 20px;
+}
+
+
+
+textarea {
+    resize: vertical;
+}
+
+footer {
+    padding: 10px;
+    color: #fff;
+    
+
+}
+
