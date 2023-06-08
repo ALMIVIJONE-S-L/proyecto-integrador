@@ -6,7 +6,7 @@ article, section, aside, nav, header, footer, figure, figcaption,main{
 
 header h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 
@@ -28,3 +28,8 @@ header h1{
 #botones{
     margin-right: 1%;
 }
+
+a{
+    margin: 5px;
+}
+
