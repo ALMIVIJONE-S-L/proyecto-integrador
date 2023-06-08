@@ -4,7 +4,7 @@
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
 
-![](../img/cisco.png)
+![](../img/tplinkswitch.png)
 
 
 ## CISCO
@@ -17,7 +17,7 @@ Este dispositiu el tenim com a switch amb VLAN per a poder conduir i conectar to
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
 
-![](../img/cisco.png)
+![](../img/tplinkrouter.png)
 
 
 ### PATCH PANEL
