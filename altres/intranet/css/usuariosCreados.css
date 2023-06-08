@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container > h1 {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.col-md-4{
+    padding: 30px;
+    text-align: center;
+}
+
+.container{
+    color:black ;
+    font-weight: bolder;
+}
+
+.usuario{
+    background-color: white;
+}
+
+.bg-image {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    text-align: center;
+}
