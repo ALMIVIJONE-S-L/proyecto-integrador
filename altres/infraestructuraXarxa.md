@@ -4,7 +4,7 @@
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
 
-![](../img/tp-link switch.png)
+![](img/tp-link switch.png)
 
 ## CISCO
 
@@ -15,6 +15,8 @@ Este dispositiu el tenim com a switch amb VLAN per a poder conduir i conectar to
 ### TP-LINK ROUTER
 
 Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
+
+![](../img/tp-link router.png)
 
 ### PATCH PANEL
 
