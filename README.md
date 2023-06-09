@@ -17,6 +17,7 @@
     - [IMPLANTACIÓN BÁSICA DEL SISTEMA](altres/implementacionSistema.md)
     - [INFRAESTRUCTURA DE XARXA](altres/infraestructuraXarxa.md)
     - [DOCUMENTACIÓN DE LOS SISTEMAS](altres/documentacion/README.md)
+    - [POLÍTICA DE COPIAS DE SEGURIDAD](altres/copiasSeguridad.md)
   - **PÁGINA WEB**
     - [INTRANET](altres/intranet/)
   - **INFORMACIÓ IMPORTANT**
