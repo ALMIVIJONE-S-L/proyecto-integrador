@@ -110,5 +110,38 @@
 
 ## SERVIDORS
 
-...
+### SRV 1
+-Aquest servidor te virtualitzades 3 maquines.
 
+    #ADDC PRINCIPAL
+        - INTERFAÇ DE RED: PRINCIPAL
+       	- DIRECCIÓ MAC: e4:54:e8:83:02:6b
+    
+    #MONITORITZACIÓ
+        - INTERFAÇ DE RED: MONITORIZACIÓN
+       	- DIRECCIÓ MAC: 00:11:6b:68:61:cd
+        
+    #INTRANET
+        - INTERFAÇ DE RED: INTRANET
+       	- DIRECCIÓ MAC: 00:11:6b:68:61:88
+
+### SRV 2
+-Aquest servidor te virtualitzades 2 maquines.
+
+    #ADDC SECUNDARI
+        - INTERFAÇ DE RED: APLICACIONES
+       	- DIRECCIÓ MAC: e4:54:e8:83:06:ea
+    
+    #APLICACIONS
+        - INTERFAÇ DE RED: MONITORIZACIÓN
+       	- DIRECCIÓ MAC: 00:11:6b:68:61:cd
+### SRV 3
+-Aquest servidor te virtualitzades 2 maquines.
+
+    #DADES
+        - INTERFAÇ DE RED: DATOS-EMPRESA
+       	- DIRECCIÓ MAC: e4:54:e8:83:01:93
+    
+    #TRUENAS
+        - INTERFAÇ DE RED: CABINA-EMPRESA
+       	- DIRECCIÓ MAC: 7c:c2:c6:14:10:8d
