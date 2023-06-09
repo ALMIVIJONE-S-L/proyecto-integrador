@@ -10,6 +10,27 @@ En el DMZ, es donde tenemos el servidor WEB. Su red será la 172.16.0.0/24
 ## SERVIDOR WEB
 Para gestionar el servidor WEB, tendremos el servicio **SSH** por el puerto 22
 
+## Intranet Zabbix
+Para permitir la conexión mediante el agente de zabbix en el firewall hay que habilitar 2 reglas, estas son:
+
+	Filtro = Acceder desde la intranet al servidor; puerto 10050:
+	- Chain: Forward
+	- Src. Address: 172.16.0.1
+	- Protocol: 6 (tcp)
+	- Dst. Port: 10050
+	- In. Interface: ether2
+	- Out. Interface: Servidores (vlan 10)
+	- Comment: Intranet -> Servidores
+	
+	Filtro = Acceder desde la intranet al servidor; puerto 10050:
+	- Chain: Forward
+	- Src. Address: 10.1.10.3
+	- Protocol: 6 (tcp)
+	- Dst. Port: 10050
+	- In. Interface: Servidores (vlan 10)
+	- Out. Interface: ether2
+	- Comment: Servidores -> Intranet
+
 ## Pasos de configuración a seguir en el mikrotik
 
 1. Configuraremos la interfaz DMZ, añadiendole una ip .254 en la red 172.16.0.0/24.

@@ -62,15 +62,13 @@
 
 ---
 
-# Funció de cadascun dels elements: Servidors, dispositius d’interconnexió de xarxa...
-
 # Funció dels Elements
 
 ## DISPOSITIUS D'INTERCONNEXIÓ DE XARXA
 
-### 1.TP-LINK
+### 1.TP-LINK 8 PORTS
 
-- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
+- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció, el any que ve en avançar un poc mes en le treball el tendrem que posar per a que puga fer mes coses, pero aquest any ens va be en la funció que li estem donant.
 
 ![](../img/tplinkswitch.png)
 
@@ -100,7 +98,64 @@
 
 ![](../img/microtik.jpg)
 
+### 6.TP-LIK 24 PORTS
+- Aquest dispositiu el tenim configurat com el cisco, per aixó es dels mes importants que tenim, te VLAN,Bounding... Aquest equip es un dels que no ens pot fallar ja que la red depen de aquest dispositiu .
+
+![](../img/tp-link24.jpg)
+
+### 7.SWITCH LONGSHINE
+- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció, al any que ve igual també se li dona altra funció ja que aquest any sols el gastem per a enllaçar la red y les dispositius de la empresa.
+
+![](../img/LONGSHINE.jpg)
+
 ## SERVIDORS
 
-...
+### SRV 1
+-Aquest servidor te virtualitzades 3 máquines.
 
+- ADDC PRINCIPAL
+    - Aquest servidor te el domini principal de la empresa, per tant es el mes important de tots els que tenim.
+     - INTERFAÇ DE RED: PRINCIPAL
+     - DIRECCIÓ MAC: e4:54:e8:83:02:6b
+     - IP: 10.1.10.1/24
+    
+- MONITORITZACIÓ
+    - Aquest servidor te la monitorització de tots els servidors,swhitch,cisco... De tota l'empresa, ens val per a controlar que tot estiga be.
+     - INTERFAÇ DE RED: MONITORIZACIÓN
+     - DIRECCIÓ MAC: 00:11:6b:68:61:cd
+     - IP: 10.1.10.3/24
+         
+- INTRANET
+    - Aquest servidor te la intranet de l'empresa, on cada un dels treballadors accedeix tots els dies per fer feina o per a cualquier consulta.
+     - INTERFAÇ DE RED: INTRANET
+     - DIRECCIÓ MAC: 00:11:6b:68:61:88
+     - IP: 172.16.0.1/24
+         
+### SRV 2
+-Aquest servidor te virtualitzades 2 máquines.
+
+- ADDC SECUNDARI
+    - Aquest servidor te el domini per si el principal cau poder tenir una segona opció que puga suplir al primer, per tant es un dels mes importants.
+     - INTERFAÇ DE RED: APLICACIONES
+     - DIRECCIÓ MAC: e4:54:e8:83:06:ea
+     - IP: 10.1.10.2/24
+    
+- APLICACIONS
+    - Aquest servidor te totes les aplicacions que els treballadors tenen instal·lades per defecte amb directives en els pc, també te les aplicacions que se les dona a les treballadors per si volen instal·lar-les..
+     - INTERFAÇ DE RED: MONITORIZACIÓN
+     - DIRECCIÓ MAC: 00:11:6b:68:61:cd
+     - IP: 10.1.10.4/24
+### SRV 3
+-Aquest servidor te virtualitzades 2 máquines.
+
+- DADES
+    - Aquest servidor te les dades de l'empresa per tal de tenir copies i que no es perguen.
+     - INTERFAÇ DE RED: DATOS-EMPRESA
+     - DIRECCIÓ MAC: e4:54:e8:83:01:93
+     - IP: 10.1.10.6/24
+    
+- TRUENAS
+    - Aquest servidor te instal·lat el TrueNas, per tal de administrar les cuotes i la informació de l'empresa y poder fer RAID per tal de no pedre cap informació de l'empresa.
+     - INTERFAÇ DE RED: CABINA-EMPRESA
+     - DIRECCIÓ MAC: 7c:c2:c6:14:10:8d
+     - IP: 10.1.10.7/24
