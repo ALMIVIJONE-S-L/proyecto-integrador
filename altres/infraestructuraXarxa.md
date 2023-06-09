@@ -62,15 +62,13 @@
 
 ---
 
-# Funció de cadascun dels elements: Servidors, dispositius d’interconnexió de xarxa...
-
 # Funció dels Elements
 
 ## DISPOSITIUS D'INTERCONNEXIÓ DE XARXA
 
-### 1.TP-LINK
+### 1.TP-LINK 8 PORTS
 
-- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció.
+- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció, el any que ve en avançar un poc mes en le treball el tendrem que posar per a que puga fer mes coses, pero aquest any ens va be en la funció que li estem donant.
 
 ![](../img/tplinkswitch.png)
 
@@ -99,6 +97,16 @@
 - Este es el dispositiu mes important que tenim en cuant a lo que es la xarxa de la empresa, este dispositiu es dedica a enrutar la xarxa de la nostra empresa en el exterior, si aquest dispositiu no funcionara l'empresa no tendŕia xarxa.
 
 ![](../img/microtik.jpg)
+
+### 6.TP-LIK 24 PORTS
+- Aquest dispositiu el tenim configurat com el cisco, per aixó es dels mes importants que tenim, te VLAN,Bounding... Aquest equip es un dels que no ens pot fallar ja que la red depen de aquest dispositiu .
+
+![](../img/tp-link24.jpg)
+
+### 7.SWITCH LONGSHINE
+- Este dispositiu el tenim com a switch "tonto" ja que sols el gastem per a conectar dos dispositius, el vam resetejar al principi per a que puguera fer aquesta funció, al any que ve igual també se li dona altra funció ja que aquest any sols el gastem per a enllaçar la red y les dispositius de la empresa.
+
+![](../img/LONGSHINE.jpg)
 
 ## SERVIDORS
 
