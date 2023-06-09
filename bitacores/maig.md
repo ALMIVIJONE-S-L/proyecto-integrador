@@ -13,6 +13,131 @@
 (acabar de rellenar los días, aunque aquí no estén en la bitácora de "integrants" está mas o menos todo lo que hemos ido haciendo, más oriendo a cada uno pero juntando algunos se puede acabar bien.)
 
 
+--- 
+
+
+
+--- 
+
+
+
+--- 
+
+09-06: Hoy he podido solucionar el problema que teníamos de ñaadir el switch cisco en zabbix, el problema no era de cisco, era del switch de TP-LINK, que como se tuvo que reiniciar (porque alguiend decidió hacer un bucle en la red) perdimos algo de progreso, ese progreso era permitir el tráfico tagged por el bounding entre el cisco y TP-LINK para que se pueda contactar con el switch cisco por la vlan de administración. También he acabado de añadir todos los servidores a zabbix, incluida la intranet, para esto he tenido que añadir 2 reglas en el firewall. También he conseguido establecer el servicio WSUS en el servidor principal, pero a falta de añadir los clientes al servicio WSUS. También he añadido una línea para acceder directamente cuando se ponga el dns del servidor apache del servidor de monitorización
+
+
+
+--- 
+
+08-06: Hoy he acabado de implementar el agente zabbix en todos los servidores, a falta de terminar de poner una regla en el mikrotik para poder dejar pasar tráfico con el puerto 10050 que es el del agente de zabbix. También he terminado de documentar la parte del agente de zabbix en los servidores linux y windows. Hemos tenido algunos problemas con las carpetas compartidas utilizando DFS, porque como el sistema que tenemos implementado no está preparado para el uso que le estamos dando (el tema de usar virtualbox, etc), esto provoca problemas de red recurrentes, pero nada que un,dos o incluso 3 reinicios de la máquina no pueda arreglar (en la mayoría de los casos.) 
+
+En la hora de lenguaje de marcas hemos seguido con la página web, ya la tenemos a casi acabar.
+
+En el dia de hoy, he terminado de implementar la directiva de Firefox, y he seguido investigando el tema de las cutoas, al final decidí hacerlo mediante comandos, pero aún así aún no he logrado que funcione, tendré que investigar más, en clase de Jorge, documenté el tema de la directivas, y revise la página de visualización de tareas para hacerla algun pequeño ajuste.
+
+--- 
+
+07-06: Hoy he tenido que hacer una pequeña modificación al DFS, para evitar problemas. He instalado el agente de zabbix en la mayoría de los servidores windows (además de añadirlos a zabbix), me faltó hacerlo en los servidores linux y en el datos (windows). He descubierto que la IP de administración del switch cisco no está funcionando como debería ya que el SSH no funciona y tampoco la conexión con SNMP, no me ha dado tiempo a acabarlo hoy.
+
+Miguel perfeccionó la configuración de el DFS, ya que no estaba mal, pero podía estar mejor, por mi parte, me puse con el tema de implementar directivas, despues de algunos problemas implementado algunas de ellas, logré implementarlas todas menos la del Firefox, posterioemente me puse a investigar sobre el tema de las cutoas en las carpetas personales, y me tope otra vez con el problema de que no se instalan las herramientas de administración y, por lo tanto, no se podía gestioanr gráficamente desde RSAT.
+
+
+--- 
+
+06-06: Hoy he desplegado (al fin) el script de usuarios, todo ha funcionado como lo previsto, ha funcionado a la primera, creando todos los usuarios, perfiles móviles, obligatorios y carpetas personales. También, antes de ejectuar el script, he terminado de configurar el DFS, la parte de **Namespace**.  En los directorios compartidos, he tambien puesto el script y el csv con los usuarios. He descargado los 2 programas necesarios para RemoteAPPTambién he acabado de configurar lo de RemoteDesktop (RemoteAPP) y ademas hasta lo hemos corregido ya. También he aplicado la mayoría de permisos necesarios en los directorios.
+
+Me ha quedado por acabar los permisos del directorio compartido AdminDominio
+
+Hoy no he podido aportar nada al grupo, ya que las horas de el martes la he invertido realizando un examen de recuperación de Pep.
+
+
+--- 
+
+05-06: Hoy hemos solucionado los problemas del DFS, configurandolo meidante powershell, también he solucionado los problemas de RemoteDesktop (RemoteAPP), el problema era que el servidor estaba en modo core, así que lo tuve que reinstalar en modo GUI. Tambien estuve creando el DMZ, el cual se quedó totalmente acabado (ya que el día anterior, por la tarde estuve pensando como hacerlo, esa tarde también estuve preparando los permisos para los directorios a compartir.
+
+Hoy, hemos logrado hacer fucionar el DFS, no sin antes relizar un larga busuqeda sobre como lograrlo, al fnial, xon la ayuda de Juan, que tambien se puso a buscar información, hemos logrado configurarlo mediante comandos, pero no ha supuesto una importante inversión de tiempo.
+
+
+--- 
+
+02-06: Hoy antes ir a clase he seguido haciendo el login de la intranet. También he hecho funcionar la conexión iSCSI entre Srv-Datos y Srv-NAS, el problema estaba en el firewall del servidor de windows, que no estaba permitiendo la conexión correcta con el servicio WinRM (usando wac _windows admin center_). Después hemos intentado hacer el DFS, pero no hemos podido acabarlo, porque la herramienta de administración del DFS no se ha acabado de instalar en el cliente sysadmin.
+
+Nos ha faltado instalar la herramienta DFS en el cliente sysadmin.
+
+Hoy, hemos continuado intentando solucionar el problema de conectividad de el servidor de datos con el WAC, al final Miguel ha hllado la causa del problema, parece que todo radicava en el firewall, una vez solucionado ese problema, el servidor ya se podía volver a gestionar remotamente, por otra parte, una vez terminado eso, me he puesto a conectar el volumen iSCSI de datos al servidor de datos, dándole su respectivo formato y creando las carpetas correspondientes dentro del mismo, para hacerlo, he tenido que recurrir a realizarlo mediante comandos, ya que la herremienta gráfica no funcinaba, ya que, por algun razón, al instalar el rol correspondiente en el servidor, las herramientas de administración no se instalaban. Finalmente hemos intentado instalar y configurar el DFS, pero, al igual que ocurrio con el iSCSI, no disponemos de herrmienta gráfica para administrarlo y configurarlo, ya que no se instalado junto con el rol.
+
+
+--- 
+
+01-06: Hoy hemos intentado solucionar un problema entra la conexión del WAC y el Servidor de datos, pero no se ha podido. La tarde de este día he acabado el script de usuarios de powershell el cual crea usuarios, perfiles móviles, obligatorios y las carpetas personales además de los grupos y unidades organizativas. Hemos empezado con el tema de la intranet de la empresa, yo he empezado con la pantalla de login.
+El dia de hoy, hemos intetnado seguir solucionando el problema de conexion con el WAC, aunque no hemos hemos logrado solucionarlo, luego, en clase de Jorge, no ha presetnado o explicado su parte del proyecto, que consiste en crear una serie de pagina web que conformaran la intranet de la sede, hemos emezado a hacer dichas páginas.
+
+--- 
+
+31-05: Hoy antes de ir al taller he avanzado el script de powershell. Hemos solucionado un problema (de forma temporal) del servidor NAS, indicandole la misma interfaz que el servidor de datos (que tiene w22), así que salen con la misma MAC, esta forma funciona, pero lo ideal sería usar la interfaz de red dedicada, pero hasta que no se solucione el error no se podrá. No hemos podido acabar lo del DFS y demás.
+
+Hoy a sido un dia infructífero y desesparante, ya que tanto el servidor de datos como la cabina de discos (TrueNAS) no funcionaban, al final de el dia, hemos averguado que el problema en el TryeNAS era que los srcipts implmentados por Miguel para renombrar la interfaces de red daban ciertos problemas, que se puderion solventar, en cuanto a el servidor de datos, da algun problema con el puerto 5996 para conectarse a traves de https por el WAC, pero ya no nos ha dado tiempo a terminar de solucionarlo.
+
+--- 
+
+30-05: Hoy hemos seguido teniendo problemas de red, pero ya no ha pasado tan regularmente lo de la MAC del equipo sysadmin. Hemos podido solucionar otro problema de red entre el NAS y el servidor de Datos en la red interna (SAN) y no funcionaba el iSCSI, yo he ayudado en reparar ese problema. También hemos conectado el punto de acceso, yo he ayudado en indicar donde ponerlo. He puesto de forma provisional (y quizás definitiva, al menos en este curso) el DNS del centro además del de ADDC para los clientes que van por DHCP.  También he unido a zabbix el switch cisco. El dia anterior por la tarde preparé una serie de comandos para poder avanzar en resoluciones de problemas como por ejemplo el que se nos apagaba los servidores w22, SID, etc. Y hoy los hemos podido utilizar. También he crimpado un cable para un servidor del SAN ya que no funcionaba correctamente el anterior.
+
+Uno de los problemas que he tenido es que el agente zabbix de los servidores no funciona como esperábamos así que hay que ejecutarlo de otra forma. No hemos podido acabar de conectar el SAI a la red.
+
+El dia de hoy, he logrado congiurar y compartir correctmanete el volumen iSCSI de datos (quedaria crear la pool de backups) no sin tener difcultades para ellos ya que la conectivdad en la red interna por la que compartimos el recurso iSCSI (192.168.0.0/24) no funcionaba correctamente, lo que me ha supuesto bastante tiempo invertido, en los próximos dias (esta semana) el objetivo, si todo va bien, es crear las carptas necesarias (asignarles permisos y compartirlas) en el servidor de datos (reusrso iSCSI datos) y el pool de backups.
+
+
+--- 
+
+29-05: Hoy he estado intentando solucionar los problemas de red que han aparecido, por lo visto el problema de red no lo resolví por completo el otro día.
+Hoy he descubierto algo importante, que es posible que sea el origen de todo este dolor de cabeza. Este problema es que en la tabla ARP del cliente windows la fila que relaciona la ip de la puerta de enlace y la mac desaparece y en algunos momentos dura poco más de 5 minutos y en otros dura segundos. Ahora toca saber porque pasa esto.
+Además de esto, he ejecutado (mediante un servidor local HTTP) el cliente zabbix (msi) en alguno de los servidores windows core.
+
+
+--- 
+
+26-05: Antes de ir a clase, he estado realiznado la tarea 3.1, ya que todavía no teníamos nada avanzado de esta. He arreglado todos los problemas de red que aparentemente eran los causantes de errores de conexión del sysadmin: volver a crimpar una roseta que usamos al principio como extensor, porque el pin 5 fallaba (pero cuando lo montamos, funcionaba perfectamente), también he ido comprobando los latiguillos implicados por si acaso.
+También he solucionado un problema del servidor de monitorización.
+También he añadido al servidor zabbix el switch tplink y el router mikrotik (a falta del de cisco y los servidores, pero estos se está ocupando Víctor)
+También he añadido en el DNS del dominio principal un host para el zabbix
+también he ayudado a enviar el .exe del agente de zabbix al servidor datos, pero nos hemos quedado por ahí.
+
+
+Seguimos teniendo problemas con la conetividad de la red, aunque esta vez hemos averiguado que peude deberse a problemas con la tabla arp; por otra parte, con la ayuda de alberto, emepzamos a configurar el servidor de datos que estará conectado con la cabina de discos, pero me he podido avanzar casi nada debido a los problemas de red, ya que me era imposible conectarme remotamente al servidor mediante WAC, y hacerlo directamente desde el servidor no era lo más ótimpo (Juan no ha reñido varias veces por eso).
+
+
+--- 
+
+25-05: Hoy he conseguido solucionar uno de los problemas que hacía no funcionar correctamente al bounding. Este problema es que había un latiguillo que no hacía pasar nada de electricidad, así que lo he sustituido y el bounding ha empezado a funcionar. Después hemos descubierto que depende de como se coloque el cable del sysadmin (del puerto patch panel) al switch funciona o no la conexión, por lo visto el crimpado del patchpanel esta estropeado, pero eso el dia siguiente tendré que ocuparme de solucionarlo.
+
+Seguimos teniendo problemas de red, principalmente en le PC-5 (sysAdmin), por mi parte, uni o le asigne un nombre de dominio al Truenas, aplicamos algunas configuraciones iniciales junto con Alberto (servidornas.barcelona.lan) además de crear la pool de datos en el mismo.
+
+
+--- 
+
+24-05: Hoy no hemos tenido mucho tiempo (~1h) para estar en el taller, en este tiempo he estado intentando solucionar el mismo problema en la red que el de dias anteriores. En este caso, he actualizado el firmware del dispositivo mikrotik y ahora queda hacer pruebas para ver si funciona, ya que por lo visto, es un bug. Mañana en el taller veremos si ha funcionado. De todas formas, ahora el mikrotik ha dejado de enviar peticiones con la ip 129.0.0.VLAN así que un problema ha sido solucionado.
+
+Limitados por los problemas de red, estuve mirando y recopilando información acerca de TrueNAS y su funcionamiento (Vinedo apuntes y a través de búsuqedas de internet).
+
+
+--- 
+
+23-05: Hoy he conseguido solucionar el primer problema de red, el cual intenté solucionar ayer. El problema estaba que hace un tiempo añadí 2 puertos más a la vlan de servidores en modo untagged, pero en la configuración de puertos de red se me olvidó añadirle a los 2 nuevos puertos la vlan 10, por eso tenían la de por defecto (1) y no funcionaban los pings en la red. después de solucionar este error, he probado el truenas y funcionaba. Tambien he añadido a putty algunas conexiones a los diferentes máquinas virtuales Linux. Luego de esto he estado el resto del tiempo intentar ver porque la red no funciona correctamente ya que parece ser que hay un bucle por ahí o algo que impide que la red no funcione correctamente, he revisado los logs, usando el  el sniffer de pauqetes,... pero no he solucionado el problema
+
+el tiempo que he tenido, lo he aprovechado para unir los cliente que quedavan al dominio y comprobar que si habian unido correctamente y todo iba sin problemas mayores.
+
+
+--- 
+
+22-05: Hoy hemos estado 2 horas en el taller, y en estas 2 horas lo único que he hecho ha sido intentar solucionar un problema de red en los servidores del DELL 3. Después de buscar mucho, he encontrado un problema con la interfaz de red externa, ya que cuando se le asigna a la maquina virtual no funciona pero si se le asigna la de la placa base puede hacer ping a todos los equipos de la red. Una cosa que tengo que solucionar el siguiente dia es eso ya que no acabé.
+
+Hoy, me he dedicado a terimnar de configurar el WAC desde el que ya podemos gestionar remotamente los servidores Empresariales (AD), luego, he empezado a unidor ciertos clietnes al dominio, y en los PC-3 y PC-4, Alberto y yo hemos procedido a instalar VirtualBox, ya que en esos PC, tenemos virtualizados dos departamentos en cada uno, posteriomente, he creado las máquina virtuales (Dept. Técino y Dept. Laboratorio) y las he dejado insatlandose.
+
+--- 
+
+dia 19-05: Hoy antes de ir al taller he aprovechado 2 horas para ir realizando el script de powershell. He conseguido acabar de configurar el SSH del switch de cisco (el problema estaba en que le faltaba poner tagged en la vlan 20 del puerto (del tplink) donde se conecta el cisco, para que el usuario admin pueda conectarse y habilitar la vlan 20 en el trunk del cisco. También hemos acabado de hacer funcionar zabbix (únicamente acabé de hacer el manual anoche, y hoy lo hemos implementado, todo ha funcionado como se esperaba). Al final me he quedado intentando establecer una conexińo entre el mikrotik y el servidor TrueNAS. Hemos también solucionado un problema en la red en el ordenador del syssadmin. También he ayudado en solucionar el error del sid del windows server. Cambiar 2 puertos de vlan 
+
+Hoy ha sido un día un poco frustrante, pero antes que nada, comentar que el tema de el servidor Empresarial Secundario, Miguel propuso un solución alternativa que funcionó sin necesidad de reinstalar el SO, pero tocó volver a configurar su nombre y la red el el mismo, todo ello, dinalmente, con la ayuda de Alberto, conseguí unir el servidor Empresarial Secundario al dominio cono controlador de el mismo, de forma que si el servidor Empresarial Principal cae, el secundario asumiría el rol de gestionar el Dominio y el AD, por otro lado, hemos tenido un problema bastante frustrante con el PC-5 (sysadmin) ya que sin razón aparente, no le funcoinaba la conexión de red, al final el problema estaba en que el *patch cord* que iba desde el *patch panel* al switch TP-LINK esta roto o defectuoso, ya que parecía que alguien lo había pisado o algo, y el conetor RJ-45 tenía los pines dañados, hemos substituido el cable y el probelma se ha subsanado.
 
 ---
 
