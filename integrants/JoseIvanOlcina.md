@@ -1,5 +1,9 @@
 # Bitácora Jose Ivan Olcina
 
+## 09-06-2023
+
+En el día de hoy, he terminado de implemetnar las cutoas de espacio, con su respectiva documentación realizada, por otra parte, he creado una directiva para deplegar las carpetas de red de los usuarios, por último, he emepzado a recopilar información acera de WDS, y todo apunta a que tocará realizarlo por comandos, el lunes si da tiempo, y con la opinión de Juan acerca de esto, trataré de implenetalo el Lunes.
+
 ## 08-06-2023
 
 En el dia de hoy, he terminado de implementar la directiva de Firefox, y he seguido investigando el tema de las cutoas, al final decidí hacerlo mediante comandos, pero aún así aún no he logrado que funcione, tendré que investigar más, en clase de Jorge, documenté el tema de la directivas, y revise la página de visualización de tareas para hacerla algun pequeño ajuste.
