@@ -17,4 +17,16 @@ Lo recomendable es crear primero una GPO sin vincularla a ninguna OU y comprobar
     - **Directiva para desplegar *Mozzilla Firefox* (Publicada) :**
     Configuración de usuario > Directivas > Configuración de Software > Instalación de software > Clic derecho y seleccionamos "Nuevo paquete" > Haciendo uso de un ruta de red válida, accedemos a la carpeta donde se halla el paquete de software y seleccionamos el paquete a implementar > Aparecera un diálogo emergente en el que seleccionaremos la opción "Publicada"
 
+    - **Conectar y montar automáticamente unidad de red:** Configuración de usuario > Preferencias > Configuración de Windows > Carpetas > Nuevo (Click derecho) > Carpeta > "Especificamos la ruta de red y otras configuraciones"
+
 2. Implenetación de cuotas en las carpetas
+
+En nuestro caso, hemos recurrido a hacerlo mediante comandos de powershell, para ello, es necesario previamente instalar el rol de *Administración de recursos del servidor de archivos* (Dentro de servicios de archivos y almacenamineto > Servicios de i SCSI y almacenamiento).
+
+
+```powershell
+New-FSRNQuota -Path E:\AdminDominio\CarpPersonal -Description "Cuota de espacio para las carpetas personales" -Size 200MB
+```
+(Cambiar al ruta del comando por la ruta a la carpeta que deseeemos mapear)
+
+Cabe destecar que ha tocado usar una rotua local debido a que, si utilizabas un ruta de red, el comando no la reconocía.
