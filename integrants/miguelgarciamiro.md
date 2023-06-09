@@ -1,5 +1,9 @@
 (poner formato)
 
+08-06: Hoy he acabado de implementar el agente zabbix en todos los servidores, a falta de terminar de poner una regla en el mikrotik para poder dejar pasar tráfico con el puerto 10050 que es el del agente de zabbix. También he terminado de documentar la parte del agente de zabbix en los servidores linux y windows. Hemos tenido algunos problemas con las carpetas compartidas utilizando DFS, porque como el sistema que tenemos implementado no está preparado para el uso que le estamos dando (el tema de usar virtualbox, etc), esto provoca problemas de red recurrentes, pero nada que un,dos o incluso 3 reinicios de la máquina no pueda arreglar (en la mayoría de los casos.) 
+
+En la hora de lenguaje de marcas hemos seguido con la página web, ya la tenemos a casi acabar.
+
 07-06: Hoy he tenido que hacer una pequeña modificación al DFS, para evitar problemas. He instalado el agente de zabbix en la mayoría de los servidores windows (además de añadirlos a zabbix), me faltó hacerlo en los servidores linux y en el datos (windows). He descubierto que la IP de administración del switch cisco no está funcionando como debería ya que el SSH no funciona y tampoco la conexión con SNMP, no me ha dado tiempo a acabarlo hoy.
 
 06-06: Hoy he desplegado (al fin) el script de usuarios, todo ha funcionado como lo previsto, ha funcionado a la primera, creando todos los usuarios, perfiles móviles, obligatorios y carpetas personales. También, antes de ejectuar el script, he terminado de configurar el DFS, la parte de **Namespace**.  En los directorios compartidos, he tambien puesto el script y el csv con los usuarios. He descargado los 2 programas necesarios para RemoteAPPTambién he acabado de configurar lo de RemoteDesktop (RemoteAPP) y ademas hasta lo hemos corregido ya. También he aplicado la mayoría de permisos necesarios en los directorios.

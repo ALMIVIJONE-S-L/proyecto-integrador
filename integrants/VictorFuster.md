@@ -93,3 +93,7 @@
 
  ### 7-06-2023
   En el dia de hoy hemos ido en las horas de Raúl, hoy al tener la recuperación de base de datos he llegado mas tarde que los demas, hoy me he puesto con las documentaciones del punto wifi y de WinPower, que las dos están terminadas, después me he puesto con la intranet que hoy solo me he puesto ha retocar algúnas cosas.
+
+
+ ### 8-06-2023
+  En el dia de hoy hemos ido en las horas de Raúl, hoy me he dedicado las horas del taller a revisar que toda la intranet que he tenido que hacer yo estuviera bien para subirla y así poderla juntar con la de los demas, después me he puesto con la documentación de todo lo que llevamos hecho de taller, pero esto no me ha dado tiempo a acabarlo porque nos hemos bajado al patio, al subir me he puesto con la página de bienvenida que quiere tener Miguel para nuestra página web y que así quede más bonita.
