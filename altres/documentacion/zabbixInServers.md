@@ -51,3 +51,7 @@ apt install zabbix-agent
 systemctl restart zabbix-agent
 systemctl enable zabbix-agent 
 ```
+
+## PROBLEMAS
+
+En el caso de la intranet necesitaremos una regla extra en el router para permitir el tráfico por el puerto 10050, esta está documentada [aquí](mikrotik/reglasFirewall.md#intranet-zabbix)
