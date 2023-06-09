@@ -116,32 +116,39 @@
     #ADDC PRINCIPAL
         - INTERFAÇ DE RED: PRINCIPAL
        	- DIRECCIÓ MAC: e4:54:e8:83:02:6b
+        - IP: 10.1.10.1/24
     
     #MONITORITZACIÓ
         - INTERFAÇ DE RED: MONITORIZACIÓN
        	- DIRECCIÓ MAC: 00:11:6b:68:61:cd
-        
+         - IP: 10.1.10.3/24
+         
     #INTRANET
         - INTERFAÇ DE RED: INTRANET
        	- DIRECCIÓ MAC: 00:11:6b:68:61:88
-
+        - IP: 172.16.0.1/24
+         
 ### SRV 2
 -Aquest servidor te virtualitzades 2 maquines.
 
     #ADDC SECUNDARI
         - INTERFAÇ DE RED: APLICACIONES
        	- DIRECCIÓ MAC: e4:54:e8:83:06:ea
+        - IP: 10.1.10.2/24
     
     #APLICACIONS
         - INTERFAÇ DE RED: MONITORIZACIÓN
        	- DIRECCIÓ MAC: 00:11:6b:68:61:cd
+        - IP: 10.1.10.4/24
 ### SRV 3
 -Aquest servidor te virtualitzades 2 maquines.
 
     #DADES
         - INTERFAÇ DE RED: DATOS-EMPRESA
        	- DIRECCIÓ MAC: e4:54:e8:83:01:93
-    
+        - IP: 10.1.10.6/24
+        
     #TRUENAS
         - INTERFAÇ DE RED: CABINA-EMPRESA
        	- DIRECCIÓ MAC: 7c:c2:c6:14:10:8d
+        - IP: 10.1.10.7/24
