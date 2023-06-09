@@ -1,8 +1,32 @@
 # Bitácora Jose Ivan Olcina
 
+## 08-06-2023
+
+En el dia de hoy, he terminado de implementar la directiva de Firefox, y he seguido investigando el tema de las cutoas, al final decidí hacerlo mediante comandos, pero aún así aún no he logrado que funcione, tendré que investigar más, en clase de Jorge, documenté el tema de la directivas, y revise la página de visualización de tareas para hacerla algun pequeño ajuste.
+
+## 07-06-2023
+
+Miguel perfeccionó la configuración de el DFS, ya que no estaba mal, pero podía estar mejor, por mi parte, me puse con el tema de implementar directivas, despues de algunos problemas implementado algunas de ellas, logré implementarlas todas menos la del Firefox, posterioemente me puse a investigar sobre el tema de las cutoas en las carpetas personales, y me tope otra vez con el problema de que no se instalan las herramientas de administración y, por lo tanto, no se podía gestioanr gráficamente desde RSAT.
+
+## 06-06-2023
+
+Hoy no he podido aportar nada al grupo, ya que las horas de el martes la he invertido realizando un examen de recuperación de Pep.
+
+## 05-06-2023
+
+Hoy, hemos logrado hacer fucionar el DFS, no sin antes relizar un larga busuqeda sobre como lograrlo, al fnial, xon la ayuda de Juan, que tambien se puso a buscar información, hemos logrado configurarlo mediante comandos, pero no ha supuesto una importante inversión de tiempo.
+
+## 02-06-2023
+
+Hoy, hemos continuado intentando solucionar el problema de conectividad de el servidor de datos con el WAC, al final Miguel ha hllado la causa del problema, parece que todo radicava en el firewall, una vez solucionado ese problema, el servidor ya se podía volver a gestionar remotamente, por otra parte, una vez terminado eso, me he puesto a conectar el volumen iSCSI de datos al servidor de datos, dándole su respectivo formato y creando las carpetas correspondientes dentro del mismo, para hacerlo, he tenido que recurrir a realizarlo mediante comandos, ya que la herremienta gráfica no funcinaba, ya que, por algun razón, al instalar el rol correspondiente en el servidor, las herramientas de administración no se instalaban. Finalmente hemos intentado instalar y configurar el DFS, pero, al igual que ocurrio con el iSCSI, no disponemos de herrmienta gráfica para administrarlo y configurarlo, ya que no se instalado junto con el rol.
+
+## 01-06-2023
+
+El dia de hoy, hemos intetnado seguir solucionando el problema de conexion con el WAC, aunque no hemos hemos logrado solucionarlo, luego, en clase de Jorge, no ha presetnado o explicado su parte del proyecto, que consiste en crear una serie de pagina web que conformaran la intranet de la sede, hemos emezado a hacer dichas páginas.
+
 ## 31-05-2023
 
-Hoy a sido un dia infrctífero y desesparante, ya que tanto el servidor de datos como la cabina de discos (TrueNAS) no funcionaban, al final de el dia, hemos averguado que el problema en el TryeNAS era que los srcipts implmentados por Miguel para renombrar la interfaces de red daban ciertos problemas, que se puderion solventar, en cuanto a el servidor de datos, da algun problema con el puerto 5996 para conectarse a traves de https por el WAC, pero ya no nos ha dado tiempo a terminar de solucionarlo.
+Hoy a sido un dia infructífero y desesparante, ya que tanto el servidor de datos como la cabina de discos (TrueNAS) no funcionaban, al final de el dia, hemos averguado que el problema en el TryeNAS era que los srcipts implmentados por Miguel para renombrar la interfaces de red daban ciertos problemas, que se puderion solventar, en cuanto a el servidor de datos, da algun problema con el puerto 5996 para conectarse a traves de https por el WAC, pero ya no nos ha dado tiempo a terminar de solucionarlo.
 
 ## 30-05-2023
 
