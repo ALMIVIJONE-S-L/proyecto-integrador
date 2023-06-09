@@ -7,6 +7,7 @@
   - [JOSE IVAN OLCINA](integrants/JoseIvanOlcina.md)
   - [VICTOR FUSTER RICO](integrants/VictorFuster.md)
 - **BITACORES**:
+  - [JUNY](bitacores/juny.md)
   - [MAIG](bitacores/maig.md)
   - [ABRIL](bitacores/Abril.md)
   - [MARÇ](bitacores/març.md)
