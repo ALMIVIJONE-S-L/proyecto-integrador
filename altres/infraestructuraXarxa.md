@@ -111,7 +111,7 @@
 ## SERVIDORS
 
 ### SRV 1
--Aquest servidor te virtualitzades 3 maquines.
+-Aquest servidor te virtualitzades 3 máquines.
 
     #ADDC PRINCIPAL
         - INTERFAÇ DE RED: PRINCIPAL
@@ -129,7 +129,7 @@
         - IP: 172.16.0.1/24
          
 ### SRV 2
--Aquest servidor te virtualitzades 2 maquines.
+-Aquest servidor te virtualitzades 2 máquines.
 
     #ADDC SECUNDARI
         - INTERFAÇ DE RED: APLICACIONES
@@ -141,7 +141,7 @@
        	- DIRECCIÓ MAC: 00:11:6b:68:61:cd
         - IP: 10.1.10.4/24
 ### SRV 3
--Aquest servidor te virtualitzades 2 maquines.
+-Aquest servidor te virtualitzades 2 máquines.
 
     #DADES
         - INTERFAÇ DE RED: DATOS-EMPRESA
