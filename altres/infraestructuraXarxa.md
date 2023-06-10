@@ -130,19 +130,19 @@ Salutacions
 
 - ADDC PRINCIPAL
     - Aquest servidor te el domini principal de la empresa, per tant es el mes important de tots els que tenim.
-     - INTERFAÇ DE RED: PRINCIPAL
+     - INTERFAÇ DE XARXA: PRINCIPAL
      - DIRECCIÓ MAC: e4:54:e8:83:02:6b
      - IP: 10.1.10.1/24
     
 - MONITORITZACIÓ
     - Aquest servidor te la monitorització de tots els servidors,swhitch,cisco... De tota l'empresa, ens val per a controlar que tot estiga be.
-     - INTERFAÇ DE RED: MONITORIZACIÓN
+     - INTERFAÇ DE XARXA: MONITORIZACIÓN
      - DIRECCIÓ MAC: 00:11:6b:68:61:cd
      - IP: 10.1.10.3/24
          
 - INTRANET
     - Aquest servidor te la intranet de l'empresa, on cada un dels treballadors accedeix tots els dies per fer feina o per a cualquier consulta.
-     - INTERFAÇ DE RED: INTRANET
+     - INTERFAÇ DE XARXA: INTRANET
      - DIRECCIÓ MAC: 00:11:6b:68:61:88
      - IP: 172.16.0.1/24
          
@@ -151,13 +151,13 @@ Salutacions
 
 - ADDC SECUNDARI
     - Aquest servidor te el domini per si el principal cau poder tenir una segona opció que puga suplir al primer, per tant es un dels mes importants.
-     - INTERFAÇ DE RED: APLICACIONES
+     - INTERFAÇ DE XARXA: APLICACIONES
      - DIRECCIÓ MAC: e4:54:e8:83:06:ea
      - IP: 10.1.10.2/24
     
 - APLICACIONS
     - Aquest servidor te totes les aplicacions que els treballadors tenen instal·lades per defecte amb directives en els pc, també te les aplicacions que se les dona a les treballadors per si volen instal·lar-les..
-     - INTERFAÇ DE RED: MONITORIZACIÓN
+     - INTERFAÇ DE XARXA: MONITORIZACIÓN
      - DIRECCIÓ MAC: 00:11:6b:68:61:cd
      - IP: 10.1.10.4/24
 ### SRV 3
@@ -165,12 +165,37 @@ Salutacions
 
 - DADES
     - Aquest servidor te les dades de l'empresa per tal de tenir copies i que no es perguen.
-     - INTERFAÇ DE RED: DATOS-EMPRESA
+     - INTERFAÇ DE XARXA: DATOS-EMPRESA
      - DIRECCIÓ MAC: e4:54:e8:83:01:93
      - IP: 10.1.10.6/24
     
 - TRUENAS
     - Aquest servidor te instal·lat el TrueNas, per tal de administrar les cuotes i la informació de l'empresa y poder fer RAID per tal de no pedre cap informació de l'empresa.
-     - INTERFAÇ DE RED: CABINA-EMPRESA
+     - INTERFAÇ DE XARXA: CABINA-EMPRESA
      - DIRECCIÓ MAC: 7c:c2:c6:14:10:8d
      - IP: 10.1.10.7/24
+
+
+## Eines per a l'implementació de xarxa
+
+   - Per a crimpar els cables en el patch panel hem usat la crimpadora d'impacte, per a això hem posat el cable pelat en el lloc corresponent i després hem usat la crimpadora per a deixar-ho bé i que així fera bé el contacte, una vegada fet vam tenir que emprar el tester per a vore que estaven ben crimpats i que tot funcionaba correctament.
+
+![](../img/crimpadoraImpacto.jpg)
+
+   - Molts dels cables que teniem per a poder gastar estaven mal, perquè una de les puntes no estava bé crimpada o no estava crimpada, igual amb els "latiguillos", per la qual cosa ens va tocar utilitzar la crimpadora i el tester per a veure que després de fer els cables estaven correctament, ja que ens tocava fer alguna de les puntes perquè estaven mal fetes o no estaven crimpades.
+
+![](../img/crimpadora.jpg)
+
+   - El tester ha sigut molt útil per a poder veure que els cables ja fets o els que teniamos que fer estaven correctament i que no ens donaven problemes. Ha sigut molt útil!!!
+   
+![](../img/tester.jpg)
+
+   - Hem fet emprar moltes brides ja que per a fer una bona organització de la infraestructura les hem gastat per a poder deixar-vo tot ordenat i en les millors condicions possibles per a poder treballar comodament.
+
+![](../img/bridas.jpeg)
+
+   - També hem fet us de les pegatines, per a poder identificar tots els cables,PC,adaptadors de xarxa... Al principi vam tenir problemes a l'hora de posar les pegatines ja que no apegaven be vam tenir que emprar la cinta adhesiva per a que es quedara apegat.
+
+![](../img/pegatinas.jpg)
+
+![](../img/cintaAdhesiva-.jpg)
