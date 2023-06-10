@@ -2,27 +2,27 @@
 
 ## INDEX
 
-1. Esquema de la interconnexió de la xarxa
-    1.1. [Estructura Jeràrquica](#estructura-jeràrquica)
-    1.2. [Cablejat Estructurat]()
-    1.3. [Funció del diferents elements]()
-    1.4. [Eines per a l'implementació de xarxa]()
-2. Dispositius d'interconnexió de la xarxa
-    2.1. [Eleccio dels equips de xarxa]()
-    2.2. [Esquema de connexió amb la infraestructura de xarxa]()
-    2.3. [Característiques dels dispositius d'interconnexió de xarxa]()
-        2.3.1.  [Consom eléctric]()
-        2.3.2.  [Factors de forma]()
-        2.3.3.  [Auto-MDIX]()
-        2.3.4.  [Simplex, Half duplex, Full duplex]()
-        2.3.5.  [Velocitat de transmissió]()
-        2.3.6.  [Mecanismes de processament de trames en switchos]()
-        2.3.7.  [Interfícies]()
-        2.3.8.  [Port Mirroring]()
-        2.3.9.  [Links amb bonding d'interfaces]()
-        2.3.10. [Característiques capa 3]()
-        2.3.11. ...........
-        2.3.xx. [Punts d'accés]()
+- 1. Esquema de la interconnexió de la xarxa
+    - 1.1. [Estructura Jeràrquica](#estructura-jeràrquica)
+    - 1.2. [Cablejat Estructurat]()
+    - 1.3. [Funció del diferents elements]()
+    - 1.4. [Eines per a l'implementació de xarxa]()
+- 2. Dispositius d'interconnexió de la xarxa
+    - 2.1. [Eleccio dels equips de xarxa]()
+    - 2.2. [Esquema de connexió amb la infraestructura de xarxa]()
+    - 2.3. [Característiques dels dispositius d'interconnexió de xarxa]()
+        - 2.3.1.  [Consom eléctric]()
+        - 2.3.2.  [Factors de forma]()
+        - 2.3.3.  [Auto-MDIX]()
+        - 2.3.4.  [Simplex, Half duplex, Full duplex]()
+        - 2.3.5.  [Velocitat de transmissió]()
+        - 2.3.6.  [Mecanismes de processament de trames en switchos]()
+        - 2.3.7.  [Interfícies]()
+        - 2.3.8.  [Port Mirroring]()
+        - 2.3.9.  [Links amb bonding d'interfaces]()
+        - 2.3.10. [Característiques capa 3]()
+        - 2.3.11. ...........
+        - 2.3.xx. [Punts d'accés]()
 
 ---
 
