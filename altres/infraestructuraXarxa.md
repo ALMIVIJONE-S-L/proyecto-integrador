@@ -198,4 +198,4 @@ Salutacions
 
 ![](../img/pegatinas.jpg)
 
-![](../img/cintaAdhesiva.jpg)
+![](../img/cintaAdhesiva-.jpg)
