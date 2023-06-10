@@ -192,10 +192,10 @@ Salutacions
 
    - Hem fet emprar moltes brides ja que per a fer una bona organització de la infraestructura les hem gastat per a poder deixar-vo tot ordenat i en les millors condicions possibles per a poder treballar comodament.
 
-![](../img/bridas.jpg)
+![](../img/bridas.jpeg)
 
    - També hem fet us de les pegatines, per a poder identificar tots els cables,PC,adaptadors de xarxa... Al principi vam tenir problemes a l'hora de posar les pegatines ja que no apegaven be vam tenir que emprar la cinta adhesiva per a que es quedara apegat.
 
 ![](../img/pegatinas.jpg)
 
-![](../img/cinta.jpg)
+![](../img/cintaAdhesiva.jpg)
