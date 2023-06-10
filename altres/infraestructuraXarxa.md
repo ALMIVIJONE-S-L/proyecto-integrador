@@ -58,7 +58,22 @@
 
 # Cablejat Estructurat
 
+```
+-- BORRAR AL TERMINAR --
+CORREO SOBRE ALGUNAS PREGUNTAS
 
+Hola Miguel,
+
+En l'apartat de Cablejat estructurat, exactament que voldries que posem en Subsistemes de cablejat y armaris de connexió?
+
+Básicament, que expliqueu en general com eu organitzat les conexions tenint en compte el material que teniu a l'abast en el taller.
+
+També, en el apartat de característiques dels dispositius d'interconnexió de xarxa, vols que posem totes les característiques que estem utilitzant en els dispositius?, per exemple, si estem utilitzant bounding, explicar que tenim eixa característica implementada?
+
+Si, perfecte. Així està be.
+
+Salutacions
+```
 
 ---
 
