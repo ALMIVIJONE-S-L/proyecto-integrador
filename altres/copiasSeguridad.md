@@ -47,6 +47,8 @@ Se refiere que hay que guardar las copias de seguridad en 2 tipos de unidades de
 
 **Una** copia fuera del centro de trabajo:
 
-Se refiere a tener un sitio físico donde almacenar las copias de seguridad y debe de estar alejado geográficamente hablando de la empresa. Básicamente almacenamiento **Cloud**, como puede ser AWS
+Se refiere a tener un sitio físico donde almacenar las copias de seguridad y debe de estar alejado geográficamente hablando de la empresa. Básicamente almacenamiento **Cloud**, como puede ser AWS.
+
+Aquí se subirá el Full Backup de todo.
 
 
