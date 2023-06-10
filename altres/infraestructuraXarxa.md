@@ -174,3 +174,34 @@ Salutacions
      - INTERFAÇ DE RED: CABINA-EMPRESA
      - DIRECCIÓ MAC: 7c:c2:c6:14:10:8d
      - IP: 10.1.10.7/24
+
+
+## Eines per a l'implementació de xarxa
+
+   - Per a crimpar els cables en el patch panel hem usat la crimpadora d'impacte, per a això hem posat el cable pelat en el lloc corresponent i després hem usat la crimpadora per a deixar-ho bé i que així fera bé el contacte, una vegada fet vam tenir que emprar el tester per a vore que estaven ben crimpats i que tot funcionaba correctament.
+
+   - Molts dels cables que teniem per a poder gastar estaven mal, perquè una de les puntes no estava bé crimpada o no estava crimpada, igual amb els "latiguillos", per la qual cosa ens va tocar utilitzar la crimpadora i el tester per a veure que després de fer els cables estaven correctament, ja que ens tocava fer alguna de les puntes perquè estaven mal fetes o no estaven crimpades.
+
+   - El tester ha sigut molt útil per a poder veure que els cables ja fets o els que teniamos que fer estaven correctament i que no ens donaven problemes. Ha sigut molt útil!!!
+   
+   - Hem fet emprar moltes brides ja que per a fer una bona organització de la infraestructura les hem gastat per a poder deixar-vo tot ordenat i en les millors condicions possibles per a poder treballar comodament.
+
+    - També hem fet us de les pegatines, per a poder identificar tots els cables,PC,adaptadors de xarxa... Al principi vam tenir problemes a l'hora de posar les pegatines ja que no apegaven be vam tenir que emprar la cinta adhesiva per a que es quedara apegat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
