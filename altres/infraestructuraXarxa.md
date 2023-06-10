@@ -201,23 +201,106 @@ Salutacions
 ![](../img/cintaAdhesiva-.jpg)
 
 ## Característiques dels dispositius d'interconnexió de xarxa
-    #MIKROTIK
-     - Consum elèctric: 3.5 watts màxim.
- - Factor de forma: Encaminador compacte.
- - PoE: No compatible.
- - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
- - Acte-MDIX: Compatible.
- - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
- - Velocitat de transmissió: Fins a 100 Mbps.
- - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
- - Interficies: Ports Ethernet.
- - Port Mirroring: No disponible en el model MikroTik hAP lite.
- - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
- - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ #MIKROTIK
  
- - Punts d'accés:
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
  
- - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
- - Guanys, sensibilitats: 1.5
+  - Punts d'accés:
+ 
+  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
+  - Guanys, sensibilitats: 1.5
+
+#CISCO
+
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ 
+  - Punts d'accés:
+ 
+  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
+  - Guanys, sensibilitats: 1.5
+
+#TP-LINK PUNT D'ACCÉS
+
+  - Factor de forma: TL-WR740N .
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 150 Mbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
+  
+  - Punts d'accés: El TP-Link TL-WR740N es un router inalámbric, per el que proporciona acces inalámbric a través de Wi-Fi.
+  - Estàndards de Wifi: 802.11n, 802.11ac, Wifi 6 (802.11ax).
+  - Velocitat de transmissió: Mbps o Gbps.
+  - Freqüència: 2.4 GHz, 5 GHz.
+  - Cobertura: Abast del senyal Wifi.
+  - Antenes: Internes o externes ajustables.
+  - Seguretat: Xifrat WPA2, WPA3, *WEP, autenticació WPS.
+
+#SWITCH LONGSHINE
+
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: 4 ports Ethernet 10/100 Mbps i 1 port WAN.
+   
 
 
+#PATCH PANEL
+
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 10 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ 
+#TP-LINK 8 PORTS
+
+  - Factor de forma: Rack 19.
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 16 Gbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
+
+#TP-LIK 24 PORTS
+
+  - Factor de forma: Rack 19.
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 48 Gbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 24 Ports Gigabit Ethernet (10/100/1000Mbps).
