@@ -60,6 +60,10 @@ scp -i barcelona.pem extranet.tar ec2-user@ec2-54-166-151-197.compute-1.amazonaw
 
 - 5. Creación del **VIRTUALHOST**
 
-    - 5.1. Configuración del fichero ``
+    - 5.1. Configuración del fichero `/etc/httpd/conf/httpd.conf`
+
+    ![](../../../img/aws-intranet-VirtualHost.png)
+
+    > Hay que tener en cuenta el el html del error, se basa en el DocumentRoot que hemos indicado anteriormente, así que será `/elfichero.html` o si está en alguna carpeta `/carpeta/elfichero`
 
 [REFERENCIAS](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/setting-apache-http-server_deploying-different-types-of-servers#managing-the-httpd-service_setting-apache-http-server)
