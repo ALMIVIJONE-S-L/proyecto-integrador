@@ -201,49 +201,106 @@ Salutacions
 ![](../img/cintaAdhesiva-.jpg)
 
 ## Característiques dels dispositius d'interconnexió de xarxa
-    #MIKROTIK
-        - Codi de producte: RB941-2nD-TC
-        - Arquitectura: SMIPS
-        - CPU: QCA9533
-        - Nombre de nuclis de CPU: 1
-        - Freqüència nominal de la CPU: 650 MHz
-        - Model de xip de commutació: QCA9533-BL3A
-        - Llicència del sistema operatiu RouterOS: 4
-        - Sistema operatiu: RouterOS
-        - Grandària de RAM: 32 MB
-        - Grandària d'emmagatzematge: 16 MB
-        - Tipus d'emmagatzematge: FLAIX
-        - MTBF (temps mitjà entre fallades): Aproximadament 100,000 hores a 25 °C
-        - Temperatura ambient de prova: -20 °C a 70 °C
-        - Preu suggerit: $24.95
-        
-        - Capacitats sense fils:
+ #MIKROTIK
+ 
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ 
+  - Punts d'accés:
+ 
+  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
+  - Guanys, sensibilitats: 1.5
 
-        - 2.4 GHz:
-        - Velocitat màxima de dades sense fils: 300 Mbit/s
-        - Nombre de cadenes de 2.4 GHz: 2
-        - Estàndards de 2.4 GHz: 802.11b/g/n
-        - Guany d'antena dBi per a 2.4 GHz: 1.5
-        - Model de xip de 2.4 GHz: QCA9533
-        - Generació de 2.4 GHz: Wi-Fi 4
-        
-        - Ethernet:
+#CISCO
 
-        - Ports Ethernet 10/100: 4
-        
-        - Alimentació:
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ 
+  - Punts d'accés:
+ 
+  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
+  - Guanys, sensibilitats: 1.5
 
-        - Entrada de MicroUSB: Voltatge de 5-5 V
-        - Nombre d'entrades de CC: 1 (MicroUSB)
-        - Consum màxim d'energia: 3.5 W
-        - Tipus de refredament: Passiu
-        - Certificacions i aprovacions:
+#TP-LINK PUNT D'ACCÉS
 
-        - Certificació: FCC, IC
-        - Especificacions sense fils:
+  - Factor de forma: TL-WR740N .
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 150 Mbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
+  
+  - Punts d'accés: El TP-Link TL-WR740N es un router inalámbric, per el que proporciona acces inalámbric a través de Wi-Fi.
+  - Estàndards de Wifi: 802.11n, 802.11ac, Wifi 6 (802.11ax).
+  - Velocitat de transmissió: Mbps o Gbps.
+  - Freqüència: 2.4 GHz, 5 GHz.
+  - Cobertura: Abast del senyal Wifi.
+  - Antenes: Internes o externes ajustables.
+  - Seguretat: Xifrat WPA2, WPA3, *WEP, autenticació WPS.
 
-        - 2.4 GHz: Potència de transmissió (dBm): 22, Sensibilitat de recepció: -96
-        Velocitats específiques de transmissió/recepció en dBm: 11MBit/s (22/-89), 6MBit/s (20/-93), 54MBit/s (18/-74), MCS0 (20/-93), MCS7 (16/-71)
+#SWITCH LONGSHINE
+
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: 4 ports Ethernet 10/100 Mbps i 1 port WAN.
+   
 
 
+#PATCH PANEL
 
+  - Consum elèctric: 3.5 watts màxim.
+  - Factor de forma: Encaminador compacte.
+  - PoE: No compatible.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 10 Mbps.
+  - Acte-MDIX: Compatible.
+  - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
+  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
+  - Interficies: Ports Ethernet.
+  - Port Mirroring: No disponible en el model MikroTik hAP lite.
+  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+ 
+#TP-LINK 8 PORTS
+
+  - Factor de forma: Rack 19.
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 16 Gbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
+
+#TP-LIK 24 PORTS
+
+  - Factor de forma: Rack 19.
+  - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 48 Gbps.
+  - Acte-MDIX:  Sí, admeteix Auto-MDIX.
+  - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
+  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Interficies: 24 Ports Gigabit Ethernet (10/100/1000Mbps).
