@@ -3,15 +3,15 @@
     padding: 0%;
 }
 
-footer{
-    text-align: center;
-    border-radius: 20px 10px 50px 30px;
-    -webkit-border-radius: 20px 10px 50px 30px;
-    -moz-border-radius: 20px 10px 50px 30px;
-    border: 10px double;
-    border-color: #B44E3C;
-    background-color: darkgray;
-    margin-top: 15%;
+html, body{
+    height: 100% !important;
+    min-height: 100%;
+    
+}
+
+body{
+    background-color: #f2f2f2;
+    min-height: 650px;
 }
 
 article > p{
