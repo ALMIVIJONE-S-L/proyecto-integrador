@@ -158,7 +158,7 @@ function procesarLogin(){
     console.log(usrBool + " = " + pwdBool + " = " + ubiBool)
     if (usrBool && pwdBool && ubiBool){
         // Para cambiar de directorio
-        location.href = "nav-footer-plantilla.html?ubi=" + ubicacion;
+        location.href = "index.html?ubi=" + ubicacion;
     }
 
 }
