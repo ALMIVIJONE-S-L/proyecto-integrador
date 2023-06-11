@@ -2,8 +2,9 @@
 
 Este programa propietario de microsoft tiene diferentes funciones, dos de las más importantes son la de los **Namespaces** _(Espacio de nombres)_ y **Replication**.
 
-1. [NAMESPACES](#namespaces)
-2. [REPLICATION](#replication)
+- [DFS](#dfs)
+  - [NAMESPACES](#namespaces)
+  - [REPLICATION](#replication)
 
 ## NAMESPACES
 
@@ -87,3 +88,4 @@ Hay muchas más opciones, como dejar un TTL (time to live), Failback, etc. Pero 
 
 ## REPLICATION
 
+Lo ideal sería hacer réplica de la carpeta root con el servidor secundario, así en el caso de que el principal se caiga las carpetas seguirán funcionando (si se cae el de datos no)

@@ -12,7 +12,7 @@ Este es un índice donde está de forma estructurada toda la documentación del 
         - [DFS](dfs.md)
     - LINUX
         - [CONFIGURACION DE RED]() _Todos_
-        - [ZABBIX](zabbixInServers.md) _SrvMonitorización_
+        - [ZABBIX](zabbix/) _SrvMonitorización_
 - **EQUIPOS DE RED**
     - MIKROTIK
         - [SUBINTERFACES CON VLANs]()

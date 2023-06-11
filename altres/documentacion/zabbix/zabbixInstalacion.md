@@ -39,6 +39,12 @@ mysql> quit;
   - -p: indicar que queremos promptear la password
   - zabbix: es la base de datos
 
+**MODIFICAR VIRTUALHOST EN APACHE2**
+
+Para hacer que al acceder al servidor, la página por defecto sea la de zabbix, tendremos que modificar el fichero de apache `/etc/apache2/sites-enabled/000-default.conf`
+
+Y en la línea donde ponga `DocumentRoot /...../......` cambiar la ruta puesta por `/usr/share/zabbix`
+
 **REINICIAR Y RECARGAR CONFIGURACIONES**
 - `dpkg-reconfigure locales` _Reconfigurar los archivos de idioma_
 - `systemctl reload apache2`

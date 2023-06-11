@@ -16,12 +16,14 @@ Para empezar, tendremos que (desde powershell) escribir los siguientes comandos:
 # Entrar al directorio donde está el .zip descomprimido (que están los directorios config y bin)
 cd \\.......
 ```
+
 ```
 # Editar el fichero de configuración: .\conf\....conf
 Server=10.1.10.3 #IP servidor ZABBIX
 ServerActive=10.1.10.3 #IP servidor ZABBIX
 Hostname=SRV-EMPRESARIAL #Nombre del equipo (preferentemente cambiarle el nombre del por defecto)
 ```
+
 ```powershell
 # Instalar el agente zabbix (con el nombre correspondiente)
 .\bin\agenteZabbix.exe --config .\conf\zabbix-agent.conf --install
