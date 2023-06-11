@@ -44,7 +44,7 @@ A continuación, adujunto una imagén de el apartado *LAG Table*, que nos muestr
 
     Pues bien, para crear un LAG, que es el nombre que le da TP-LINK a una agrupación de puertos, deberemos escoger el numero de grupo que tendrá el LAG (Si no hemos creado ninguno, lo más normal es que le asigenoms el 1).
 
-2. A continuación, seleciconaremos losp uertos que queremos que conforme la agrupación de puertos clicando sobre los símbolos de los mismos, por ejemplo, si deseamos que la agrupación de puertos se componga de los puertos 23 y 24 de el switch, seleccionarmeos los mismos y pulsaremos al botón apply.
+2. A continuación, seleciconaremos losp uertos que queremos que conforme la agrupación de puertos clicando sobre los símbolos de los mismos, por ejemplo, si por ejemplo, deseamos que la agrupación de puertos se componga de los puertos 23 y 24 de el switch, seleccionarmeos los mismos y pulsaremos al botón apply.
 
 ![LAG CONFIG STATCIC LAG](../Imagenes/TP-LINK/StaticLAG.PNG)
 
@@ -57,4 +57,8 @@ El último aspecto importante a detallar, será la creación de una VLAN exclusi
 El problema que nos presenta esto es que las VLAN provenientes de otro switch, deseamos que atreviesen nuestro switch TP-LINK si que éstas VLAN sean desetiqeyadas en el proceso, ya que queremos que la conserven para que cuando llegue a nuestro router, este las reconozca.
 
 1. Para ello, crearemos 2 VLAN, una para los datos de la VLAN que vienen desde el otro swtich y otra para enviar los datos al router (tanto los que provienen de otro switch conetado a al switch TP-LINK, como del propio switch TP-LINK que va hacia el router), estas dos VLAN, se compdrán cada una por una agrupación (LAG) de 2 puertos, dichas agrupaciones, deberemos haberla creado previamente siguendo el mismo método mencionado anteriormente.
+
+
+
+## Otra configuraciones
 
