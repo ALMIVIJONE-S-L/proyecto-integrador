@@ -18,9 +18,9 @@ Este es un índice donde está de forma estructurada toda la documentación del 
         - [SUBINTERFACES CON VLANs]()
         - [CONFIGURACIÓN DEL DMZ](dmzConfiguracion.md)
     - TP-LINK
-        - []()
+        - [TP-LINK](Switches/TP-LINK.md)
     - CISCO
-        - []()
+        - [CISCO](Switches/cisco.md)
     - PUNTO WIFI
         - [CONFIGURACIÓN GENERAL](PuntoWifi.md)
 
