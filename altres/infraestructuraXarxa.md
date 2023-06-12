@@ -201,7 +201,7 @@ Salutacions
 ![](../img/cintaAdhesiva-.jpg)
 
 ## Característiques dels dispositius d'interconnexió de xarxa
- #MIKROTIK
+ # MIKROTIK
  
   - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
@@ -221,27 +221,21 @@ Salutacions
   - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
   - Guanys, sensibilitats: 1.5
 
-#CISCO
+# CISCO
 
-  - Consum elèctric: 3.5 watts màxim.
-  - Factor de forma: Encaminador compacte.
+  - Factor de forma: Montable en rack de 19 pulgadas..
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
-  - Acte-MDIX: Compatible.
+  - Taxa de reexpedició o velocitat de transferència: 24 ports 10/100 Mbps i 2 ports 10/100/1000 Mbps.
+  - Acte-MDIX: Admet la detecció automàtica de cablejat (MDI/MDIX automàtic) en tots els ports.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
-  - Velocitat de transmissió: Fins a 100 Mbps.
-  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: Ports Ethernet.
-  - Port Mirroring: No disponible en el model MikroTik hAP lite.
-  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
-  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
- 
-  - Punts d'accés:
- 
-  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
-  - Guanys, sensibilitats: 1.5
+  - Velocitat de transmissió: Fins a 10/100 Mbps i 10/100/1000 Mbps.
+  - Mecanismes de processament de trames disponibles en el switch: Cisco Catalyst 2960 utilitza mecanismes de processament de trames basats en ASIC (Application Specific Integrated Circuit) per a un rendiment òptim..
+  - Interficies: 24 ports Ethernet 10/100 Mbps i 2 ports Ethernet 10/100/1000 Mbps.
+  - Port Mirroring: Admet la funcionalitat de Port Mirroring per al monitoratge de trànsit.
+  - Links amb bonding d'interfícies: Admet l'agrupació d'enllaços (link aggregation) per a augmentar l'amplada de banda o proporcionar redundància.
+  - Característiques de capa 3: És un switch de capa 2, encara que pot admetre algunes funcions bàsiques de capa 3, com a encaminament estàtic i VLANs
 
-#TP-LINK PUNT D'ACCÉS
+# TP-LINK PUNT D'ACCÉS
 
   - Factor de forma: TL-WR740N .
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 150 Mbps.
@@ -256,51 +250,43 @@ Salutacions
   - Freqüència: 2.4 GHz, 5 GHz.
   - Cobertura: Abast del senyal Wifi.
   - Antenes: Internes o externes ajustables.
-  - Seguretat: Xifrat WPA2, WPA3, *WEP, autenticació WPS.
+  - Seguretat: Xifrat WPA2, WPA3, WEP, autenticació WPS.
 
-#SWITCH LONGSHINE
+# SWITCH LONGSHINE
 
-  - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 1000 Mbps (1 Gbps).
   - Acte-MDIX: Compatible.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
   - Velocitat de transmissió: Fins a 100 Mbps.
-  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: 4 ports Ethernet 10/100 Mbps i 1 port WAN.
+  - Interficies: Gigabit Ethernet (10/100/1000 Mbps)..
    
+# PATCH PANEL
 
-
-#PATCH PANEL
-
-  - Consum elèctric: 3.5 watts màxim.
-  - Factor de forma: Encaminador compacte.
+  - Factor de forma: Patch panel montable en rack de 19 pulgadas.
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 10 Mbps.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 1 Gbps.
   - Acte-MDIX: Compatible.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
-  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Velocitat de transmissió: Fins a 1 Gbps.
   - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: Ports Ethernet.
-  - Port Mirroring: No disponible en el model MikroTik hAP lite.
-  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
-  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+  - Interficies: 24 Ports Ethernet UTP Cat.6
  
-#TP-LINK 8 PORTS
+# TP-LINK 8 PORTS
 
   - Factor de forma: Rack 19.
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 16 Gbps.
   - Acte-MDIX:  Sí, admeteix Auto-MDIX.
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
-  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Velocitat de transmissió: Ports Gigabit Ethernet (10/100/1000 Mbps).
   - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
 
-#TP-LIK 24 PORTS
+# TP-LIK 24 PORTS
 
   - Factor de forma: Rack 19.
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 48 Gbps.
   - Acte-MDIX:  Sí, admeteix Auto-MDIX.
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
-  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Velocitat de transmissió: Ports Gigabit Ethernet (10/100/1000 Mbps).
   - Interficies: 24 Ports Gigabit Ethernet (10/100/1000Mbps).
