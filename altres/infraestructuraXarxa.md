@@ -200,6 +200,7 @@ Salutacions
 
 ![](../img/cintaAdhesiva-.jpg)
 
+
 # ESQUEMA DE XARXA
 
 ## ESQUEMA
@@ -219,6 +220,9 @@ Salutacions
 
 En els 2 switchs configurables i el router tenim configurat un bouding el cual ho podem vorer amb més exactitud en el esquema de xarxa general
 
+ # MIKROTIK
+
+## Característiques dels dispositius d'interconnexió de xarxa
  # MIKROTIK
  
   - Consum elèctric: 3.5 watts màxim.
@@ -241,24 +245,14 @@ En els 2 switchs configurables i el router tenim configurat un bouding el cual h
 
 # CISCO
 
+  - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
-  - Acte-MDIX: Compatible.
+  - Taxa de reexpedició o velocitat de transferència: 24 ports 10/100 Mbps i 2 ports 10/100/1000 Mbps.
+  - Acte-MDIX: Admet la detecció automàtica de cablejat (MDI/MDIX automàtic) en tots els ports.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
-  - Velocitat de transmissió: Fins a 100 Mbps.
-  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: Ports Ethernet.
-  - Port Mirroring: compatible
-  - Links amb bonding d'interfícies: compatible
-  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
- 
-  - Punts d'accés:
- 
-  - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
-  - Guanys, sensibilitats: 1.5
 
-# TP-LINK PUNT D'ACCÉS
+
 
   - Factor de forma: TL-WR740N .
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 150 Mbps.
@@ -272,36 +266,29 @@ En els 2 switchs configurables i el router tenim configurat un bouding el cual h
   - Freqüència: 2.4 GHz, 5 GHz.
   - Cobertura: Abast del senyal Wifi.
   - Antenes: Internes o externes ajustables.
-  - Seguretat: Xifrat WPA2, WPA3, *WEP, autenticació WPS.
+  - Seguretat: Xifrat WPA2, WPA3, WEP, autenticació WPS.
 
 # SWITCH LONGSHINE
 
-  - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 1000 Mbps (1 Gbps).
   - Acte-MDIX: Compatible.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
   - Velocitat de transmissió: Fins a 100 Mbps.
-  - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: 4 ports Ethernet 10/100 Mbps i 1 port WAN.
+  - Interficies: Gigabit Ethernet (10/100/1000 Mbps)..
    
-
-
 # PATCH PANEL
 
   - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
   - PoE: No compatible.
-  - Taxa de reexpedició o velocitat de transferència: Fins a 10 Mbps.
+  - Taxa de reexpedició o velocitat de transferència: Fins a 1 Gbps.
   - Acte-MDIX: Compatible.
   - Simplex, Half duplex, Full duplex: Compatible amb half duplex i full duplex.
-  - Velocitat de transmissió: Fins a 100 Mbps.
+  - Velocitat de transmissió: Fins a 1 Gbps.
   - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
-  - Interficies: Ports Ethernet.
-  - Port Mirroring: No disponible en el model MikroTik hAP lite.
-  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
-  - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
+  - Interficies: 24 Ports Ethernet UTP Cat.6
  
 # TP-LINK 8 PORTS
 
@@ -309,7 +296,7 @@ En els 2 switchs configurables i el router tenim configurat un bouding el cual h
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 16 Gbps.
   - Acte-MDIX:  Sí, admeteix Auto-MDIX.
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
-  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Velocitat de transmissió: Ports Gigabit Ethernet (10/100/1000 Mbps).
   - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
 
 # TP-LIK 24 PORTS
@@ -318,6 +305,6 @@ En els 2 switchs configurables i el router tenim configurat un bouding el cual h
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 48 Gbps.
   - Acte-MDIX:  Sí, admeteix Auto-MDIX.
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
-  - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
+  - Velocitat de transmissió: Ports Gigabit Ethernet (10/100/1000 Mbps).
   - Interficies: 24 Ports Gigabit Ethernet (10/100/1000Mbps).
   - Bounding: compatible;
