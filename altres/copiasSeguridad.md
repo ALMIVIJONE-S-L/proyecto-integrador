@@ -5,7 +5,7 @@
 - [1. POLÍTICA DE COPIAS DE SEGURIDAD](#1-política-de-copias-de-seguridad)
   - [1.1. INDÍCE](#11-indíce)
   - [1.2. INTRODUCCIÓN](#12-introducción)
-  - [1.3. Explicación más en profuncidad de _3-2-1_ y _2-1-1_](#13-explicación-más-en-profuncidad-de-3-2-1-y-2-1-1)
+  - [1.3. Explicación más en profundidad de _3-2-1_ y _2-1-1_](#13-explicación-más-en-profundidad-de-3-2-1-y-2-1-1)
 - [2. CÓMO SE CONFIGURARAN LOS EQUIPOS](#2-cómo-se-configuraran-los-equipos)
   - [2.1. EQUIPOS WINDOWS SERVER](#21-equipos-windows-server)
     - [2.1.1. PROCESO DEL SERVIDOR DE DATOS](#211-proceso-del-servidor-de-datos)
@@ -24,7 +24,7 @@ La versión que vamos a usar es la **2-1-1**
 
 > _Cabe recalcar que esta estrategia no es perfecta, pero para el tipo de sistema que estamos implementando es más que suficiente, aunque si fuese una empresa de verdad probablemente se quedaría algo corta, también dependiendo de que tipo de empresa estemos hablando_
 
-## 1.3. Explicación más en profuncidad de _3-2-1_ y _2-1-1_
+## 1.3. Explicación más en profundidad de _3-2-1_ y _2-1-1_
 
 El nombre se refiere a que hay que tener 3 tipos de copias **2 de ellas** en diferentes **tipos de unidades** de almacenamiento y la **última** en algún sitio fuera, en este caso **AWS**. Esta forma sería la ideal, pero debido a como tenemos montado el sistema informático, no vamos a poder usar la regla 3-2-1, en cambio, vamos a utilizar la regla **2-1-1** alterada por nosotros mismos.
 
@@ -32,9 +32,23 @@ En que consiste **2-1-1**. Esta modificación indica que vamos a tener 2 tipos d
 
 Porque hemos decidido usar esta versión. Aunque esta versión es un poco arriesgada, nos podrá sacar de un apuro si tenemos algún problema en la sede física. Digo que es arriesgada porque se deberían de tener 2 copias en la misma sede no únicamente una.
 
-
-Mejorar el siguiente texto porque no está correctamente explicado.
-
+> ---
+>
+> **CASO SI FUESE UNA EMPRESA REAL**
+>
+> En una empresa real cualquier medida es insuficiente, pero dependiendo del tipo de empresa se tendrán un tipo de medidas que otra. El caso que voy a explicar será para una empresa la cual tiene diferentes sedes (pongamos que es algo grande).
+>
+> Para empezar, la estrategia 3-2-1 podría llegar a quedarse corta así que explicare brevemente que modificación haría y porqué.
+>
+> **¿Por que se queda corta en una empresa grande y en una pequeña no?**
+>
+> En pocas palabras, la estrategia 3-2-1 es buena para empresas pequeñas que tienen pocos recursos económicos que invertir en seguridad, lo que aporta esta estrategia es una prevención en caso de accidente ya sea por ransomware, por temporal (se inunda por ejemplo), incendio, etc. La prevención es que tenemos 3 tipos de backups 2 en la empresa y uno fuera, como por ejemplo AWS.
+>
+> En las empresas relativamente grandes se necesitan almacenar muchos más datos y no solo datos de la propia empresa sinó todos los backups de los sistemas informáticos y sistemas de interconexión de red. Y como hay más infraestructura hay más posibilidades que se suceda un accidente, así que hay que tenerlo todo mucho más controlado.
+>
+> Una de las soluciones que proponemos es hacer en la empresa tres tipos de copias, dos para los datos de la empresa, separados por prioridad (importantes y normales) y otra para los backup de los sistemas. Usar 4-2-2, para los datos **imoportantes** y tener 4 tipos de copias de los datos y guardados en 2 unidades locales y 2 unidades en la nube, estos **ENCRIPTADOS** para evitar problemas. La 3-2-1 para los datos **normales** que también tendrán que estar encriptados ya que al fin y al cabo son datos de la empresa. Por último 2-1-1 para los backups de los sistemas, ya que al no ser "tan importantes" como los datos urgentes podremos tener menos copias. Por supuesto también encriptados.
+>
+> ***Hay que tener en cuenta también que debido al tiempo e información que nos han dado para elaborar este documento no se tiene que esperar una gran documentación. Hay algunos puntos que no hemos incluido o que hemos pasado por alto, si se desease una documentación mucho más detallada se hubiese podido hacer con más tiempo.***
 
 **Tres** tipos de copias:
 
@@ -73,6 +87,8 @@ Aquí se subirá el Full Backup de todo.
 
 
 # 2. CÓMO SE CONFIGURARAN LOS EQUIPOS
+
+Esto es una breve explicación de cómo se configurarían los equipos en el caso de nuestro CPD teniendo en cuenta también las limitaciones que habían en el enunciado del proyecto.
 
 ## 2.1. EQUIPOS WINDOWS SERVER
 
@@ -179,6 +195,29 @@ Una vez ya tenemos completada la programación de la copia de seguridad en cada 
 ## 2.2. EQUIPOS LINUX
 
 En el caso de los equipos Linux, usaremos la herramienta `rsync` la cual es bastante potente.
+
+El comando que utilizaríamos en nuestro caso (también teniendo en cuenta el enunciado el proyecto) sería este, nos permitirá enviar al servidor NFS nuestros datos comprimidos y encriptados al servidor NFS. 
+
+Lo ideal sería también utilizar la tecnología de SSH para ocultar en los paquetes de red toda la información que se envíar para evitar el tan terrorífico *man In the middle*
+
+Breve explicación:
+
+```bash
+rsync --config=/path/to/rsync.conf --password-file=/path/to/password/file -avz -e ssh /source/directory/ user@nfs-server:/destination/directory/
+```
+
+- `rsync`: Es el comando principal de rsync que se utilizará para copiar y sincronizar archivos.
+- `--config=/path/to/rsync.conf`: Especifica la ubicación del archivo de configuración de rsync. En este caso, se asume que el archivo de configuración se encuentra en `/path/to/rsync.conf`. Puedes personalizar este camino según donde hayas guardado el archivo de configuración.
+- `--password-file=/path/to/password/file`: Indica la ubicación del archivo de contraseña que se utiliza para la encriptación de los datos. Aquí debes proporcionar la ruta al archivo de contraseña que generaste previamente.
+- `-avz`: Son opciones para controlar el comportamiento de rsync:
+  - `-a` (archive): Esta opción indica que se realizará una copia recursiva, preservando los permisos, propietarios, grupos y otros atributos de los archivos.
+  - `-v` (verbose): Muestra una salida detallada en la terminal, lo que te permite ver el progreso y los archivos que se están copiando.
+  - `-z` (compress): Habilita la compresión de datos durante la transferencia para ahorrar ancho de banda.
+- `/source/directory/`: Es la ruta del directorio fuente que deseas copiar o respaldar. Asegúrate de reemplazarlo con la ubicación correcta en tu sistema.
+- `nfs-server:/destination/directory/`: Es la ruta del directorio de destino en el servidor NFS donde se copiarán los archivos. Aquí, `nfs-server` es el nombre o dirección IP del servidor NFS y `/destination/directory/` es la ubicación en el servidor donde se almacenarán los archivos respaldados. Asegúrate de reemplazarlos con los valores adecuados.
+- `-e ssh`: Esta opción especifica el comando remoto a utilizar para establecer la conexión segura. En este caso, se utiliza SSH para encriptar las tramas durante la transferencia. Rsync utilizará SSH para establecer la conexión y cifrar los datos.
+- `user@nfs-server:/destination/directory/`: Aquí, `user` es el nombre de usuario que utilizarás para conectarte al servidor NFS mediante SSH. `nfs-server` es el nombre o dirección IP del servidor NFS y `/destination/directory/` es la ubicación en el servidor donde se almacenarán los archivos respaldados.
+
 
 ## 2.3. EQUIPOS DE INTERCONEXIÓN DE RED
 

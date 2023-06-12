@@ -4,11 +4,11 @@
 
 - 1. Esquema de la interconnexió de la xarxa
     - 1.1. [Estructura Jeràrquica](#estructura-jeràrquica)
-    - 1.2. [Cablejat Estructurat]()
-    - 1.3. [Funció del diferents elements]()
-    - 1.4. [Eines per a l'implementació de xarxa]()
+    - 1.2. [Cablejat Estructurat](#cablejat-estructurat)
+    - 1.3. [Funció del diferents elements](#funció-dels-elements)
+    - 1.4. [Eines per a l'implementació de xarxa](#eines-per-a-limplementació-de-xarxa)
 - 2. Dispositius d'interconnexió de la xarxa
-    - 2.1. [Eleccio dels equips de xarxa]()
+    - 2.1. [Eleccio dels equips de xarxa](#ele)
     - 2.2. [Esquema de connexió amb la infraestructura de xarxa]()
     - 2.3. [Característiques dels dispositius d'interconnexió de xarxa]()
         - 2.3.1.  [Consom eléctric]()
@@ -200,8 +200,26 @@ Salutacions
 
 ![](../img/cintaAdhesiva-.jpg)
 
-## Característiques dels dispositius d'interconnexió de xarxa
- #MIKROTIK
+# ESQUEMA DE XARXA
+
+## ESQUEMA
+
+![](../../img/../proyecto-integrador/img/esquemaREDmejorado.svg)
+
+## DIRECCIONAMENT IP
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLfUwCso1YnMhXa8_y3GcfbUMPoIncYuWP6CDcRJqJvuYxjdpIGcujbussoY5UhDNzmLjQvh1rddsk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 500px"></iframe>
+
+[DIRECCIONAMIENTO IP](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
+
+
+# Característiques dels dispositius d'interconnexió de xarxa
+
+# Explicació inicial
+
+En els 2 switchs configurables i el router tenim configurat un bouding el cual ho podem vorer amb més exactitud en el esquema de xarxa general
+
+ # MIKROTIK
  
   - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
@@ -212,8 +230,8 @@ Salutacions
   - Velocitat de transmissió: Fins a 100 Mbps.
   - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
   - Interficies: Ports Ethernet.
-  - Port Mirroring: No disponible en el model MikroTik hAP lite.
-  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Port Mirroring: compatible.
+  - Links amb bonding d'interfícies: compatible.
   - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
  
   - Punts d'accés:
@@ -221,9 +239,8 @@ Salutacions
   - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
   - Guanys, sensibilitats: 1.5
 
-#CISCO
+# CISCO
 
-  - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
   - PoE: No compatible.
   - Taxa de reexpedició o velocitat de transferència: Fins a 100 Mbps.
@@ -232,8 +249,8 @@ Salutacions
   - Velocitat de transmissió: Fins a 100 Mbps.
   - Mecanismes de processament de trames disponibles en el switch: Depén del model específic del producte.
   - Interficies: Ports Ethernet.
-  - Port Mirroring: No disponible en el model MikroTik hAP lite.
-  - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
+  - Port Mirroring: compatible
+  - Links amb bonding d'interfícies: compatible
   - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
  
   - Punts d'accés:
@@ -241,7 +258,7 @@ Salutacions
   - Cobertura: cobertura sense fil d'abast moderat, adequada per a ús en espais xicotets o domèstics.
   - Guanys, sensibilitats: 1.5
 
-#TP-LINK PUNT D'ACCÉS
+# TP-LINK PUNT D'ACCÉS
 
   - Factor de forma: TL-WR740N .
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 150 Mbps.
@@ -249,7 +266,6 @@ Salutacions
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
   - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
   - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
-  
   - Punts d'accés: El TP-Link TL-WR740N es un router inalámbric, per el que proporciona acces inalámbric a través de Wi-Fi.
   - Estàndards de Wifi: 802.11n, 802.11ac, Wifi 6 (802.11ax).
   - Velocitat de transmissió: Mbps o Gbps.
@@ -258,7 +274,7 @@ Salutacions
   - Antenes: Internes o externes ajustables.
   - Seguretat: Xifrat WPA2, WPA3, *WEP, autenticació WPS.
 
-#SWITCH LONGSHINE
+# SWITCH LONGSHINE
 
   - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
@@ -272,7 +288,7 @@ Salutacions
    
 
 
-#PATCH PANEL
+# PATCH PANEL
 
   - Consum elèctric: 3.5 watts màxim.
   - Factor de forma: Encaminador compacte.
@@ -287,7 +303,7 @@ Salutacions
   - Links amb bonding d'interfícies: No compatible en el model MikroTik hAP lite.
   - Característiques de capa 3: com a encaminament IP, firewall, NAT, DHCP, VLAN, QoS, VPN, routing estàtic i dinàmic, suport per a IPv6 i multicast.
  
-#TP-LINK 8 PORTS
+# TP-LINK 8 PORTS
 
   - Factor de forma: Rack 19.
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 16 Gbps.
@@ -296,7 +312,7 @@ Salutacions
   - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
   - Interficies: 8 Ports Gigabit Ethernet (10/100/1000Mbps).
 
-#TP-LIK 24 PORTS
+# TP-LIK 24 PORTS
 
   - Factor de forma: Rack 19.
   - Taxa de reexpedició o velocitat de transferència: Velocidad de transferencia de 48 Gbps.
@@ -304,3 +320,4 @@ Salutacions
   - Simplex, Half duplex, Full duplex: Compatible amb modes de comunicació Simplex, Half duplex y Full duplex..
   - Velocitat de transmissió: Ports Gigabit *Ethernet (10/100/1000 *Mbps).
   - Interficies: 24 Ports Gigabit Ethernet (10/100/1000Mbps).
+  - Bounding: compatible;
