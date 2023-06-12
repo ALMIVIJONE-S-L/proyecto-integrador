@@ -192,7 +192,7 @@ Les conexions també es poden vorer en el [esquema de xarxa](#esquema) que está
 
 ## ESQUEMA
 
-![](../../img/proyecto-integrador/esquemaREDmejorado.png)
+![](../img/esquemaREDmejorado.png)
 
 ## DIRECCIONAMENT IP
 
