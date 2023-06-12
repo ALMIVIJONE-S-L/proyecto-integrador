@@ -2,12 +2,12 @@
 
 ## INDEX
 
-- 1. Esquema de la interconnexió de la xarxa
+- 1. **Esquema de la interconnexió de la xarxa**
     - 1.1. [Estructura Jeràrquica](#estructura-jeràrquica)
     - 1.2. [Cablejat Estructurat](#cablejat-estructurat)
     - 1.3. [Funció del diferents elements](#funció-dels-elements)
     - 1.4. [Eines per a l'implementació de xarxa](#eines-per-a-limplementació-de-xarxa)
-- 2. Dispositius d'interconnexió de la xarxa
+- 2. **Dispositius d'interconnexió de la xarxa**
     - 2.1. [Eleccio dels equips de xarxa](#ele)
     - 2.2. [Esquema de connexió amb la infraestructura de xarxa]()
     - 2.3. [Característiques dels dispositius d'interconnexió de xarxa]()
@@ -58,22 +58,9 @@
 
 # Cablejat Estructurat
 
-```
--- BORRAR AL TERMINAR --
-CORREO SOBRE ALGUNAS PREGUNTAS
+Les conexions també es poden vorer en el [esquema de xarxa](#esquema) que está mes davall. Per a vorer les conexións físiques (també esta en eixe esquema) está el document enllaçat en la seguent linia. Supose que es pot fer l'idea de com está montat amb eixos 2 recursos.
 
-Hola Miguel,
-
-En l'apartat de Cablejat estructurat, exactament que voldries que posem en Subsistemes de cablejat y armaris de connexió?
-
-Básicament, que expliqueu en general com eu organitzat les conexions tenint en compte el material que teniu a l'abast en el taller.
-
-També, en el apartat de característiques dels dispositius d'interconnexió de xarxa, vols que posem totes les característiques que estem utilitzant en els dispositius?, per exemple, si estem utilitzant bounding, explicar que tenim eixa característica implementada?
-
-Si, perfecte. Així està be.
-
-Salutacions
-```
+[MÉS INFO SOBRE COM ESTÁ ESTRUCTURAT](implementacionSistema.md)
 
 ---
 
@@ -209,10 +196,9 @@ Salutacions
 
 ## DIRECCIONAMENT IP
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLfUwCso1YnMhXa8_y3GcfbUMPoIncYuWP6CDcRJqJvuYxjdpIGcujbussoY5UhDNzmLjQvh1rddsk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 500px"></iframe>
+Tenim un google calc el cual ens permitix tindrer totes les IPs configurades y organitzades correctament.
 
-[DIRECCIONAMIENTO IP](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
-
+[ENLLAÇ](https://docs.google.com/spreadsheets/d/1npuxI7d_vjbFxbQzl2RSiZdsGHkH0_VvXVm98lLpaJA/edit?usp=sharing)
 
 # Característiques dels dispositius d'interconnexió de xarxa
 
