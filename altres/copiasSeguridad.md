@@ -1,20 +1,21 @@
-# 1. POLÍTICA DE COPIAS DE SEGURIDAD
+# POLÍTICA DE COPIAS DE SEGURIDAD
 
-## 1.1. INDÍCE
+# INDÍCE
 
-- [1. POLÍTICA DE COPIAS DE SEGURIDAD](#1-política-de-copias-de-seguridad)
-  - [1.1. INDÍCE](#11-indíce)
-  - [1.2. INTRODUCCIÓN](#12-introducción)
-  - [1.3. Explicación más en profundidad de _3-2-1_ y _2-1-1_](#13-explicación-más-en-profundidad-de-3-2-1-y-2-1-1)
-- [2. CÓMO SE CONFIGURARAN LOS EQUIPOS](#2-cómo-se-configuraran-los-equipos)
-  - [2.1. EQUIPOS WINDOWS SERVER](#21-equipos-windows-server)
-    - [2.1.1. PROCESO DEL SERVIDOR DE DATOS](#211-proceso-del-servidor-de-datos)
-    - [2.1.2. PROCESO EN TODOS SERVIDORES WINDOWS (incluido el de datos)](#212-proceso-en-todos-servidores-windows-incluido-el-de-datos)
-  - [2.2. EQUIPOS LINUX](#22-equipos-linux)
-  - [2.3. EQUIPOS DE INTERCONEXIÓN DE RED](#23-equipos-de-interconexión-de-red)
-- [3. SERVIDOR NAS](#3-servidor-nas)
 
-## 1.2. INTRODUCCIÓN
+- [POLÍTICA DE COPIAS DE SEGURIDAD](#política-de-copias-de-seguridad)
+- [INDÍCE](#indíce)
+- [1. INTRODUCCIÓN](#1-introducción)
+- [2. Explicación más en profundidad de _3-2-1_ y _2-1-1_](#2-explicación-más-en-profundidad-de-3-2-1-y-2-1-1)
+- [3. CÓMO SE CONFIGURARAN LOS EQUIPOS](#3-cómo-se-configuraran-los-equipos)
+  - [3.1. EQUIPOS WINDOWS SERVER](#31-equipos-windows-server)
+    - [3.1.1. PROCESO DEL SERVIDOR DE DATOS](#311-proceso-del-servidor-de-datos)
+    - [3.1.2. PROCESO EN TODOS SERVIDORES WINDOWS (incluido el de datos)](#312-proceso-en-todos-servidores-windows-incluido-el-de-datos)
+  - [3.2. EQUIPOS LINUX](#32-equipos-linux)
+  - [3.3. EQUIPOS DE INTERCONEXIÓN DE RED](#33-equipos-de-interconexión-de-red)
+- [4. SERVIDOR NAS](#4-servidor-nas)
+
+# 1. INTRODUCCIÓN
 
 En este documento vamos a explicar de forma breve que tipo de estrategia de copias de seguridad vamos a implementar en nuestro sistema informático.
 
@@ -24,7 +25,7 @@ La versión que vamos a usar es la **2-1-1**
 
 > _Cabe recalcar que esta estrategia no es perfecta, pero para el tipo de sistema que estamos implementando es más que suficiente, aunque si fuese una empresa de verdad probablemente se quedaría algo corta, también dependiendo de que tipo de empresa estemos hablando_
 
-## 1.3. Explicación más en profundidad de _3-2-1_ y _2-1-1_
+# 2. Explicación más en profundidad de _3-2-1_ y _2-1-1_
 
 El nombre se refiere a que hay que tener 3 tipos de copias **2 de ellas** en diferentes **tipos de unidades** de almacenamiento y la **última** en algún sitio fuera, en este caso **AWS**. Esta forma sería la ideal, pero debido a como tenemos montado el sistema informático, no vamos a poder usar la regla 3-2-1, en cambio, vamos a utilizar la regla **2-1-1** alterada por nosotros mismos.
 
@@ -47,6 +48,18 @@ Porque hemos decidido usar esta versión. Aunque esta versión es un poco arries
 > En las empresas relativamente grandes se necesitan almacenar muchos más datos y no solo datos de la propia empresa sinó todos los backups de los sistemas informáticos y sistemas de interconexión de red. Y como hay más infraestructura hay más posibilidades que se suceda un accidente, así que hay que tenerlo todo mucho más controlado.
 >
 > Una de las soluciones que proponemos es hacer en la empresa tres tipos de copias, dos para los datos de la empresa, separados por prioridad (importantes y normales) y otra para los backup de los sistemas. Usar 4-2-2, para los datos **imoportantes** y tener 4 tipos de copias de los datos y guardados en 2 unidades locales y 2 unidades en la nube, estos **ENCRIPTADOS** para evitar problemas. La 3-2-1 para los datos **normales** que también tendrán que estar encriptados ya que al fin y al cabo son datos de la empresa. Por último 2-1-1 para los backups de los sistemas, ya que al no ser "tan importantes" como los datos urgentes podremos tener menos copias. Por supuesto también encriptados.
+>
+> >---
+> >
+> > ### IMPORTANTE:
+> >
+> >***Copias importantes***: Estas copias son las que la empresa prioriza como muy importantes, como pueden ser información de los usuarios, documentación privada, etc. Estarán sincronizadas y se realizarán cada día a las 22:00 como full backup para tener un full backup en el caso de que en algún momento la sincronía falle. 
+> >
+> > ***Copias Normales***: Son las copias que no tienen tanta importancia a nivel datos, pero que también tienen que tener copias de seguridad, como documentación no muy importante (según considere la empresa). Serán también También se realizarán cada día a las 22:00. También estarán sincronizadas con el servidor de almacenamiento
+> >
+> >***Backups de los sistemas***: Estos backups contendrán información de los sevidores y backups de los sistemas de interconexión de red. Estas serán full backup de los sistemas y se harán cada viernes.
+> >
+> > ---
 >
 > ***Hay que tener en cuenta también que debido al tiempo e información que nos han dado para elaborar este documento no se tiene que esperar una gran documentación. Hay algunos puntos que no hemos incluido o que hemos pasado por alto, si se desease una documentación mucho más detallada se hubiese podido hacer con más tiempo.***
 
@@ -86,11 +99,11 @@ Se refiere a tener un sitio físico donde almacenar las copias de seguridad y de
 Aquí se subirá el Full Backup de todo.
 
 
-# 2. CÓMO SE CONFIGURARAN LOS EQUIPOS
+# 3. CÓMO SE CONFIGURARAN LOS EQUIPOS
 
 Esto es una breve explicación de cómo se configurarían los equipos en el caso de nuestro CPD teniendo en cuenta también las limitaciones que habían en el enunciado del proyecto.
 
-## 2.1. EQUIPOS WINDOWS SERVER
+## 3.1. EQUIPOS WINDOWS SERVER
 
 > **EQUIPOS A LOS QUE AFECTARÁ**
 >
@@ -101,7 +114,7 @@ Esto es una breve explicación de cómo se configurarían los equipos en el caso
 
 En este caso, para los servidores windows vamos a utilizar una característica de windows llamada `Copias de seguridad de windows server`, esto nos permitirá crear un backup de la máquina completa, para evitar problemas.
 
-### 2.1.1. PROCESO DEL SERVIDOR DE DATOS
+### 3.1.1. PROCESO DEL SERVIDOR DE DATOS
 
 Este servidor será el encargado de comprimir el directorio de los datos "empresa" y encriptarlo y guardarlo en el volumen NFS.
 
@@ -158,7 +171,7 @@ New-DfsnFolder -TargetPath '\\SRV-DATOS\bck-srvEmpresarial' `
 
 **5.** Una vez ya tengamos configurado todo lo anterior, lo único que quedaría sería hacer una copia encriptada y comprimida del directorio de cada servidor al volumen NFS y borrar la copia dentro del directorio compartido.
 
-### 2.1.2. PROCESO EN TODOS SERVIDORES WINDOWS (incluido el de datos)
+### 3.1.2. PROCESO EN TODOS SERVIDORES WINDOWS (incluido el de datos)
 
 [Alternativa en Powershell de las copias de seguridad](https://learn.microsoft.com/en-us/powershell/module/windowsserverbackup/?view=windowsserver2022-ps)
 
@@ -192,7 +205,7 @@ En el apartado de la siguiente captura, tenemos que indicar la ruta DFS a la car
 
 Una vez ya tenemos completada la programación de la copia de seguridad en cada servidor, lo que tenemos que hacer ahora es configurar el
 
-## 2.2. EQUIPOS LINUX
+## 3.2. EQUIPOS LINUX
 
 En el caso de los equipos Linux, usaremos la herramienta `rsync` la cual es bastante potente.
 
@@ -219,14 +232,14 @@ rsync --config=/path/to/rsync.conf --password-file=/path/to/password/file -avz -
 - `user@nfs-server:/destination/directory/`: Aquí, `user` es el nombre de usuario que utilizarás para conectarte al servidor NFS mediante SSH. `nfs-server` es el nombre o dirección IP del servidor NFS y `/destination/directory/` es la ubicación en el servidor donde se almacenarán los archivos respaldados.
 
 
-## 2.3. EQUIPOS DE INTERCONEXIÓN DE RED
+## 3.3. EQUIPOS DE INTERCONEXIÓN DE RED
 
 En este caso, utilizaremos ssh para conectarnos y automáticamente ejecutar un comando para usar TFTP para hacer copias de seguridad de las imágenes de cada dispositivo de red.
 
 Para ello tendremos que configurar un servidor TFTP (este servidor estaría alojado en el NAS)
 
 
-# 3. SERVIDOR NAS
+# 4. SERVIDOR NAS
 
 Este se encargará de compartir por NFS 2 directorios backup uno para la empresa y otro para los servidores.
 

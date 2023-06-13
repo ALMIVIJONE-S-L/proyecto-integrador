@@ -43,7 +43,15 @@ En este apartado de deifinirán las configuraciones a realizar sobre el modulo d
 
 ### ORGANIZACIÓN DEL RACK REAL
 
+**Servers**
+
 ![](../img/servers.jpg)
+
+**Dispositivos de red**
+
+![](../img/rack-red.jpeg)
+
+**Rack completo**
 
 ![](../img/rack-completo.jpg)
 
