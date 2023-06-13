@@ -10,6 +10,65 @@
 
 --- 
 
+# DIA 13 [13-06-23]
+
+**OBJETIVO DEL DIA:**
+
+- Durante este día nos hemos enfocado en finalizar las correcciones pendientes en el proyecto. Hemos configurado los diferentes tipos de servidores en el SAI para asegurar un suministro de energía adecuado, hemos intentado hacer funcionar el servicio WDS (Windows Deployment Services) realizando ajustes en la configuración del DHCP y hemos completado la configuración del rsync en el servidor NAS para permitir la sincronización eficiente de archivos con otros dispositivos.
+
+**QUE HEMOS PODIDO HACER:**
+
+- Hemos configurado los diferentes tipos de servidores en el SAI (Sistema de Alimentación Ininterrumpida), asegurándonos de que estén correctamente conectados y configurados para proporcionar un suministro de energía adecuado. Esto nos brinda protección contra cortes de energía y garantiza la continuidad de los servicios.
+
+- Hemos intentado hacer funcionar el servicio WDS (Windows Deployment Services), realizando ajustes en la configuración del DHCP (Protocolo de Configuración Dinámica de Hosts) para lograr el éxito. Esto nos permitirá implementar una solución eficiente para el despliegue de sistemas operativos en los equipos.
+
+- Hemos completado la configuración del rsync en el servidor NAS, lo cual nos permitirá sincronizar archivos de manera eficiente con otros dispositivos. Esto es especialmente útil para la creación de copias de seguridad y el intercambio de archivos entre diferentes equipos.
+
+**QUE NO HEMOS PODIDO HACER:**
+
+- no hay nada que no hayamos podido hacer, quizás mencionar el problema con el DHCP y el WDS.
+
+**SIGUIENTES PASOS:**
+
+- Realizar pruebas exhaustivas para asegurarnos de que los servidores configurados en el SAI funcionen adecuadamente y proporcionen la protección necesaria en caso de fallos de energía.
+
+- Continuar investigando y ajustando la configuración del servicio WDS para lograr su correcto funcionamiento y facilitar el despliegue de sistemas operativos en los equipos.
+
+- Explorar y utilizar el rsync en el servidor NAS, realizando pruebas de sincronización de archivos con otros dispositivos y asegurándonos de su correcto funcionamiento y eficiencia.
+
+- Continuar trabajando en la documentación del proyecto, asegurándose de incluir todos los detalles relevantes y cumplir con los requisitos establecidos para la entrega de documentación.
+
+
+
+# DIA 12 [12-06-23]
+
+**OBJETIVO DEL DIA:**
+
+- Durante este día hemos logrado avanzar y corregir diversas áreas del proyecto, aprovechando el tiempo dedicado durante el fin de semana. Hemos trabajado en la configuración y uso de AWS (Amazon Web Services), hemos completado la intranet del proyecto, realizado pruebas con las copias de seguridad y desarrollado una estrategia efectiva para almacenarlas.
+
+**QUE HEMOS PODIDO HACER:**
+
+- Hemos trabajado en la configuración y uso de AWS (Amazon Web Services), explorando las diferentes opciones y servicios que ofrece la plataforma. Esto nos permitirá aprovechar los recursos en la nube para nuestro proyecto y optimizar su funcionamiento.
+
+- Hemos completado la intranet del proyecto, realizando los ajustes necesarios y asegurándonos de que todas las funcionalidades estén correctamente implementadas. Esto nos permitirá contar con una plataforma interna para compartir información y recursos entre los miembros del equipo.
+
+- Hemos realizado pruebas con las copias de seguridad, verificando que los datos se respaldan correctamente y que se pueden recuperar en caso de necesidad. Esto nos brinda tranquilidad y asegura la disponibilidad de los datos en caso de cualquier eventualidad.
+
+- Hemos desarrollado una estrategia efectiva para almacenar las copias de seguridad, teniendo en cuenta las mejores prácticas y considerando la seguridad y la disponibilidad de los datos. Esto nos permitirá mantener los respaldos de manera organizada y garantizar su integridad.
+
+**QUE NO HEMOS PODIDO HACER:**
+
+- no hay nada que no hayamos podido hacer
+
+**SIGUIENTES PASOS:**
+
+- Continuar explorando y familiarizándonos con los servicios de AWS, identificando aquellos que mejor se ajusten a las necesidades de nuestro proyecto y planificando su implementación.
+
+- Realizar pruebas adicionales con las copias de seguridad, asegurándonos de que los datos se respaldan correctamente y se pueden restaurar de manera adecuada en diferentes escenarios.
+
+- Refinar y ajustar la estrategia de almacenamiento de las cop
+
+
 # DIA 09 [09-06-23]
 
 **OBJETIVO DEL DIA:**

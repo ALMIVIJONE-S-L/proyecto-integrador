@@ -1,5 +1,7 @@
 (poner formato)
 
+13-06: Hoy hemos acabado de corregir todo lo que nos quedaba. He tenido que hacer lo de los diferentes tipos de servidores en el SAI porque no estaba configurado. También hemos intentando hacer funcionar el WDS, más o menos tocando lo del DHCP ha funcionado. He acabado también de configurar lo del rsync del servidor NAS.
+
 12-06: Hoy hemos podido adelantar y corregir muchas cosas. Este fin de semana he tenido que estar confinado adelantando muchas partes del proyecto, pero ha merecido la pena. Este fin de semana he hecho todo lo de AWS, acabar la intranet, hacer pruebas con las copias de seguridad y deducir una "relativamente" buena forma de guardar las copias de seguridad.
 
 En clase hemos acabado el WSUS, hemos hecho lo que hemos podido con lo de WDS, al final nos hemos dado cuenta que en windows core no funcionaba, así que lo hemos instalado en el servidor de aplicaciones. Hemos también adelantado la documentación de redes. También he implementado la página web de la intranet en el servidor de intranet, modificando también alguna de las opciones de apache para que la página por defecto fuese inicio.html 
